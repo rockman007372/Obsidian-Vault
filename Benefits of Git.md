@@ -1,0 +1,6 @@
+## Benefits
+- @ Help a single user manage revisions (versions) of a single file
+- Help a developer recover from an incorrect modification to a code file
+- Make it easier for a group of developers to collaborate on a project
+- Manage the drift between multiple versions of your project
+- Detect when multiple developers make incompatible changes to the same file

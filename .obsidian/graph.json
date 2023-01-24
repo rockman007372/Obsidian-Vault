@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": " -tag:hidden -path:Weekly -path:Daily -path:Excalidraw -path:Obsidian -path:Templates -path:Attachments ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#leetcode",
+      "color": {
+        "a": 1,
+        "rgb": 5399264
+      }
+    },
+    {
+      "query": "tag:#webdev",
+      "color": {
+        "a": 1,
+        "rgb": 16510017
+      }
+    },
+    {
+      "query": "tag:#home",
+      "color": {
+        "a": 1,
+        "rgb": 5429216
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -2,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1.60769230769231,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 14.921568627451,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.8610183929854592,
+  "close": false
+}

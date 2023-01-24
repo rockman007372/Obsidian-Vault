@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "2bad0464f8c665e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "523d299f5f242ce3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Breakthrough AI Project.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "21e8885d272a676c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c599b2205cb017b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c27b3a0f25153fc8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "85beab4e8c6da425",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa12bf44e8749eff",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 232,
+    "collapsed": true
+  },
+  "right": {
+    "id": "37cc0ed0a88f4151",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb9bba6051089c17",
+        "type": "tabs",
+        "dimension": 54.86725663716814,
+        "children": [
+          {
+            "id": "dd3e04fe4d443de0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Breakthrough AI Project.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "70fc1fca8b7ffe98",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4eb4908cb060fc7c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "601e2f1a9cb5ae6b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Breakthrough AI Project.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "-path:Excalidraw -file:\"Data Structure\"",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -0.6,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1.7975,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.4789889708831606,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "9c33cf25d143bfc3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "f2ad8ec278cbf896",
+        "type": "tabs",
+        "dimension": 45.13274336283185,
+        "children": [
+          {
+            "id": "466e43b278865228",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 275,
+    "collapsed": true
+  },
+  "active": "523d299f5f242ce3",
+  "lastOpenFiles": [
+    "Adversarial Search.md",
+    "Breakthrough AI Project.md",
+    "Minimax Search.md",
+    "Weekly/2022-W41.md",
+    "Java for Technical Interview.md",
+    "UTS2100.md",
+    "Week 9 Seminar.md",
+    "CS2109S.md",
+    "Attachments/Pasted image 20221013225228.png",
+    "Week 8 Seminar.md"
+  ]
+}

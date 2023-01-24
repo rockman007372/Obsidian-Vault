@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "2bad0464f8c665e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "142aa569f668f07b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "428592b7b17cc6be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git and RCS.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1e4a440de1d0cf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GitHub and Remote Repository.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "21e8885d272a676c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c599b2205cb017b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c27b3a0f25153fc8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85beab4e8c6da425",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#memory",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa12bf44e8749eff",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 232,
+    "collapsed": true
+  },
+  "right": {
+    "id": "37cc0ed0a88f4151",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb9bba6051089c17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd3e04fe4d443de0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GitHub and Remote Repository.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "70fc1fca8b7ffe98",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "601e2f1a9cb5ae6b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "GitHub and Remote Repository.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "-path:Excalidraw -path:Daily",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": false,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": -0.6,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1.7975,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.46442850645623696,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "9c33cf25d143bfc3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7d579c657ffac5a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GitHub and Remote Repository.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "962c0970c01a03c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GitHub and Remote Repository.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "5a15f5b20c4edac3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4eb4908cb060fc7c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "f1e4a440de1d0cf9",
+  "lastOpenFiles": [
+    "Git and RCS.md",
+    "Git Basic Commands.md",
+    "Using History.md",
+    "Omitting files from revision control.md",
+    "Daily/2023-01-24 Tuesday.md",
+    "Tracking and Ignoring in Git.md",
+    "Staging and Committing in Git.md",
+    "Git Repositories.md",
+    "GitHub and Remote Repository.md",
+    "Benefits of Git.md"
+  ]
+}

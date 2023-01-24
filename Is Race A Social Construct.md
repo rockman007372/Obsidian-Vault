@@ -1,0 +1,5 @@
+#gp
+
+It is a general knowledge among scientists and genticists that race is a social construct. However, such a knowledge is far from achieving public consensus. Why is this the case? Why is there such  a large disparity in opinion about a scientifically corroborated piece of information? Is it because humans long to be caterogorized into smaller subgroups in order to find support and solidariry from people with common features? Another reason could be the understanding of a race as a false biological concept requires some scientific knowledge in the field of genetics and biology which the common laymen  are not familIiar with. With all these factors in mind, it is not hard to understand why people resort to qualifying the population around the globe on the basis of superficial physical traits.
+
+Why is race a social construct and not biological in nature? The alleles which determine the characteristics of biological traits are shared among all races. It is thus not rational to assign alleles to a specific race because it is not unique to any race. 
