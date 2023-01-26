@@ -44,7 +44,7 @@ To put it simply - Unsupervised Learning is a kind of self-learning where the al
 
 Identifying these hidden patterns helps in **clustering**, association, and detection of anomalies and errors in data.
 
-#### **3. Weakly Supervised:**
+#### **3. Weakly Supervised**
 Correct answer given but may not be precise (This picture contains a face but no exact location given)
 
 #### **4. Reinforcement Learning**

@@ -5,7 +5,6 @@ aliases:
 Date:: 2022-09-27 Tuesday
 Links: 
 - - -
-# How to Develop a Sense of Scale
 
 ## Tips
 1. Compare side by side

@@ -2,11 +2,6 @@
   "items": [
     {
       "type": "file",
-      "title": "Settings",
-      "path": "Obsidian/Settings.md"
-    },
-    {
-      "type": "file",
       "title": "LeetCode",
       "path": "LeetCode.md"
     }

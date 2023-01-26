@@ -2,7 +2,7 @@
 tags: toProcess
 course: LAS1201
 type:
-date: 2023-01-14 Saturday
+date: <% tp.file.creation_date("YYYY-MM-DD dddd") %>
 ---
 
 ## Notes

@@ -3,6 +3,7 @@ tags: book, article, toProcess
 course: UTC2105
 author: Chua Beng Huat
 date: 2023-01-18 Wednesday
+type: book
 ---
 
 ## Main Points

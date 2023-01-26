@@ -22,9 +22,8 @@ Dona Antonia
 Estar = Ser = to be → estoy en el extranjergo: I am overseas
 
 Andalucia = Country → similar: Patria = Homeland
-
 Andaluza = Andalu-tha, need to change the c to z to pronounce it as th
-Andaluces
+→ Plural: Andaluces
 
 mi nombre - my name
 tu nombre - your name

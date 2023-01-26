@@ -1,9 +1,12 @@
 {
-  "baseFontSize": 20,
+  "baseFontSize": 19,
   "theme": "obsidian",
   "translucency": false,
   "cssTheme": "AnuPpuccin",
   "accentColor": "",
   "showViewHeader": true,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "extended-colorschemes"
+  ]
 }

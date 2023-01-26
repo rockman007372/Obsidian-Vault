@@ -2,11 +2,13 @@
 	"nodes":[
 		{"id":"d9995aec15e662de","x":-554,"y":-378,"width":250,"height":60,"color":"2","type":"text","text":"**Grammar**"},
 		{"id":"c1f2ca5ca19006fa","x":-56,"y":-778,"width":545,"height":400,"type":"file","file":"Spanish Pronouns.md"},
-		{"id":"64302508235125eb","x":-280,"y":-148,"width":564,"height":400,"type":"file","file":"Spanish Verb Conjugations.md"},
-		{"id":"7a37a864ee4c7b0a","x":693,"y":-505,"width":400,"height":400,"type":"file","file":"Spanish Alphabet.md"}
+		{"id":"64302508235125eb","x":-56,"y":-318,"width":545,"height":370,"type":"file","file":"Spanish Verb Conjugacions.md"},
+		{"id":"9297bf4365f6698d","x":-261,"y":368,"width":250,"height":60,"type":"text","text":"Vocabularies"},
+		{"id":"7a37a864ee4c7b0a","x":177,"y":368,"width":400,"height":400,"type":"file","file":"Spanish Alphabet.md"}
 	],
 	"edges":[
 		{"id":"673d7a2fa88fc01f","fromNode":"d9995aec15e662de","fromSide":"right","toNode":"c1f2ca5ca19006fa","toSide":"left"},
-		{"id":"da566deb145fbb8c","fromNode":"d9995aec15e662de","fromSide":"bottom","toNode":"64302508235125eb","toSide":"left"}
+		{"id":"da566deb145fbb8c","fromNode":"d9995aec15e662de","fromSide":"right","toNode":"64302508235125eb","toSide":"left"},
+		{"id":"0185ea5e3c8ed694","fromNode":"9297bf4365f6698d","fromSide":"right","toNode":"7a37a864ee4c7b0a","toSide":"left"}
 	]
 }

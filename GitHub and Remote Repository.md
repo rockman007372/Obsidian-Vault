@@ -1,7 +1,8 @@
 ---
 tag: remote repo, github, RCS
 date: Jul 3, 2022
-course:
+course: CS2103T
+type: content
 ---
 ## Overview
 
@@ -13,11 +14,7 @@ course:
 
 **When you clone from a repo, the original repo is commonly referred to as the _upstream_ repo.** A repo can have multiple upstream repos. For example, let's say a repo `repo1` was cloned as `repo2` which was then cloned as `repo3`. In this case, `repo1` and `repo2` are upstream repos of `repo3`.
 
-**You can _pull_ from one repo to another, to receive new commits in the second repo**, if the repos have a shared history. Let's say some new commits were added to the 
-
-upstream repo
-
- after you cloned it and you would like to copy over those new commits to your own clone i.e., sync your clone with the upstream repo. In that case, you pull from the upstream repo to your clone.
+**You can _pull_ from one repo to another, to receive new commits in the second repo**, if the repos have a shared history. Let's say some new commits were added to the `upstream` repo after you cloned it and you would like to copy over those new commits to your own clone i.e., sync your clone with the upstream repo. In that case, you pull from the upstream repo to your clone.
 
 **You can _push_ new commits in one repo to another repo** which will copy the new commits onto the destination repo. Note that pushing to a repo requires you to have write-access to it. Furthermore, you can push between repos only if those repos have a shared history among them (i.e., one was created by copying the other at some point in the past).
 
@@ -27,7 +24,7 @@ Cloning, pushing, and pulling can be done between two local repos too, although 
 
 **A _fork_ is a remote copy of a remote repo**. As you know, cloning creates a local copy of a repo. In contrast, forking creates a remote copy of a Git repo hosted on GitHub. This is particularly useful if you want to play around with a GitHub repo but you don't have write permissions to it; you can simply fork the repo and do whatever you want with the fork as you are the owner of the fork.
 
-**A _pull request_ (PR for short) is a mechanism for contributing code to a remote repo,** i.e., "I'm _requesting_ you to _pull_ my proposed changes to your repo". For this to work, the two repos must have a shared history. The most common case is sending PRs from a fork to its 
+**A _pull request_ (PR for short) is a Github mechanism for contributing code to a remote repo,** i.e., "I'm _requesting_ you to _pull_ my proposed changes to your repo". For this to work, the two repos must have a shared history. The most common case is sending PRs from a fork to its 
 upstream repo.
 
 ![[Pasted image 20230118112604.png]]
@@ -97,9 +94,39 @@ git push origin master
 
 ### Forking and Pull Requests
 
-- Forking is copying a file from owner's remote repository to collaborator's remote repository
-- Pull request is the collaborators asking for permissions to upload their changes to the owner's remote repo.
+- **Forking** is copying a file from owner's remote repository to collaborator's remote repository, can be done via GUI on Github.
+- **Pull request** is the collaborators asking for permissions to upload their changes to the owner's remote repo.
 - Owner can approve the pull request and merges the changes to their repo.
+
+**Steps to create a pull request**
+1. Commit your changes to a new branch e.g., `add-intro` branch.
+2. Push the `add-intro` branch to your `origin` fork by `git push origin add-intro`
+3. Initiate a PR creation on Github and submit the PR.
+
+**Tips**
+
+**Sending PRs using the `master` branch is less common** than sending PRs using separate branches. For example, suppose you wanted to propose two bug fixes that are not related to each other. In that case, it is more appropriate to send two separate PRs so that each fix can be reviewed, refined, and merged independently. 
+
+**You can update the PR along the way too.** Suppose PR reviewers suggested a certain improvement to your proposed code. To update your PR as per the suggestion, you can simply modify the code in your local repo, commit the updated code to the same `master` branch, and push to your fork as you did earlier. The PR will auto-update accordingly.
+
+**If there is a merge conflicts in outgoing PRs,** you have to manually resolve the conflict in your PR branch. The steps are:
+
+1.  Pull the `master` branch from the upstream repo to your local repo.
+  
+```
+git checkout master
+git pull upstream master
+```
+   
+2.  In the local repo, and attempt to merge the `master` branch (that you updated in the previous step) onto the PR branch, in order to bring over the new code in the `master` branch to your PR branch.
+
+```
+git checkout pr-branch  
+git merge master
+```
+
+3.  The merge you are attempting will run into a merge conflict, due to the aforementioned conflicting code in the `master` branch. Resolve the conflict manually (this topic is covered elsewhere), and complete the merge.
+4.  Push the PR branch to your fork. As the updated code in that branch no longer is conflicting with the `master` branch, the merge conflict alert in the PR will go away automatically.
 
 ### Summary
 

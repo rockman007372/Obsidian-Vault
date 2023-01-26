@@ -1,11 +1,10 @@
 ---
 tags: tips, self-improvement
 aliases: 
+date: 2022-09-27 Tuesday
 ---
-Date:: 2022-09-27 Tuesday
 Links: 
 - - -
-# How to Make Conversations More Interesting
 
 ## Main Points
 
