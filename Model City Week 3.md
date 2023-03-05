@@ -27,8 +27,6 @@ date: 2023-01-26 Thursday
 - Paradox in distance: reduce distance btw people globally yet increase distance btw people in the community
 - Temporality - effects of smart urbanism on time.
 - We gave up our own data ownership and privacy in exchange for convenience and speed.
-- 
-
 
 
 

@@ -1,9 +1,9 @@
 2022-06-12 12:03
 Tags: [[TIPS]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Technical Interview Tips
-### Main Points
+## Main Points
 **Procedure:**
+
 ![[Pasted image 20220612120441.png]]
 
 **Duration**: 45 min to an hour

@@ -45,10 +45,10 @@ You have to code out the file vs typing in commands in DBMS
 
 ## Transaction
 
-- A f**inite sequence** of database operations and constitutes the smallest logical unit of work from the app perspective
+- A **finite sequence** of database operations and constitutes the smallest logical unit of work from the app perspective
 
 ### Properties 
-- each transaction T has ACID properties:
+- Each transaction T has ACID properties:
 	- Atomicity: either all effects of T are reflected in db or none
 	- Consistency: T always yield the correct state
 	- Isolation: T is isolated from the effect of concurrent transactions

@@ -37,10 +37,10 @@ ge = khe
 
 **Letra U:**
 - The U is silent in gue/gui/que/qui:
-	- La guitarra
-	- La guerra
-	- Que? What
-	- Quien? Who
+	- La guitarra -> gi-ta-ra
+	- La guerra -> ge-rra
+	- Que? What? -> ke
+	- Quien? Who?  -> kien
 - To turn u into a voiced vowel, add 2 dots on top: 
 	- la lingüística = the linguistics
 

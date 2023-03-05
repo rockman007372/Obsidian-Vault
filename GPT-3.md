@@ -1,11 +1,10 @@
 ---
 tags: AI
 aliases: 
+date: 2022-08-12 Friday
 ---
-Date:: 2022-08-12 Friday
-Links: 
-- - -
-# GPT-3
+
+
 ### Main Points
 
 GPT-3, or the third generation Generative Pre-trained Transformer, is a neural network [machine learning](https://www.techtarget.com/searchenterpriseai/definition/machine-learning-ML) model trained using internet data to generate any type of text. 

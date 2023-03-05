@@ -2,13 +2,14 @@
 Tags: [[LeetCode]] 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
 
-### Main Points
+## Main Points
+
 + use [[Hash Table]] (in particular, [[HashSet]]) to check in one pass what comes before
 + lots of O(n^2) time and O(1) space can be reduced to O(n) time and O(n) space
 + Time: O(n)
 + Space: O(n)
 
-**Two Sum
+## Two Sum
 
 ``` Java
 class Solution {
@@ -26,7 +27,8 @@ class Solution {
 };
 ```
 
-**Contain Duplicates
+## Contain Duplicates
+
 ``` Java
 class Solution {
     public boolean containsDuplicate(int[] nums) {

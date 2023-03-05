@@ -7,8 +7,9 @@ date:: 2022-09-10 Saturday
 Links: [[CS2105]]
 - - -
 
-### Definition
-Transport layer deliver messages between application processes running on different hosts.
+## What is the transport layer?
+
+Transport layer delivers messages between application processes running on different hosts.
 
 2 popular transport layer protocols: **TCP** and **UDP**.
 
@@ -23,13 +24,10 @@ Transport layer protocols run in hosts (computers):
 - Transport layer: resides on end hosts (computers), provide **process-to-process** communication
 - Network layer: not on host,  provides **host-to-host**, best-effort and unreliable communication
 
-### UDP
-See [[UDP]]
+## Three transport layer protocols
 
-### Reliable Data Transfer (RDT)
-See [[Reliable Data Transfer]]
+- [[UDP]]
+- [[Reliable Data Transfer]]
+- [[TCP]]
 
-### TCP
-See [[TCP]]
 
-## Questions

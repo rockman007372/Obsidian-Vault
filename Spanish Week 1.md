@@ -5,7 +5,7 @@ type: seminar
 date: 2023-01-09 Monday
 ---
 
-### Tuesday
+### Monday
 
 Material:
 - [x] Textbook: Nuevo Prisma
@@ -15,8 +15,8 @@ Material:
 Vocabulario Inicial
 - El and La = the (men and feminine)
 - if it ends in a, most of the time is feminine. ends in o, masculine (tito tita)
-- j is pronounced as h: el adjetivo
-- h seems to be silent?
+- j is pronounced as KH: el adjetivo
+- h seems to be silent? 
 - pronouns come with different conjugation. There are 6 different forms in Spanish
 	- I buy 
 	- you buy

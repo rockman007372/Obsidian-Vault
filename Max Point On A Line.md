@@ -56,3 +56,6 @@ class Solution:
 
 Time: O(N^2)
 Space: O(N) - store the hash map
+
+---
+Link: [[Hash Table]]

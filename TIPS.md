@@ -1,7 +1,6 @@
 2022-07-03 13:36
 Tags: #tips
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# TIPS
 ##### 1. [[Interview Format]]
 
 ##### 2. [[Coding Techniques]]

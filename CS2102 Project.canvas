@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"type":"text","text":"Questions: \n\n- What is the primary keys of Pays?\n- the destination facility of one leg always equals the source facility of the immediate subsequent leg?\n- Seems like legs is its own entity, but I think legs are weak entity sets\n- Can determine which delivery process is linked to whick request?\n- Monitor by ","id":"366a9acb752ee252","x":-540,"y":-140,"width":480,"height":440},
+		{"type":"text","text":"Constraints not captured by ER:\n\n- Can customers pay for the same request they make? Cannot enforce in ER, but can enforce in database by referencing Makes from Pays","id":"c3fb9cdb6cd9d3e0","x":100,"y":-140,"width":420,"height":440},
+		{"type":"text","text":"Constraints not captured by schema in er translation:\n- a paid request must initiates one delivery process\n- cannot ensure participation from first leg to measure\n- legs cannot capture isa constraints\n- cannot make sure last location of one leg is the first location of the next leg","id":"e3185c0743766387","x":-360,"y":420,"width":770,"height":421}
+	],
+	"edges":[
+		{"id":"4debd5071fbb03df","fromNode":"366a9acb752ee252","fromSide":"right","toNode":"c3fb9cdb6cd9d3e0","toSide":"top"},
+		{"id":"4d1329f31a0cf103","fromNode":"366a9acb752ee252","fromSide":"bottom","toNode":"e3185c0743766387","toSide":"left"},
+		{"id":"5d36f05575e40583","fromNode":"c3fb9cdb6cd9d3e0","fromSide":"bottom","toNode":"e3185c0743766387","toSide":"top"}
+	]
+}

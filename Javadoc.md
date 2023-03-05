@@ -1,7 +1,7 @@
 ---
 tags: processed
 course: CS2103T
-type: 
+type: content
 date: 2023-01-25 Wednesday
 ---
 

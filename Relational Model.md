@@ -1,13 +1,13 @@
 ---
 tags: processed
 course: CS2102
-type: content
+type: lecture
 date: 2023-01-17 Tuesday
 ---
 
 ## History
 
-- Hierachical model: high to low rank, tree → no overlapping of children
+- Hierarchical model: high to low rank, tree → no overlapping of children
 - Network model
 - **Relational Model:** All data are organised in terms of their relations to each other
 	- Commercial RDBMS
@@ -92,120 +92,22 @@ Casts(
 
 ## Data Integrity
 
-- Conditions that restrict what constitutes valid data
+Conditions that restrict what constitutes valid data.
 
-### Structural
+**Structural:**
 - Independent of application
 - Domain constraints (Cannot store TEXT in INT column)
-- Key constraints
-- Foreign key constraints
+- [[Key Constraints]]
+- [[Foreign Key]]
 
-### General
+**General:**
 - Dependent on application
-- Check constraints
+- *Check constraints*
 - Triggers?
-
-## Key Constraints
-
-### Superkey
-
->[!definition]
-> A superkey is a subset of attributes that **uniquely** identifies a tuple in a relation
-
-### Key
-
->[!definition]
-> A key is a **superkey** that is also **minimal**
-
-- Minimal (cannot be made smaller) != minimum
-- No proper subset of the key is a superkey (eg: if (A, B, C) is a key then (A, B) cannot be a superkey)
-
-**Properties**
--   If _(A, B, C)_ is _definitely_ a **_superkey_** then _(A, B, C, D)_ is a **_superkey_** → recursive 
--   If _(A, B, C)_ is _definitely_ a **_key_** then _(A, B, C)_ is a **_superkey_**  → definition
--   If _(A, B)_ is _definitely_ a **_superkey_** then _(A, B, C)_ is **NOT** a **_key_** → _(A, B, C)_ is not minimal!
--   If _(A, B)_ is _definitely_ a **_key_** then _it is possible that_ _(B, C)_ is also a **_key_**  
--   Every relations have at least 1 superkey 
-
-**Example:**
-
-Consider a forum database with the following relation filled with many thousands of users: _Accounts(email: **TEXT**, password: **TEXT**, name: **TEXT**)_.
-
-Using reasonable guess, which subsets of attributes are **superkeys** of relation _Accounts_?
-
-**Answer:**
-
-{email} = key
-{password} = key
-{email, password} = superkey (not minimal)
-
-### Candidate Keys
-
->[!definition]
->The candidate keys is the set of **all keys** of a given relation.
-
-### Primary Key
-
->[!definition]
-> A primary key is a selected candidate key.
-
-- Primary key attributes cannot be NULL
-- We <u>underline</u> the primary key in the schema notation:
-  
-  > Movies(<u>id: INT</u>, title: **TEXT**, genre: **TEXT**, opened: **DATE**)
-
-![[Pasted image 20230117185739.png]]
-
-
-### Prime Attributes
-
-- A prime attribute is one of the attributes that make up the candidate keys. 
-- It can also be used to uniquely identify a tuple in the schema.
-
-### Differences between Candidate Keys and Primary Key
-
-- Candidate keys are the attributes that could be the primary key
-- The primary key is an attribute that uniquely identifies the row (a tuple in the relation)
-
-## Foreign Key Constraints
-
-### Foreign Key
-
->[!definition]
-> A foreign key is a subset of attributes of relation R1 that refers to the **primary key** of relation R2
-
-We say that:
-- R1 is the **referencing** relation
-- R2 is the **referenced** relation
-
->[!Notes]
->-   A **_referencing relation_** can be a **_referenced relation_** for different foreign key  
->- The **_referencing relation_** and the **_referenced relation_** can be the same relation
-
-
-![[Pasted image 20230117193618.png]]
-
-In the tables above, we have: (Cast.actor_id) ⇝ (Actors.id) 
-- actor_id is foreign key in Cast and Cast is the referencing relation.
-- id is primary key in Actors and Actor is the referenced relation.
-
-### Constraints
-
-**Foreign key constraints** are the rules created when we add foreign keys to a table. 
-
-Each foreign key in R1 must satisfy one of the following:
-- Appear as primary key in R2 (meaning it must **exist** in R2) or
-- Be a NULL value (or a tuple containing at least one NULL value)
-
-### Differences between Primary and Foreign Key
-
-- A primary key value must be unique, and cannot be NULL.
-- ? A foreign key value does not have to be unique, and can be NULL
 
 ## Misconceptions
 
-- Key constraints are not an intrinsic property of a relation
-- They are designed by the database engineer to define what constitutes valid data.
+- Key constraints are not an intrinsic property of a relation. They are designed by the database engineer to define what constitutes valid data.
 
 ## Summary
 

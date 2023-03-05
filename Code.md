@@ -1,0 +1,3 @@
+Hola!
+
+Muchas gracias por tu correo eletronico! Estoy muy bien en Madrid tambien. Disfurto la clase de espanol mucho. Ademas, tengo tres amigos simpaticos. Se llaman Mei, Tadeo y Eva. Mei es de China, y habla Chino, Ingles y un poco de Espanol. Tadeo es Mexicano, y habla muchas idiomas tales como Ingles, Frances, y Espanol, claro. Eva es de aqui en Madrid y habla Espanol con fluidez. Tambien habla un poco de Japones porque tu madres es de Japon. Y tu? Como estas en Alemania? Hasta pronto!

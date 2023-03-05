@@ -6,6 +6,9 @@ Date: 2022-08-28 Sunday
 Links: [[CS2105]]
 - - -
 
+## Extra reading
+[How does HTTP and DNS work together](https://www.easyredir.com/blog/how-http-dns-work-together-to-make-url-redirects-happen/)
+
 ## Notes
 
 Two ways to identify a host:
@@ -46,7 +49,7 @@ Hierarchy: Root servers → Top-level Domain server → Authoritative Servers
 
 If a client wants IP address for www.facebook.com
 - Client queries root server to find `.com` DNS server
-- Client queries `.com` DNS server to get facebook.com DNS server
+- Client queries `.com` DNS server to get `facebook.com` DNS server
 - Client queries `facebook.com` DNS server to get IP address for www.facebook.com
 
 ### Local DNS server

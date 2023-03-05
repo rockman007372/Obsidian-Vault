@@ -15,7 +15,7 @@ date: 2023-01-18 Wednesday
 
 Important phrases to remember:
 - Como se apellida: how do you call your last name?
-- Como se escribe: How do you write it? → Se escribe ...
+- Como se escribe: How is it written? → Se escribe ...
 - Como Estas? = Que Tal? = Mucho gusto - How are you?
 
 ### Saludos, presentaciones y despedidas
@@ -34,13 +34,16 @@ A: (going) to → A Clase: Lets go to class!
 Como se dice map en espanol?
 Se dice el mapa / los mapas (exception, not all noun ending with a is masculine)
 
+>[!Note]
+> El/la are "the" in English = Definite article.
+
 book: el libro / los libros
 
 chair: la silla / las sillas
 
 notebook: el cuaderno / los cuadernos
 
-pen: el boligirafo
+pen: el boligrafo
 
 pencil: el lapiz / los lapices
 
@@ -60,7 +63,7 @@ El proyector: projector
 
 La puerta: door
 
-Por Que? Why?
+Por Que? Why? For What?
 → Porque: because
 
 Llevar: to carry
@@ -77,24 +80,17 @@ fast: rapido → rapid*amente* (if end with O, change to A then add MENTE)
 
 ### Articulos
 
-articulos determinados: the
+articulos **determinados**: the
 el → los
 la → las
 
-articulos indeterminados: a/an
+articulos *indeterminados*: a/an
 un → unos
 una → unas
 
 ### Plural
 
 If end with vowel, add s. Else, add es.
-
-
-
-
-
-
-
 
 ---
 Links: [[LAS1201]]

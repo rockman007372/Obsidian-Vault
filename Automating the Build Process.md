@@ -7,7 +7,7 @@ date: 2023-01-25 Wednesday
 
 ## What is Integration
 
-**Combining parts of a software product to form a whole is called _integration_**. It is also one of the most troublesome tasks and it rarely goes smoothly
+**Combining parts of a software product to form a whole is called _integration_**. It is also one of the most troublesome tasks and it rarely goes smoothly.
 
 ## Build Automation Tools
 

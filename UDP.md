@@ -6,9 +6,16 @@ Date: 2022-09-22 Thursday
 Links: [[Transport Layer]]
 - - -
 
+UDP (User Datagram Protocol) is a protocol used for sending and receiving datagrams over a network. 
+
+It is a connectionless protocol that does **not** guarantee reliable delivery of data, does not provide flow control, and does not implement congestion control. 
+
+UDP is often used for applications that require low latency and can tolerate some data loss, such as real-time audio and video streaming, online gaming, and DNS.
+
+
 UDP adds very little service on top of IP
-- Multiplexing at sender:  gather data, form packages, pass to IP
-- De-multiplexing at receiver: receive packets, dispatch to the right processes
+- Multiplexing at sender:  UDP gathers data from different processes, form packets and pass them to IP
+- De-multiplexing at receiver: UDP receive packets, dispatch to the right processes.
 - Checksum: Check for bits error
 
 ##### How does UDP handle de-multiplexing:
@@ -20,7 +27,7 @@ UDP adds very little service on top of IP
 - No connection establishment
 - Simple: No connection state
 - Small header size
-- No congestion control → Faster transmission
+- No congestion control → **Faster** transmission
 
 ##### UDP Header
 ![[Pasted image 20220910193731.png]]

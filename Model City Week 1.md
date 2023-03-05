@@ -1,5 +1,5 @@
 ---
-tags: toProcess
+tags: processed
 course: UTC2105
 type: seminar
 date: 2023-01-12 Thursday
@@ -36,4 +36,4 @@ Long-term Plan Review: Singapore's longterm plan shape and guide the development
 ## Questions/Cues
 
 ---
-Links:
+Links: [[UTC2105]]

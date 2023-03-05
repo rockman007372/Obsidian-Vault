@@ -1,11 +1,10 @@
 ---
 tags: 
 aliases: 
+date: 2022-08-17 Wednesday
 ---
-Date:: 2022-08-17 Wednesday
-Links: 
+Links: [[CS2105]]
 - - -
-# Network Protocols
 
 ### Main Points
 
@@ -15,9 +14,9 @@ Links:
 - The Internet Protocol *Stack* are logically organized into **5 layers**:
 		- [[Application Layer]]
 		- [[Transport Layer]]
-		- Network
-		- Link
-		- Physical
+		- [[Network Layer]]
+		- [[Link Layer]]
+		- Physical Layer
 - At source, you push onto the stack these protocol layers, and when packet is transmitted to dest, the layers are popped from stack. 
 
 ![[Pasted image 20221126173049.png]]

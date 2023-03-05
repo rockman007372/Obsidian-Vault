@@ -10,7 +10,7 @@ Course:
 git init
 ```
 
-## See files in Staging Area (intermediate area before commit)
+## See files in Staging Area 
 
  ```
 git status
@@ -56,6 +56,22 @@ git diff
 git reset --hard HEAD~2 # go back 2 commits ago
 ```
 
+This is dangerous and risks changing history if commits are already pushed to remote repo.
+
+Instead, do:
+
+```
+git revert --no-commit 0766c053..HEAD
+git commit
+```
+
+This will revert everything from the HEAD back to the commit hash, meaning it will recreate that commit state in the working tree _as if_ every commit after `0766c053` had been walked back. You can then commit the current tree, and it will create a brand new commit essentially equivalent to the commit you "reverted" to.
+
+(The `--no-commit` flag lets git revert all the commits at once- otherwise you'll be prompted for a message for each commit in the range, littering your history with unnecessary new commits.)
+
+This is a **safe and easy way to rollback to a previous state**. No history is destroyed, so it can be used for commits that have already been made public.
+
+
 ## Branching and Merging
 
 -   We can create parallel branches with the master (main) branch, develop these branches separately and merge them at some point in the future.
@@ -63,7 +79,7 @@ git reset --hard HEAD~2 # go back 2 commits ago
 -   To create a branch:
 
 ```
-git branch [new branch name]
+git branch {new branch name}
 ```
 
 -   To see all the branches and which branch you currently are:
@@ -78,9 +94,10 @@ git branch
 git checkout [branch name]
 ```
 
--   To merge branches, go to the Master branch, then merge with desired branch
+-   To merge other branches into `master` branch, checkout to `master`, then merge with desired branch
 
 ```
+git checkout master
 git merge [desired branch name]
 ```
 

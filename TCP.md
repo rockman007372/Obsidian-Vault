@@ -6,10 +6,10 @@ date:: 2022-09-22 Thursday
 Links: [[Transport Layer]]
 - - -
 
-## Characteristics
+Characteristics:
 - Point-to-point: One sender, one receiver
 - **Connection**-oriented: Handshaking before sending app data
-- Full duplex service: Bidirectional data flow in the same connection
+- Full duplex service: **Bidirectional** data flow in the same connection
 - Reliable, in-order byte stream: Use sequence numbers to label bytes
 - A TCP connection (socket) is identified by a 4-tuple: 
 	- `(srcIPAdddr, srcPort, destIPAdress, destPort)`
@@ -17,13 +17,17 @@ Links: [[Transport Layer]]
 
 ![[Pasted image 20220922181409.png]]
 
-- TCP send and receiver data in **buffers** → Dont have to discard out-of-order packets
+TCP send and receiver data in **buffers** → Dont have to discard out-of-order packets
 
 ![[Pasted image 20221002122122.png]]
 
-- How much app-layer data can a TCP segment carry depends on **MSS** (Maximum segment size) → MSS is **NOT** inclusive of TCP headers
+TCP implements flow control similar to the Pipeline Protocols in RDT. 
+- Through a sliding window mechanism, where the sender and receiver agree on a window size, which is the maximum amount of data that can be sent without receiving an acknowledgment from the receiver. 
+- The sender then sends data up to the agreed window size and waits for an acknowledgment from the receiver before sending more data.
 
-## TCP header format
+**MSS** stands for Maximum Segment Size and is a parameter in the TCP header that specifies the maximum amount of data that a host can send in a single TCP segment. MSS is **NOT** inclusive of TCP headers!
+
+## TCP Header Format
 
 ![[Pasted image 20220922181847.png]]
 
@@ -40,7 +44,7 @@ Components:
 
 ![[Pasted image 20220922182857.png]]
 
-## TCP ACK generation **at receiver**
+## TCP ACK generation at receiver
 
 ![[Pasted image 20220922184147.png]]
 
@@ -56,7 +60,7 @@ Components:
 ## TCP Timeout Value
 - Too short: Unneccessary retransmission
 - Too long: Unresponsive to pkt loss
-- Ideally timeout is just longer than RTT → Unfortunately, RTT varies
+- Ideally timeout is just longer than [[RTT]] → Unfortunately, RTT varies
 
 ## TCP Fast Retransmission
 - Event: If the sender receives 4 ACKs of the same segment, it supposes the segment is lost
@@ -66,7 +70,9 @@ Components:
 ## Establising and Ending TCP Connection
 
 Before client and server can exchange app data, must establish 3-way handshake:
+
 ![[Pasted image 20220922185006.png]]
 
 Client and Server take turns to close connection:
+
 ![[Pasted image 20220922190516.png]]

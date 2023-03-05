@@ -1,9 +1,9 @@
 ---
 tags: 
 course: CS2105
+date: 2022-08-08 Monday
 ---
-Date:: 2022-08-08 Monday
-Links: [[How Is Internet Data Transmitted]]
+Links: [[Internet (MOC)]]
 - - -
 
 ### Loss and Corruption
@@ -28,10 +28,16 @@ Packets (propagated as waves) can be corrupted by noise waves (routers detect co
 
 ![[Pasted image 20220808143222.png]]
 
-Example of questions about transmission time:
+>[!note]
+> Fewer users → queue and processing delay are faster → Queue and processing delays are *variables* dependent on number of users.
+
+
+>[!Example]
+> What is the total delay of transmitting a package of 10 bits into a network whose bandwidth is 1bps and propagation delay is 5 second?
+
 ![[Roadmap 2022-08-07 18.37.27.excalidraw]]
 
-Fewer users → queue and processing delay are faster → Queue and processing delays are *variables* dependent on number of users.
+
 
 ### Throughput
 How many bits can ACTUALLY be transmitted per unit time.

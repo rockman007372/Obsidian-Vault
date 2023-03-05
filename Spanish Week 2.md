@@ -42,8 +42,6 @@ tu nombre - your name
 - Amar: to love
 - Mirar: to look
 
-
-
 ## Questions/Cues
 
 ---

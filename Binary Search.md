@@ -1,7 +1,48 @@
 2022-06-06 20:05
 Tags: [[Data Structure and Algorithm]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-### Template
+
+## Template 1
+
+Most common and straightforward template:
+
+```python
+def binarySearch(nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: int
+    """
+    if len(nums) == 0:
+        return -1
+
+    left, right = 0, len(nums) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if nums[mid] == target:
+            return mid
+        elif nums[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+
+    # End Condition: left > right
+    return -1
+```
+
+**Syntax:**
+-   Initial Condition: `left = 0, right = length-1`
+-   Termination: `left > right`
+-   Searching Left: `right = mid-1`
+-   Searching Right: `left = mid+1`
+
+**Key attributes:**
+-   Search Condition can be determined without comparing to the element's neighbors (or use specific elements around it)
+-   No post-processing required because at each step, you are checking to see if the element has been found. If you reach the end, then you know the element is not found
+
+## Template 2 (CS2040S)
+
+### Search
 
 ```Java
 public int binarySearch(int[] nums, target) {
@@ -10,7 +51,7 @@ public int binarySearch(int[] nums, target) {
 	while (lo < hi) {
 		int mid = lo + (hi - lo) / 2;
 		if (nums[mid] >= target) {
-			hi = mid;
+			hi = mid; // mid could be the answer
 		} else {
 			lo = mid + 1;
 		}
@@ -18,6 +59,20 @@ public int binarySearch(int[] nums, target) {
 	return nums[lo] == target ? lo : -1;
 }
 ```
+
+**Syntax:**
+-   Initial Condition: `left = 0, right = length - 1`
+-   Termination: `left == right` (when there is only 1 element left)
+-   Searching Left: `right = mid`
+-   Searching Right: `left = mid + 1`
+
+**Key attributes:**
+-   Guarantees Search Space is at least 2 in size at each step
+-   Post-processing required. Loop/Recursion ends when you have 1 element left. Need to assess if the remaining element meets the condition.
+
+## Generalised
+
+You can generalise Template 2 to any binary search problem with a condition:
 
 ```Python
 def binary_search(array) -> int:
@@ -41,9 +96,7 @@ Steps to modify the template:
 2. Decide return values (`left` or `left - 1`); *left* is the minimum value to satisfy the condition
 3. Design condition
 
-## Example code:
-
-Find minimum number of features n such that explained variance is at least 99%:
+**Example:** Find minimum number of features n such that explained variance is at least 99%:
 
 ```python
 def variance_retained(s, k):
@@ -66,3 +119,42 @@ def binary_search(pca):
 
 binary_search(full_pca)
 ```
+
+## Template 3
+
+```python
+def binarySearch(nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: int
+    """
+    if len(nums) == 0:
+        return -1
+
+    left, right = 0, len(nums) - 1
+    while left + 1 < right:
+        mid = (left + right) // 2
+        if nums[mid] == target:
+            return mid
+        elif nums[mid] < target:
+            left = mid
+        else:
+            right = mid
+
+    # Post-processing:
+    # End Condition: left + 1 == right
+    if nums[left] == target: return left
+    if nums[right] == target: return right
+    return -1
+```
+
+**Syntax:**
+-   Initial Condition: `left = 0, right = length - 1`
+-   Termination: `left + 1 == right` (when there are 2 elements left)
+-   Searching Left: `right = mid`
+-   Searching Right: `left = mid`
+
+**Key attributes:**
+-   Gurantees Search Space is at least 3 in size at each step
+-   Post-processing required. Loop/Recursion ends when you have 2 elements left. Need to assess if the remaining elements meet the condition.

@@ -1,4 +1,4 @@
-## Branching in Git
+## Overview
 
 **_Branching_ is the process of evolving multiple versions of the software in parallel.** For example, one team member can create a new branch and add an experimental feature to it while the rest of the team keeps working on another branch. Branches can be given names e.g. `master`, `release`, `dev`.
 
@@ -8,7 +8,7 @@
 
 **_Merge conflicts_ happen when you try to merge two branches that had changed the same part of the code** and the RCS cannot decide which changes to keep. In those cases, you have to ‘resolve’ the conflicts manually.
 
-### Branch - Doing multiple parallel changes
+## Branch - Doing multiple parallel changes
 
 A Git branch is simply a _named label_ pointing to a *commit*. 
 
@@ -88,11 +88,11 @@ git merge --no-ff add-countries
 git push {remote repo} {branch}
 ```
 
-### Dealing with Merge Conflicts
+## Dealing with Merge Conflicts
 
 **Merge conflicts happen when you try to combine two incompatible versions** (e.g., merging a branch to another but each branch changed the same part of the code in a different way).
 
-After you merge and there is conflict, you have to resolve it yourself (by editing the files/codes manually).
+After you merge and there is conflict, you have to resolve it yourself (by editing the files/codes manually). *Once done, stage the changes and commit.*
 
 
 

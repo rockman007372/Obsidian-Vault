@@ -1,7 +1,6 @@
 2022-06-13 04:34
 Tags: [[Web Development]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# How Does The Internet Work
 ### Main Points
 Internet backbones (physical cables) carry information between the client (users) and the Server (each website has a server)
 

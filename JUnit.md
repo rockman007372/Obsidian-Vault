@@ -1,5 +1,5 @@
 ---
-tags: toProcess
+tags: processed
 course: CS2103T
 type: content
 date: 2023-01-25 Wednesday
@@ -73,4 +73,4 @@ public class IntPairTest {
 
 
 ---
-Links: [[CS2103T]]
+Links: 

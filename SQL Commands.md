@@ -1,19 +1,16 @@
+---
+tags: processed
+course: CS2102
+type:
+date: 2022-07-24 Sunday
+---
+## Overview
 
-Topic: SQL Commands
-Date: Jun 3, 2022
-Course: [[Web Development]]
-- - -
+![[Pasted image 20230220154053.png]]
 
-### Questions/Cues
+## Types
+[[Data Definition Language]]
+[[Data Manipulation Language]]
+[[Transaction Control]]
 
-### Notes
-- CRUD: Create, Read, Update, Destroy - basic SQL commands
-- Create table and insert data -> Create
-- Select, From, Where -> Read
-- UPDATE, SET, WHERE + ALTER, ADD -> Update
-- DELETE FROM, WHERE -> Delete
-- SQL relationship: FOREIGN KEY to link tables + REFERENCES
-- INNER JOIN ... ON -> Join tables together
-  
-### Summary
 

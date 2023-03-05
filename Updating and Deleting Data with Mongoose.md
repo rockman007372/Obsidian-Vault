@@ -1,7 +1,3 @@
-##### Topic: Updating and Deleting Data with Mongoose
-Date: Jun 4, 2022
-Course:
-- - -
 
 ### Questions/Cues
 

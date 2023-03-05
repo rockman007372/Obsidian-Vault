@@ -1,6 +1,8 @@
 2022-06-21 17:16
 Tags: [[Data Structure and Algorithm]] - [[Graph]] 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
+# CS2040S
+
 ## Algorithm
 Based on recursion:
 1. Visit every adjacent node recursively still stuck
@@ -50,3 +52,23 @@ DFS-visit(Node[] nodeList, boolean[] visited, int startId) {
 	+ To detect a back edge, keep track of vertices **currently in the recursion stack** of function for DFS traversal. If a vertex is reached that is already in the recursion stack, then there is a cycle in the tree.
 	+ ![[Depth First Search 2022-06-21 17.42.30.excalidraw]]
 
+
+
+# CS2109S
+
+- Expand **deepest unexpanded** nodes
+- Implementation: Frontier = **stack**
+
+Properties:
+- Complete: **No**
+	- **WHY:** fail in infinite-depth spaces and spaces with loops → Must limit the depth + avoid repeating states along the path 
+	- Complete in finite space
+- Time: $O(b^m)$ = $1 + b + b^2 + ... + b ^{m}$ 
+	- Terrible if m (max depth) is much larger than d (least depth)
+	- If solutions are dense yet depth is low, may be much better than BFS (*EG: RUBIK CUBE SOLVING*)
+	- Equals O(N) where N is no. nodes
+- Space: O(b * m) - linear space, very space efficient
+	- **Why:** m = the length of the longest path. For each node, you have to store all b siblings so that you know which sibling to explore next after completing a branch → for m nodes down the path, must store its b sibling per node. 
+- Optimal: **NO**
+	- **WHY:**  Even when step costs are equal, DFS is still non-optimal, because the deepest goal node may be reached first and incurs greater cost.
+	- ![[Problem-Solving Agents in AI 2022-08-27 18.30.06.excalidraw||300]]

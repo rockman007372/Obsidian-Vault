@@ -1,43 +1,27 @@
 ---
 tags: processed
 course: CS2105
+date: 2022-08-22 Monday
 ---
-Date:: 2022-08-22 Monday
 Links: [[Application Layer]]
 - - -
 
-## Notes
 - HTTP = HyperText Transfer Protocol
 - It is a Web's **application layer protocol**
-- Client-server model
+- Client-server model, where a client (such as a web browser) sends a request to a server (such as a web server), and the server responds with data or information
 - **Uses TCP as transport service**
 	- Client initiates TCP connection to server
 	- Server accepts TCP connection request from client
 	- HTTP messages are exchanged btw *browser* (client) and *Web server* over TCP connection.
 	- TCP connection closed.
-- **2 versions:** 
-	- *Non-Persisten HTTP 1.0* 
-		- 1 object per TCP connection
-		- connection is closed after one object is downloaded
-		- downloading multiple objects require multiple connections
-		- Variation: **Multiple simultaneous TCP**
-	- *Persistent HTTP 1.1*
-		- multiple objects per TCP connection
-		- Variation: **Pipelining (all objects sent simultaneously)**
+- **2 versions of HTTP:** 
+	- [[Non-Persistent HTTP 1.0]]
+	- [[Persistent HTTP 1.1]]
+- [[RTT]] (Round-Trip Time) is an important concept to measure latency in HTTP.
 
-![[The Application Layer 2022-08-17 00.44.52.excalidraw]]
+## HTTP Message Format
 
-![[The Application Layer 2022-08-17 01.07.20.excalidraw]]
-
-### **RTT** 
-- RTT is the time for a packet to travel from client to server and back
-- Non-persistent HTTP response time = 2 * RTT + **file transmission time**.
-
-![[Pasted image 20220817020108.png]]
-
-### Examples of HTTP messages
-
-#### HTTP Request message
+### HTTP Request message
 
 ![[Pasted image 20220817020432.png]]
 
@@ -50,7 +34,7 @@ Links: [[Application Layer]]
 	- PUT: uploads file in entity body to path specified in URL field
 	- DELETE: delete file in URL field
 
-#### HTTP Response message
+### HTTP Response message
 
 ![[Pasted image 20220817020929.png]]
 

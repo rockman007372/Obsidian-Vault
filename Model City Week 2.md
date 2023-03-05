@@ -31,6 +31,13 @@ The other Merlion statue in Asia?  Surabaya, Indonesia
 
 Tiajin's eco-city in China
 
+### Lim's Model City Criteria
+
+1. Accessible city
+2. Business city
+3. Attractive city
+4. City for living 
+
 ### Singapore as a projection of Models
 
 Cities are layered with competing models within themselves.
@@ -68,4 +75,4 @@ Paradoxes - Think of city as a model and not a model
 ## Questions/Cues
 
 ---
-Links:
+Links: [[UTC2105]]
