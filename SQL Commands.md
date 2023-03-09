@@ -11,6 +11,7 @@ date: 2022-07-24 Sunday
 ## Types
 [[Data Definition Language]]
 [[Data Manipulation Language]]
+[[Data Query Language]]
 [[Transaction Control]]
 
 

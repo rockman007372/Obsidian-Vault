@@ -5,7 +5,7 @@ type: content
 aliases: 
 date: 2023-01-18 Wednesday
 ---
-Related: [[Git Basic Commands]], [[CS2103T]]
+Related: [[Git Basic Commands]]
 - - -
 
 >[!definition]

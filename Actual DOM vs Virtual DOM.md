@@ -1,0 +1,5 @@
+Link: [[Document Object Model]]
+- - -
+The Actual DOM is the current state of the web page's HTML document as it exists in the browser's memory. The actual DOM is constructed when the browser loads the HTML document and it can be accessed and manipulated using JavaScript. Whenever changes are made to the HTML document through JavaScript, the browser re-renders the entire page to reflect the changes, even if only a small portion of the page has been modified.
+
+On the other hand, the Virtual DOM is an abstraction of the actual DOM. It is a lightweight, in-memory representation of the actual DOM that allows libraries and frameworks like React to efficiently update and render UI components without affecting the entire page. The virtual DOM is created and managed by React and is used to determine which parts of the actual DOM need to be updated when a component state changes. Instead of re-rendering the entire page, React only updates the parts of the actual DOM that have changed, resulting in a more efficient and performant UI.

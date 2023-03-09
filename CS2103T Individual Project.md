@@ -1,8 +1,9 @@
 ---
-tags: toProcess
+tags: processed
 course: CS2103T
 type: project
 date: 2023-01-18 Wednesday
+status: complete
 ---
 
 ## Goal
@@ -31,8 +32,5 @@ date: 2023-01-18 Wednesday
 - [x] Profile pictures: If your GUI shows profile pictures, you can tweak the way the picture is shown (e.g., crop as a circle or a square with rounded corners). In fact, an easy tweak is to use a picture with a transparent background so that it blends nicely with the background.  Given that the participants of the conversion are fixed (i.e., you and the chatbot), do you even need big profile pictures?
 - [x]   Focus more on tweaks that actually _improves_ the user experience (UX). Some changes (e.g., profile pictures, background graphics) can be eye catching but can even degrade the UX if not done right (e.g., it can make the text harder to read)
 
-
-## Questions/Cues
-
 ---
-Links:
+Links: [[cs2103T]]

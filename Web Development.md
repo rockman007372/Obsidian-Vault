@@ -6,53 +6,32 @@ Tags: #webdev
 - [[How Does Websites Work]]
 ---
 ## Front-End
-### HTML
-- [[Basic HTML]]
-
-### CSS
-- [[Basic CSS Types]]
-
-### Bootstrap 4
-- [[Intro to Bootstrap 4]]
-
-### JavaScript
-- [[Intro to JavaScript]]
-- [[Basic JavaScript]]
-- [[Intermediate JavaScript]]
-  
-### Document Object Model
+- [[HTML]]
+- [[CSS]]
+- [[JSON]]
+- [[Bootstrap 4]]
+- [[JavaScript]]
 - [[Document Object Model]]
-
-### jQuery
-- [[Intro to jQuery]]
-
-### React
-- [[Intro to React]]
+- [[jQuery]]
+- [[React]]
 --- 
 ## Back-End
-- Full Stack = Front End + Back End
 - Includes: Server + Application + Database
+- Full Stack = Front End + Back End
 - Client-side: Front end
-- Server: Handle request and transmit data
+- Server-side: Handle request and transmit data
 - Database: Store the data that make websites work
-- Application: Codes executed on the server using data from database and handed over to Client-side -> Abstraction barrier + speed 
+- Application: Codes executed on the server using data from database and handed over to Client-side → Abstraction barrier + speed 
 
-### Git
-- [[Git Basic Commands]]
-- [[GitHub and Remote Repository]]
+### Building Web Application 
+- [[Git and RCS]]
+- [[Node.js]]
+- [[Express.js]]
 
-### Node.js
-- [[Intro to Node.js]]
-
-### Express.js
-- [[Intro to Express.js]]
-
-### Databases 
+### Database
+- [[SQL]]
 - [[Introduction to Databases]]
-- [[SQL Commands]]
-
-### MongoDB
-- [[CRUD in MongoDB]]
+- [[MongoDB]]
 - [[Driver in MongoDB]]
 
 ### Mongoose

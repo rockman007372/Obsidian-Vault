@@ -8,9 +8,8 @@ date: 2023-01-09 Monday
 ## Introduction
 
 - [[What is SQL]]
-- [[What are the components of a SQL system]]
-- [[What is PostgreSQL]] 
----
+- [[PostgreSQL]] 
+
 ## Lecture Content 
 
 - [[SQL Commands]]

@@ -11,12 +11,12 @@ date: 2023-02-27 Monday
 
 ### Active - Passive Voice
 
-##### Verbos Activos
+##### Verbos Activos vs Pasivo
 The defendant calls the lawyer → El acusado llama al abogado (**al = a + el**)
 The lawyer is called by the defendant → El abogado es llamado por el acusado
 
 ##### Verbos Reflexivos
-Reflexive pronouns: me te se nos os se
+Reflexive pronouns: **me te se nos os se**
 Como os llamais?  Nos llamamos Nathan y Vienne
 
 ##### Verbo Intransitivos: Indirect verbs?

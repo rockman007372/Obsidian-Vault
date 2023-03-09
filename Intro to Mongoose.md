@@ -1,29 +1,29 @@
-
-Topic: Intro to Mongoose
 Date: Jun 4, 2022
 Course: [[Web Development]] - [[Mongoose]]
 - - -
 
-### Questions/Cues
+## Questions
+
 - Why do we need a schema? Will it make the database become SQL instead of noSQL? 
 	- No, data is still flexible
 	- eg: we can choose not to add name to document despite the schema
-- Colletion vs database?
+- Collection vs database?
 	- A database contains a collection, a collection contains documents and the documents contain data.
 	- Database > Collection > Document > Data 
 - Schema vs Model: 
 	- In mongoose, a schema represents the structure of a particular document, either completely or just a portion of the document.
 	- Model defines a programming interface to interact with database (predefined methods such as CRUD)
-	- Model is kinda like class created from a Schema, and documents are instaces of the Model class
+	- Model is kinda like class implementing a Schema interface, and documents are instances of the Model class.
 	-  A model is a representation of a database record as a nice object, with extra methods.
 
-### Notes
-##### Introduction
-- Mongoose = ODM (Object Development Mapper), allow Node.js JavaScript language to interact with MongoDB language of documents and collections.
-- Vastly shorter than MongoDB Drivers
+## Introduction
+
+Mongoose is an Object Data Modeling (ODM) library for Node.js and MongoDB. It provides a higher-level, more expressive API for working with MongoDB, allowing developers to define models with schemas and apply custom methods to them.
+
+With Mongoose, developers can define a schema for their data, which includes the fields, data types, and validation rules for their data. This makes it easier to work with complex data structures and ensures that the data stored in the database is consistent and valid.
 
 ##### Commands
-- How to open and drop db in MongoDB shell:
+- How to open and drop db in **MongoDB shell**:
 ```MongoDB
 > show dbs
 > use fruitsDB
@@ -37,7 +37,7 @@ Course: [[Web Development]] - [[Mongoose]]
 ```
 
 - How to insert documents into database: 
-```Node.js
+```mongodb
 // use package Mongoose
 const mongoose = require('mongoose');
 
@@ -71,7 +71,7 @@ fruit.save(); // save apple into Fruit collection inside FruitDB
 
 ```
 
-```Node.js
+```Mongodb
 const personSchema = new mongoose.Schema({
 	name: String,
 	age: Number
@@ -98,7 +98,7 @@ person.save();
 	-   String
 
 - Add data in bulk:
-```Node.js
+```mongodb
 const kiwi = new Fruit({});
 const orange = new Fruit({});
 const banana = new Fruit({});
@@ -114,7 +114,4 @@ Fruit.insertMany(
 	}
 )
 ```
-
-### Summary
-Highlight <mark style="background: #ADCCFFA6;">what’s important!</mark> 
 
