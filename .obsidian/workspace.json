@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e9bc80f3cff625cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick Select.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Select.md",
+                "file": "LeetCode.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +124,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Quick Select.md",
+                "file": "LeetCode.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:Excalidraw -path:Daily",
@@ -181,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Select.md",
+                "file": "LeetCode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Select.md"
+                "file": "LeetCode.md"
               }
             }
           },
@@ -240,10 +226,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e9bc80f3cff625cd",
+  "active": "23e81acc227e87cd",
   "lastOpenFiles": [
-    "Trie.md",
+    "Spanish Subject Pronouns.md",
+    "Data Query Language.md",
+    "SQL Commands.md",
+    "SQL.md",
+    "How is data transmitted in a network.md",
     "Quick Select.md",
+    "Trie.md",
     "JavaScript Classes and Prototypes.md",
     "JavaScript.md",
     "JavaScript Objects.md",
@@ -263,11 +254,6 @@
     "Evaluate Division.md",
     "Path Compression.md",
     "Longest Repeating Character Replacement.md",
-    "Maximum Average Subarray I.md",
-    "Decode Ways.md",
-    "00. HOME.md",
-    "Daily/2023-05-20 Saturday.md",
-    "Daily/2023-05-22 Monday.md",
     "Attachments/Pasted image 20220803133410.png",
     "Attachments/Pasted image 20230518141821.png",
     "Attachments/Pasted image 20230518141113.png",
