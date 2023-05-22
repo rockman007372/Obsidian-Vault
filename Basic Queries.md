@@ -5,8 +5,10 @@ FROM <relation-list> -- Cross products of relevant relations
 WHERE <conditions> -- Based on principle of acceptance
 ```
 
+>[!Principle of Acceptance]
+>Perform the operation if the condition evaluates to **True**. Used in WHERE clause (and relational algebra)
+
 ## SQL to Relational Algebra
----
 
 ```SQL
 SELECT DISTINCT a1, a2, ..., am
@@ -23,7 +25,6 @@ is equivalent to:
 Only remove duplicated rows if `DISTINCT` is specified.
 
 ## SELECT clause
----
 
 - Combine and process attribute values
 - Rename columns
@@ -42,7 +43,6 @@ Note:
 - `DISTINCT` keyword checks for distinct rows using `IS DISTINCT FROM`, hence duplicated `NULL` values are reduce to one `NULL` value.
 
 ## WHERE clause
----
 
 Note:
 - To find tuples with `NULL` values, use `IS NULL` or `IS NOT NULL` due to principle of acceptance.
@@ -66,7 +66,7 @@ WHERE  pizza LIKE 'Ma%a'; -- matches any sequence of 0 or more chars
 ![[Pasted image 20230220162557.png]]
 
 ## Set Operations
----
+
 >[!TIP]
 > Use set operations to **decompose** the problem into smaller problem!
 
@@ -103,7 +103,6 @@ Q1 EXCEPT ALL Q2 = {1, 2}
 - Basically, each element is treated as a distinct element. 
 
 ## Join Operations
----
 
 A table name can only appear at most once in the FROM clause, unless we rename it:
 
@@ -158,4 +157,7 @@ FROM   Customers C LEFT JOIN Likes L
 WHERE  L.pizza IS NULL; -- keep only dangling tuples
 
 -- Can also use EXCEPT command
+SELECT cname FROM Customers
+EXCEPT
+SELECT DISTINCT cname FROM Likes
 ```

@@ -11,5 +11,5 @@ Single Source Shortest Path: Any algorithm that finds the shortest path from a s
 | [[Breadth First Search]] | O(V + E)        | Unweighed Graph          |
 | [[Bellman-Ford SSSP]]    | O(VE)           | No Negative Weight Cycle |
 | [[Dijkstra's Algorithm]] | O(ElogV)        | Weighted (only +)        |
-| [[Find SSSP for DAG]]    | O(V + E)        | For DAG only             |
+| [[SSSP for DAG]]    | O(V + E)        | For DAG only             |
 

@@ -9,9 +9,7 @@ INSERT INTO Employees
 
 ```SQL
 INSERT INTO Employees (name, id) 
-	VALUES 
-		('Judy', 102), 
-		('Max', 103);
+	VALUES ('Judy', 102), ('Max', 103);
 ```
 
 ![[Pasted image 20230201170444.png]]

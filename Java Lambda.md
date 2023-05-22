@@ -1,7 +1,6 @@
 ---
 tags: processed
 course: CS2103T
-type: content
 date: 2023-02-11 Saturday
 ---
 
@@ -33,7 +32,7 @@ formula.calculate(100);     // 100.0
 formula.sqrt(16);           // 4.0
 ```
 
-The formula is implemented as an anonymous object. The code is quite verbose: 6 lines of code for such a simple calucation of `sqrt(a * 100)`. As we’ll see in the next section, there’s a much nicer way of implementing single method objects in Java 8.
+The formula is implemented as an **anonymous object**. The code is quite verbose: 6 lines of code for such a simple calucation of `sqrt(a * 100)`. As we’ll see in the next section, there’s a much nicer way of implementing single method objects in Java 8.
 
 ### Lambda expressions
 
@@ -159,7 +158,7 @@ We create a reference to the Person constructor via `Person::new`. The Java com
 
 ### Lambda Scopes
 
-Accessing outer scope variables from lambda expressions is very similar to anonymous objects. You can access final variables from the local outer scope as well as instance fields and static variables.
+Accessing outer scope variables from lambda expressions is very similar to anonymous objects. You can access **final** variables from the local outer scope as well as instance fields and static variables.
 
 #### Accessing local variables
 
@@ -183,7 +182,7 @@ Converter<Integer, String> stringConverter =
 stringConverter.convert(2);     // 3
 ```
 
-However `num` must be implicitly final for the code to compile. The following code does **not** compile:
+However `num` must be **implicitly final** for the code to compile. The following code does **not** compile:
 
 ```java
 int num = 1;

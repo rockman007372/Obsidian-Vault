@@ -1,5 +1,3 @@
-## Scalar Subqueries
----
 A scalar subquery is a query that returns _at most a single value_ (i.e., a table with 1 row and 1 column).
 
 Scalar subqueries are commonly used to perform calculations or comparisons based on *a single value* returned from a subquery.

@@ -1,5 +1,3 @@
-## Scoping Rule in Composed Queries
----
 >[!Rule]
 > - A table alias declared in a (sub-)query Q can **only** be used in Q or subqueries nested within Q
 > - If the same table alias is declared in both subquery $Q_1$ and in outer query $Q_0$ (or not at all), the declaration in $Q_1$ is applied

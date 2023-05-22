@@ -25,7 +25,7 @@ ORDER BY pizza DESC,     -- sort by pizza first
 
 ## Limit and Offset
 
-The `LIMIT` clause in SQL is used to limit the number of rows returned by a query. It can be useful when you only need to retrieve a certain number of rows, or when dealing with large datasets where it's not feasible to retrieve all the rows at once.
+The `LIMIT` clause in SQL is used to limit the number of rows returned by a query.
 
 ```sql
 -- Find the 3 cheapest pizza, the restaurant selling them, and the price.

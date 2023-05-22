@@ -71,12 +71,12 @@ CREATE TABLE Includes (
 ```
 
 
-#### Many-to-One
+#### Many-to-One (PK)
 
 ![[Pasted image 20230214143708.png]]
 
 2 approaches:
-- Create 2 entity sets and 1 relationship set. Set the primary key of the relationship set to the PK of the "One" entity set.
+- Create 2 entity sets and 1 relationship set. Set the primary key of the relationship set to the PK of the "One" entity set. (Hence, Many-to-one is also called as **Key Constraint**)
 - Combine the "One" entity set with the relationship set.
 
 ```sql
@@ -122,7 +122,7 @@ CREATE TABLE MakesBookings (
 );
 ```
 
-#### One-to-One
+#### One-to-One (UNIQUE)
 
 ![[Pasted image 20230214144230.png]]
 

@@ -8,13 +8,13 @@ _Committing_ saves a *snapshot* of the current state of the tracked files in th
 
 ### See files in Staging Area (intermediate area before commit)
 
- ```
+```bash
 git status
 ```
 
 ### Add Files to Staging Area
 
-```
+```bash
 git add [file name]
 git add . # add all files in directory
 git add *
@@ -24,12 +24,13 @@ git add *
 
 Must come with commit messages in present tense
 
-```
+```bash
 git commit -m "Initial Commit"
 ```
 
 ### To see recent commit history
 
-```
+```bash
 git log
+git log --oneline
 ```

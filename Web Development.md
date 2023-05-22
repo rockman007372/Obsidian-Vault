@@ -1,6 +1,9 @@
-2022-06-29 01:03
-Tags: #webdev
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
+---
+tags: webdev
+aliases: 
+date: 2022-07-24 Sunday
+---
+
 ## Internet 
 - [[How Does The Internet Work]]
 - [[How Does Websites Work]]

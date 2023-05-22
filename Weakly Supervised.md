@@ -1,0 +1,1 @@
+Correct answer given but may not be precise (This picture contains a face but no exact location given)

@@ -1,16 +1,16 @@
-2022-07-26 22:13
-Tags: [[LeetCode]] - [[Topological Sort]] 
+Tags: [[LeetCode]] - [[Topological Order]] 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Alien Dictionary
-### My Performance
 
-### Questions
+## Questions
+
 Difficulty: #hard 
 Input: `String[]` containing words in lexicographically increasing order.
 Output: A `String` containing the letters in lexicographically increasing order.
 
-### Solution
-##### Kahn's Algorithm
+## Solution
+
+### Kahn's Algorithm
+
 Time: 
 - Let N be the number of words
 - C be the TOTAL number of characters
@@ -116,7 +116,7 @@ class Solution {
 }
 ```
 
-##### Post-Order DFS
+### Post-Order DFS
 
 ```Java
 class Solution {

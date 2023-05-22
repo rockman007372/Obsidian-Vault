@@ -1,15 +1,28 @@
-2022-06-05 16:44
-Tags: [[LeetCode]] - [[Depth First Search]] - [[Topological Sort]]
+Tags: [[LeetCode]] - [[Depth First Search]] - [[Topological Order]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
 ## Questions
-- Input: Number of courses, prerequisites `int[][]`  array. To take course `prerequisites[0]`, we must first take `prerequisites[1]` 
-- Output: Whether we have a valid schedule.
+
+Input: 
+- Number of courses
+- `int[][]` prerequisites: To take course `prerequisites[i][0]`, we must first take `prerequisites[i][1]` 
+
+Output: Boolean
+- Whether we have a valid schedule.
 
 ## Solution
-Basically, check if there is cycle / Graph is a DAG.
+Basically, check if there is cycle. Since graph is directed, it also means checking if the graph is a DAG.
 
 ### Post-order DFS
+
+Idea: 
 - Use [[Backtracking]] for the recursive stack.
+
+Time: O(E + V) 
+- traverse graph, visit each edge and node only once due to DFS
+
+Space: O(E +V) 
+- build graph takes E + V, 2 array of V space, recursion stack of V depth
+
 ```Java
 class Solution {
     private boolean[] visited; // keep track of visted non-cyclic node
@@ -23,7 +36,9 @@ class Solution {
         for (int i = 0; i < prerequisites.length; i++) {
             int a = prerequisites[i][0];
             int b = prerequisites[i][1];
-            if (!graph.containsKey(a)) graph.put(a, new LinkedList<>());
+            if (!graph.containsKey(a)) {
+	            graph.put(a, new LinkedList<>());
+	        }
             graph.get(a).add(b);
         }
         
@@ -54,14 +69,13 @@ class Solution {
             if (res) break;    
         }
         traced[i] = false; // remove breadcrump
-        visited[i] = true;
+        visited[i] = true; // no cycle in this subgraph
         return res;
     }
 }
 ```
 
-Time: O(E + V) - traverse graph, visit each edge and node only once due to DFS
-Space: O(E +V) - build graph takes E + V, 2 array of V space, recursion stack of V depth
+
 
 ### Topological Order
 Do a topological sort, remove edges on the way. If the number of edges removed != total number of edges (hence, unremoved edges), there is cyclic dependencies.

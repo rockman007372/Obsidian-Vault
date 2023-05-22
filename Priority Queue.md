@@ -1,13 +1,21 @@
 2022-06-23 14:59
 Tags: [[Data Structure and Algorithm]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-## Java
+
+## Language-specific Implementations
+#### Java
+
 ```Java
-PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>(); // min heap
-PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder()); // max heap
+// min heap
+PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>(); 
+
+// max heap
+PriorityQueue<Integer> maxHeap = 
+	new PriorityQueue<>(Comparator.reverseOrder()); 
 ```
 
-## Python
+#### Python
+
 ```python
 # importing "heapq" to implement heap queue
 import heapq
@@ -37,16 +45,26 @@ print(heapq.heappop(li))
 
 ## Definition
 
+A PQ is an **abstract** data structure that provides a way to 
+- store elements along with their associated priorities and 
+- allows accessing and removing the element with the highest (or lowest) priority
+
+It does not provide any implementation.
+
+It is used in many [[SSSP]] algorithm. (Such as [[Dijkstra's Algorithm]])
+
 ![[Pasted image 20220623145902.png]]
 
 ## Implementations
-##### Binary Heap 
+
+#### Binary Heap 
+
 ![[Pasted image 20220623150048.png]]
 
-![[Heap]]
-Used in many [[SSSP]] algorithm. (Such as [[Dijkstra's Algorithm]])
+See [[Heap]] for implementation details.
 
-##### AVL Tree
+#### AVL Tree
+
 All operations take O(lgN).
 
-extractMax can be reduced to O(1) by keeping a HashMap linking node to its position in AVL.
+`extractMax` function can be reduced to O(1) by keeping a HashMap linking node to its position in AVL.

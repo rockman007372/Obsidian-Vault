@@ -2,13 +2,13 @@
 tags: processed
 course: CS2109S
 type: lecture
+date: 2022-09-19 Monday
 ---
-Date:: 2022-09-19 Monday
 Links: [[CS2109S]]
 - - -
 
 ## Definition
-- Linear regression is a class of [[Supervised Machine Learning]]
+- Linear regression is a class of [[Supervised Learning]]
 - Given inputs over a continuous range, predict result within a continuous output. 
 - Example: Given the area of a property, predict its price.
 - Goal of regression specifically and supervised ML in general:

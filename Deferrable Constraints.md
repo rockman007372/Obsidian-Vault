@@ -22,8 +22,7 @@ CREATE TABLE Department (
 
 ```sql
 ALTER TABLE Employee ADD CONSTRAINT
-  did_fk FOREIGN KEY (did)
-  REFERENCES Department (did);
+  did_fk FOREIGN KEY (did) REFERENCES Department (did);
 
 ```
 
@@ -31,9 +30,10 @@ ALTER TABLE Employee ADD CONSTRAINT
 
 ```sql
 ALTER TABLE Department ADD CONSTRAINT
-  eid_fk FOREIGN KEY (eid)
-  REFERENCES Employee (eid);
+  eid_fk FOREIGN KEY (eid) REFERENCES Employee (eid);
 ```
+
+These 2 foreign key constraints prevent any tuple from being inserted into either table!
 
 ## Not Deferrable
 

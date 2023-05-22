@@ -1,0 +1,5 @@
+- [ ] One big carton box with most essentials
+- [ ] 2 clothes stackable boxes
+- [ ] 1 luggage with clothes
+- [ ] 1 red bag of leftover essentials attached to one bag of bball and shoes
+- [ ] 1 ikea bag of pillows

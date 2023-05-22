@@ -3,8 +3,6 @@ tags: probability, distribution
 aliases: 
 date: 2022-09-12 Monday
 ---
-Links: [[Random Variables, Distributions, Expectations]]
-- - -
 
 Let X be a random variable (a function), and $R_x$ be its range
 
@@ -18,3 +16,6 @@ Let X be a random variable (a function), and $R_x$ be its range
 ---
 
 ![[Continuous Probability Distributions]]
+
+- - -
+Links: [[Random Variables, Distributions, Expectations]]

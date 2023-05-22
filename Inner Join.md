@@ -52,7 +52,7 @@ where:
 - $l = Attr(R) \cup (Attr(S) - Attr(R)) =  Attr(R) \cup Attr(S)$
 - $\theta = \forall A_{i} \in Attr(R) \cap Attr(S): R.A_{i}= S.A_i$
 
-**In other words,** The join is performed over all **common attributes** btw R and S such that:
+**In other words,** the join is performed over all **common attributes** btw R and S such that:
 - We only combine if the value of the common attributes are equals
 - ! The output relations contains the common attribute of R and S **only once**.
 

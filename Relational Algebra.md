@@ -10,7 +10,7 @@ date: 2023-01-23 Monday
 - Operators: Transformation from one or more input relations into **one** output relation
 - Unary Operators: selection, projection, renaming
 - Binary Operators: cross product, union, intersection, difference
-- Why: For query optimization → dont care in CS2102
+- For query optimization → dont care in CS2102
 
 ![[Pasted image 20230123150449.png]]
 

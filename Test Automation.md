@@ -1,14 +1,7 @@
----
-tags: toProcess
-course: CS2103T
-date: 2023-01-25 Wednesday
----
-
-[[Automated Testing using CLI]]
-
-[[Test Automation using test drivers]]
-
-[[Test Automation Tools]]
+Techniques to automate testing:
+1. [[Test Automation Using CLI]]
+2. [[Test Automation Using Test Drivers]]
+3. [[JUnit]]
 
 
 

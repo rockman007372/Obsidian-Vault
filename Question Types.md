@@ -42,6 +42,6 @@ Read [[Binary Search]] for more info.
 ## Graph
 - [[Depth First Search]] - both recursive and stack implementation
 - [[Breadth First Search]] - use deque/ linked list
-- [[Topological Sort]]
+- [[Topological Order]]
 - [[SSSP]] ?
 - [[Backtracking]]: Restore previous state of visited nodes after exploring current path (leaving and retrieving breadcrumbs).

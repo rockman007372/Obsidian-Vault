@@ -1,11 +1,10 @@
 ---
 tags: processed
 course: CS2103T
-type: content
 date: 2023-01-25 Wednesday
 ---
 
-**You can organize your _types_ (i.e., classes, interfaces, enumerations, etc.) into _packages_** for easier management
+**You can organize your _types_ (i.e., classes, interfaces, enumerations, etc.) into _packages_** for easier management.
 
 ## Creating a Package
 

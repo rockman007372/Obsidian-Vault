@@ -1,9 +1,10 @@
 ---
 tags: processed
 course: CS2103T
-type: content
 date: 2023-01-25 Wednesday
 ---
+
+**JUnit is a tool for automated testing of Java programs**. Similar tools are available for other languages and for automating different types of testing.
 
 When writing JUnit tests for a class `Foo`, the common practice is to create a `FooTest` class, which will contain various test methods.
 

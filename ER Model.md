@@ -15,7 +15,9 @@ date: 2023-02-13 Monday
 
 [[Relational Mappings From ER to Schema]]
 
-[[Extended Notations in ER Model]]
+Extended notations:
+- [[ISA Hierarchies in ER model]]
+- [[Aggregation in ER model]]
 
 ## Summary
 

@@ -27,3 +27,5 @@ Blue:: Azul/es
 
 Pink:: Rosa/s
 
+Orange:: Naranja
+

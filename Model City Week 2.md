@@ -63,9 +63,8 @@ Paradoxes - Think of city as a model and not a model
 3. Does Singapore make a good model for other cities? What challenges?
 
 - City state: Singapore is less of a city and more of a state - no other cities have so much governance powers to control borders and immigration intakes...
+- Land use: No motherland, needs to allocate lands for other state purposes (defense) -> juggles both city needs but state needs as well.
 - Trust in the government! Singapore gov is know to be least corrupted, allowing them to stay in power because they are doing a good job of prosperising the country. → is it rhetoric? There is no transparency. Politicians are paid handsomely. 
-
-
 
 
 

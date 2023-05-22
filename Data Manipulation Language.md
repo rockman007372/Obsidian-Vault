@@ -11,5 +11,6 @@ DML commands are used to interact with the actual data stored in the database, r
 ## Commands
 - [[SQL Insert]] 
 - [[SQL Delete]]
+- [[SQL Update]]
 
 

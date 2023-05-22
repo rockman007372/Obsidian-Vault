@@ -30,6 +30,21 @@ SELECT rname, CASE
   END
 FROM Sells
 GROUP BY rname;
+
+
+-- We can also make our own function
+CREATE OR REPLACE FUNCTION evaluate_price(price INT)
+RETURNS TEXT AS $$
+	SELECT CASE 
+		WHEN price >= 23 THEN 'Expensive'
+		WHEN price >= 18 THEN 'Reasonable'
+		ELSE 'Cheap'
+	END;
+$$ LANGUAGE sql
+
+SELECT rname, evaluate_price(price)
+FROM Sells
+GROUP BY rname;
 ```
 
 ## COALESCE expression

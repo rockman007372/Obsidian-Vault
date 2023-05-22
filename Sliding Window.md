@@ -16,6 +16,6 @@ A window represents the current section of the array/string you are looking at, 
 
 ### Types of Sliding Window
 1. [[Fast-Slow Sliding Window]]
-2. [[Fast-CatchUp Sliding Window]]
+2. [[Fast-Catch Up Sliding Window]]
 3. [[Fast-Trailing Sliding Window]] 
 4. [[Front-Back Sliding Window]] 

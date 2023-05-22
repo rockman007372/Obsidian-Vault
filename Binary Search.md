@@ -70,7 +70,7 @@ public int binarySearch(int[] nums, target) {
 -   Guarantees Search Space is at least 2 in size at each step
 -   Post-processing required. Loop/Recursion ends when you have 1 element left. Need to assess if the remaining element meets the condition.
 
-## Generalised
+### Generalised
 
 You can generalise Template 2 to any binary search problem with a condition:
 

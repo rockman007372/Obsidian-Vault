@@ -7,7 +7,7 @@ date: 2023-03-07 Tuesday
 - [[Basic Queries]]
 - [[Composed Queries]]
 - [[Ordering]]
-- [[Aggregation Functions]]
+- [[Aggregate Functions]]
 - [[Grouping and Having Queries]]
 - [[Conditional Expression in SQL]]
 - [[Common Table Expression]]

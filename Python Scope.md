@@ -140,8 +140,6 @@ def outer():
 outer()
 ```
 
-
-
 **Output**
 
 ```

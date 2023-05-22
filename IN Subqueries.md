@@ -14,7 +14,7 @@ Example:
 -- subquery
 SELECT DISTINCT rname
 FROM   Sells
-WHERE  pizza IN (SELECT pizza
+WHERE  pizza IN (SELECT pizza -- one single attribute
 				 FROM   Recipes
 				 WHERE  ingredient = 'Cheese');
 

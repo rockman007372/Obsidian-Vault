@@ -1,8 +1,9 @@
-2022-06-23 01:24
-Tags: [[Heap]]
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
+---
+tags: 
+aliases: 
+date: 2022-07-24 Sunday
+---
 
-### Main Points
 A sorting algorithm based on [[Heap]].
 
 #### Algorithm

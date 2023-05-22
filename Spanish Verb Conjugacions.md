@@ -11,7 +11,7 @@ date: 2023-01-14 Saturday
 
 - There are 3 regular conjugations: ar/er/ir in that order
 - For each subject, we also conjugate the verb accordingly.
-- For the 3rd conjugation, only the 1st and 2nd plural are changed from the 2nd conjugation.
+- For the 3rd conjugation, only the 1st and 2nd plural pronouns (vivimos, vivis) are changed from the 2nd conjugation.
 
 ## Irregular
 
@@ -19,7 +19,7 @@ date: 2023-01-14 Saturday
 
 ![[Pasted image 20230111180210.png]]
 
-**-ee**
+**e-er**
 
 | Leer   | Creer (believe) | Poseer (Possess) |
 | ------ | --------------- | ---------------- |

@@ -28,7 +28,8 @@ date: 2023-01-26 Thursday
 - Temporality - effects of smart urbanism on time.
 - We gave up our own data ownership and privacy in exchange for convenience and speed.
 
-
+Stakeholders in a smart nation:
+- private vs public (tech companies, governement, citizens)
 
 ## Summary
 

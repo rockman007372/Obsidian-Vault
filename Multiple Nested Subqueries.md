@@ -1,18 +1,15 @@
-## Multiple Nested Subqueries
----
 
 >[!example]
-> Find all customers in Central area that likes at least one pizza sold by Corleone Corner (exclude customers that do not like any pizza).
+> Find all customers in Central area that like at least one pizza sold by Corleone Corner (exclude customers that do not like any pizza).
 
 ```sql
-
--- Customesr in Central
+-- Customers in Central
 SELECT C.cname
 FROM   Customers C
 WHERE  area = 'Central'
 AND  C.cname IN 
 
-	-- Likes at least one pizza
+	-- ALL customers who like at least one pizza
 	(SELECT L.cname
 	 FROM   Likes L
 	 WHERE  L.pizza IN
@@ -27,8 +24,8 @@ AND  C.cname IN
 This is equivalent to:
 
 ```sql
-SELECT c.cname
-FROM Customers c, Likes L, Sells S 
+SELECT DISTINCT c.cname -- must be DISTINCT to remove duplicate
+FROM Customers C, Likes L, Sells S 
 WHERE C.area = 'Central'
 AND C.cname = L.cname
 AND S.pizza = L.pizza

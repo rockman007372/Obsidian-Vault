@@ -3,6 +3,10 @@
 - No relationship between entity set and **relationship sets**
 - Relationship only exists between entity sets (rectangle to diamond and vice versa)
 
+## Solution
+
+Make relationship set into an entity.
+
 ![[Pasted image 20230214160622.png]]
 
 Note:

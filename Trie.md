@@ -1,14 +1,16 @@
-2022-07-01 16:13
-Tags: [[Data Structure and Algorithm]]
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Trie
+---
+tags: datastructure
+aliases: 
+date: 2022-07-24 Sunday
+---
+
 ## Main Points
 A Tree data structure for efficient implementation of dictionary.  
 
 ![[Pasted image 20220701161506.png]]
 
-Time to search for a String: O(String.length)
-Space to implement Trie: O(text size * Overheads)
+Time to search for a String: `O(String.length)`
+Space to implement Trie: `O(text size * Overheads)`
 
 ##### Implementation
 ![[Pasted image 20220701161714.png]]

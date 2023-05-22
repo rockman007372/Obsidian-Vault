@@ -1,4 +1,3 @@
-## Outer Join
 
 - Also include tuples that do not satisfy the condition.
 - Why? Sometimes a tuple in R or S that do not match are also of interest (dangling tuple)

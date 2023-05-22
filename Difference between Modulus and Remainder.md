@@ -1,13 +1,10 @@
 ---
 tags: math
 aliases: 
+sate: 2022-08-09 Tuesday
 ---
-Date:: 2022-08-09 Tuesday
 Links: [[Modulus Operator]]
 - - -
-# Difference between Modulus and Remainder
-
-### Main Points
 
 Remainder is simply the remaining part after the arithmetic division between two integer number. 
 
@@ -15,7 +12,10 @@ Modulus is either:
 - The sum of remainder and divisor when they are *oppositely signed* or
 - The remaining part after the arithmetic division when remainder and divisor both *are of same sign.*
 
-> Sign of remainder will be same as the divisible.
+>[!note]
+>In a % b:
+> - Sign of remainder will be same as the divisible. (a)
+> - Sign of modulus will be same as divisor. (b)
 
 **Example of Remainder:**
 ```
@@ -28,7 +28,6 @@ Modulus is either:
 -10 % -3 = -1 [here divisible is -10 which is negatively signed so the result will also be negatively signed]
 ```
 
-> Sign of modulus will be same as divisor.
 
 **Example of Modulus:**
 ```

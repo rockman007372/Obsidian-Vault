@@ -1,14 +1,21 @@
-2022-06-05 16:44
-Tags: [[LeetCode]] 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Top K Frequent Elements
-### Questions
+---
+tags: LeetCode, leetcode
+topics: 
+difficulty: medium
+performance: uncomplete
+date: 2022-07-24 Sunday
+---
+
+## Questions
+
 Input: Nums array
 Output: Top K most frequent elements
 
-### Solution
-#### Bucket Sort
-Time: O(N)
+## Solution
+
+### Bucket Sort
+
+Time: O(N + K) = O(N)
 Space: O(N) ?
 
 ```Java
@@ -37,9 +44,15 @@ class Solution {
         return result;
     }
     
-    public ArrayList<LinkedList<Integer>> putInBuckets(HashMap<Integer, Integer> freqMap, int length) {
-        ArrayList<LinkedList<Integer>> buckets = new ArrayList<LinkedList<Integer>>();     
-        for (int i = 0; i < length; i++) buckets.add(i, new LinkedList());
+    public ArrayList<LinkedList<Integer>> putInBuckets(
+	    HashMap<Integer, Integer> freqMap, int length) {
+        
+        ArrayList<LinkedList<Integer>> buckets = 
+	        new ArrayList<LinkedList<Integer>>();     
+        
+        for (int i = 0; i < length; i++) {
+	        buckets.add(i, new LinkedList());
+	    }
         
         for (Map.Entry<Integer,Integer> entry : freqMap.entrySet()) {
             int num = entry.getKey();
@@ -54,15 +67,16 @@ class Solution {
 
 ```
 
-#### Heap 
+### Heap 
+
 1. First create frequency HashMap. O(N)
 2. Then build a [[Heap]] of size k, ordered by frequency, using N elements.
    - Add the first k elements in O(k) time average.
    - Add the remaining elements while maintaining size K in O($(N - k) * logK$) time.
 3. Return the heap as an output array. O($k*logk$) to extract min k times.
 
-Time: O($N*lgK$) 
-Space: O(N + k), N for hashmap and K for heap
+Time: O($N*lgk$) 
+Space: O(N + k), N for hashmap and k for heap
 
 ```Java
 class Solution {
@@ -93,7 +107,8 @@ class Solution {
 
 ```
 
-#### Quick Select
+### Quick Select
+
 Algorithm:
 1. Build HashMap frequency
 2. Use [[Quick Select]] to select the N - K most frequent element. Since frequency may be duplicated, the Partition Algorithm must be able to deal with duplicates

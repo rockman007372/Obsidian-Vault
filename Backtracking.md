@@ -1,7 +1,8 @@
 ---
 tag: datastructure
+date: 2022-07-07 
 ---
-2022-07-07 18:51
+
 Tags: [[Data Structure and Algorithm]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
 
@@ -48,8 +49,8 @@ def backtrack(candidate):
 
 Key points:
 -   Overall, the enumeration of candidates is done in two levels: 
-	- 1)  At the first level, the function is implemented as recursion. At each occurrence of recursion, the function is one step further to the final solution.  
-	- 2)  At the second level, within the recursion, we have an iteration that allows us to explore all the candidates that are of the same progress to the final solution.
+	1)  At the first level, the function is implemented as recursion. At each occurrence of recursion, the function is one step further to the final solution.  
+	2)  At the second level, within the recursion, we have an iteration that allows us to explore all the candidates that are of the same progress to the final solution.
 
 -   The backtracking should happen at the level of the iteration within the recursion. 
   

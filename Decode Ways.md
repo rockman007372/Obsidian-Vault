@@ -3,15 +3,10 @@ tags: LeetCode
 topics: DynamicProgramming
 difficulty: medium
 performance: [complete, notOnTime, notOptimal]
+date: 2022-07-31 Sunday
 ---
-Date:: 2022-07-31 Sunday
-Links: [[LeetCode]] - [[Dynamic Programming]]
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Decode Ways
-### My Performance
-#complete #notOnTime #notOptimal 
 
-### Questions
+## Questions
 A message containing letters from `A-Z` can be **encoded** into numbers using the following mapping:
 
 >'A' -> "1"
@@ -32,7 +27,7 @@ Difficulty: #medium
 Input: `String` s reprenting code
 Output: `int` number of ways to decode it
 
-### Solution
+## Solution
 ##### Dynamic Programming
 State: `DP[i]` = no. ways to decode from 0 to i
 Recursive relation: `DP[i] = DP[i - 2] + DP[i - 1] if valid combi and S[i] != 0`

@@ -1,11 +1,8 @@
 ---
 tags: 
 aliases: 
+date: 2022-09-23 Friday
 ---
-Date:: 2022-09-23 Friday
-Links: [[Random Variable]], [[Random Variables, Distributions, Expectations]]
-- - -
-# Expectation and Variance of a RV
 
 ## Expectation of Discrete RV
 
@@ -35,3 +32,5 @@ Let $g(x) = (X - \mu_x)^2$. The variance of X is defined as $$\sigma^2= V(X) = E
 1. $V(X)$ is always non-negative:$$ V(X) \geq 0 , \forall X$$$$V(X) = 0 \iff P(X = E(X)) = 1\iff \text{X is a constant}$$
 2. Expansion: $$V(aX + b) = a^{2}V(X)$$
 3. Alternative formula: $$V(X) = E(X^{2})- (E(X))^{2}$$$$\sigma^{2}= V(X) = \frac{\sum_{i=1}^{n}(x_{i}-\mu)^{2}}{n}$$
+- - -
+Links: [[Random Variable]], [[Random Variables, Distributions, Expectations]]

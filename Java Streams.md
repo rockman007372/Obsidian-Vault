@@ -1,7 +1,6 @@
 ---
 tags: toProcess
 course: CS2103T
-type: content
 date: 2023-02-11 Saturday
 ---
 ### Streams

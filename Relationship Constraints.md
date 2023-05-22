@@ -20,9 +20,12 @@
 
 ## Key + Total Participation
 
-- Key + total participation constraint = must have a relationship with exactly **one** entity.
+Key + total participation constraint = must have a relationship with exactly **one** entity.
 
 ![[Pasted image 20230214141021.png]]
+
+>[!note]
+> While a booking must be made by one and exactly one user, every booking can be made by the **same** user.
 
 ## Dependency
 

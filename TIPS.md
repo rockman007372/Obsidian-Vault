@@ -9,5 +9,5 @@ Tags: #tips
 
 ##### 4. [[Soft Skills and Behavioural Interview]]
 
-##### 5. [[Java for Technical Interview]]
+##### 5. [[Java Tips for Technical Interview]]
 

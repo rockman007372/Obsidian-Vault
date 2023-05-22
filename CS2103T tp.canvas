@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"4d9e4640b9348507","x":-660,"y":-620,"width":400,"height":470,"type":"text","text":"Issue: select a deck\n\n- [x] Create a selectDeck command\n- [ ] Create a selectDeckparser\n- [x] Modify Logic Manager? No need"},
-		{"id":"12185b85478b2718","x":-115,"y":-620,"width":575,"height":470,"type":"text","text":"Future issues:\n- Add deck must include name of deck → Deck should have a field Name\n- How to store both decks and cards in storage? Lots of implementation changes :(\n- EVERYTHING BREAKS because I modified Command to reference DeckModel"}
+		{"id":"99067fc43b556b61","x":-960,"y":-780,"width":620,"height":401,"type":"text","text":"- [ ] refactor tagInCurrentCardInReview in ModelManager\n- [ ] refactor Card\n- [x] test JsonAdaptedCard\n- [ ] Tag isValidTagName is using exception to handle logic\n- [ ] "},
+		{"id":"3471eed5fc30ac69","x":-280,"y":-780,"width":431,"height":401,"type":"text","text":"Bug:\n- allow editting tags multiple times\n- no way to remove tag right now\n- Cannot flip card after tagging"}
 	],
 	"edges":[]
 }

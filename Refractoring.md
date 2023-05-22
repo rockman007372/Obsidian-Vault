@@ -1,19 +1,22 @@
 ---
 tags: toProcess, swe
 course: CS2103T
-type: content
 date: 2023-02-12 Sunday
 ---
 
-Great external [source](https://refactoring.guru/refactoring).
+Refactoring is a systematic process of improving code without creating new functionality that can transform a mess into clean code and simple design.
 
-## Definition
+>[!proper definition]
+> The process of **improving a program's internal structure in small steps without modifying its external behavior is called _refactoring_.**
 
-The process of **improving a program's internal structure in small steps without modifying its external behavior is called _refactoring_.**
+Characteristics:
 
--   **Refactoring is not rewriting**: Discarding poorly-written code entirely and re-writing it from scratch is not refactoring because refactoring needs to be done in small steps.
--   **Refactoring is not bug fixing**: By definition, refactoring is different from bug fixing or any other modifications that alter the external behavior (e.g. adding a feature) of the component in concern.
+- **Refactoring is not rewriting**: Discarding poorly-written code entirely and re-writing it from scratch is not refactoring because refactoring needs to be done in small steps.
+- **Refactoring is not bug fixing**: By definition, refactoring is different from bug fixing or any other modifications that alter the external behavior (e.g. adding a feature) of the component in concern.
 
+All thing related to refractoring can be found [here](https://refactoring.guru/refactoring).
+
+Common refractoring techniques are [here](https://refactoring.com/catalog/).
 
 ## Examples
 
@@ -69,7 +72,7 @@ void printDetails(double outstanding) {
     System.out.println("amount	" + outstanding);
 ```
 
-More common refractoring [here](https://refactoring.com/catalog/).
+
 
 ---
 Links: [[CS2103T]]

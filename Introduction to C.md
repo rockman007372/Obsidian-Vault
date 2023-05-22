@@ -2,14 +2,14 @@
 tags: processed
 course: CS2100
 type: lecture
+sate: 2022-08-07 Sunday
 ---
-Date:: 2022-08-07 Sunday
-Links: [[CS2100]] - [[Programming Language]]
+Links: [[CS2100]] 
 Next: [[Computations in C]]
 - - -
-# Introduction to C
 
 ## Recitation Questions
+
 ##### Q1: Calculator
 ```
 Write a program that:  
@@ -319,8 +319,5 @@ printf("%5%") // will give 5% ???
 ```
 
 ---
-## Other links
-[[Computations in C]]
-[[Control Structure in C]]
 
 

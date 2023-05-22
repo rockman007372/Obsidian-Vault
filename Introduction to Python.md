@@ -1,11 +1,10 @@
 ---
 tags: programmingLanguage
 aliases: 
+date: 2022-08-03 Wednesday
 ---
-Date:: 2022-08-03 Wednesday
 Links: [[CS2109S]]
 - - -
-# Python
 
 ### Main Points
 

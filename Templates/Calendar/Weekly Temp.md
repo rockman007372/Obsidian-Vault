@@ -1,11 +1,7 @@
 Week ?
 ---
-### Goals 
+### Goals Tracker
 - [ ] 
-
-### Weekly Target
-- [ ] 
-
 
 ### Habit Tracker
 
@@ -22,8 +18,8 @@ FROM "Daily" AND [[{{title}}]]
 SORT file.day ASC
 ```
 
-### Academic
+### Academic Tracker
 
 
-### Social 
+### Social Tracker
 

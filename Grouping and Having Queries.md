@@ -7,8 +7,8 @@ GROUP BY attr1, attr2,...
 
 **Notes:**
 - Logical partition of relation into groups based on values for specified attributes. (In reality, no actual reordering performed)
-- ! In principle, always applied together with [[Aggregation Functions]]
-- Appication of aggregation function are now over each group (one result tuple for each group)
+- ! In principle, always applied together with [[Aggregate Functions]]
+- @ Appication of aggregation function are now **over each group** (one result tuple for each group)
 
 > [!Example]
 > For each restaurant, find the lowest and highest price pizza
@@ -34,6 +34,11 @@ SELECT rname, SUM(price)
 FROM   Sells
 GROUP BY rname;
 
+-- Valid
+SELECT rname, pizza, price -- price is not ambiguous
+FROM   Sells
+GROUP BY rname, pizza; -- {rname, pizza} is PK of Sells
+
 -- Invalid
 SELECT rname, pizza, SUM(price) -- pizza is ambiguous
 FROM   Sells
@@ -54,7 +59,7 @@ HAVING <condition>
 - Conditions typically (but not always) involve aggregate functions
 
 >[!example]
-> Find all restaurants and the number of pizza they sells such that the retaurant sells more than 1 pizza.
+> Find all restaurants and the number of pizza they sells such that the restaurant sells more than 1 pizza.
 
 ```sql
 SELECT rname, COUNT(pizza)
@@ -78,6 +83,7 @@ FROM Sells
 GROUP BY rname 
 HAVING AVG(price) > 20; -- Aggregate function
 
+-- Valid
 SELECT rname, COUNT(*) 
 FROM Sells
 GROUP BY rname, pizza -- (rname, pizza) is PK of Sells

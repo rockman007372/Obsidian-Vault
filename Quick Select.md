@@ -1,7 +1,11 @@
-2022-06-23 18:06
-Tags: {{[[Data Structure and Algorithm]]}}  
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Quick Select
+---
+tags: algorithm
+aliases: 
+date: 2022-07-24 Sunday
+---
+
+
+
 ### Main Points
 Idea is very similar to [[Quick Sort]].
 Allows us to find the $k^{th}$ ranked elements.  

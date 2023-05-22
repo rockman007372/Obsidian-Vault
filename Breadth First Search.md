@@ -1,6 +1,8 @@
-2022-06-21 17:01
-Tags: [[Data Structure and Algorithm]] - [[Graph]] - [[Depth First Search]]
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
+---
+tags: 
+aliases: bfs
+date: 2022-07-24 Sunday
+---
 
 # CS2040S
 
@@ -49,7 +51,7 @@ Using a Queue/Linked List as frontiers
 	- ![[Problem-Solving Agents in AI 2022-08-20 12.50.29.excalidraw]]
 - Space: $O(b ^ {d + 1})$ 
 	- In worst case, every node *at depth d + 1* of the search tree are in the fringe/frontier
-	- **Dependent on when goal checking is done** → If goal test is done before pushing nodes to queue, space is reduced to $O(b^d)$, because we do not have to store and check the **last level**
+	- ! **Dependent on when goal checking is done** → If goal test is done before pushing nodes to queue, space is **reduced** to $O(b^d)$, because we do **not** have to store and check the **last level**
 - Optimal:
 	- **Yes** (*only if step cost is identical, VERY IMPORTANT*), as cost only increases as we go deeper, and we only go deeper if the previous depth did not yield goal node
 	- Else, path to the shallower goal states which we must first visit can be higher than the deeper goal state

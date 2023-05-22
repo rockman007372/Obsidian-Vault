@@ -5,8 +5,6 @@ type: lecture
 date: 2022-11-19 Saturday
 ---
 
-## Notes
-
 ### 1-layer Perceptron
 
 ![[Pasted image 20221119222712.png]]

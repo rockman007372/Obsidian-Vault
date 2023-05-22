@@ -1,4 +1,3 @@
-## Selection
 
 ![[Pasted image 20230123152156.png ]]
 

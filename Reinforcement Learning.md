@@ -1,0 +1,3 @@
+The program is responsible for making decisions and measuring its performance, but occasional positive/negative feedbacks are given.
+
+Example:  Teaching a robot how to navigate by giving a *negative penalty* whenever its bump sensor detects that it has bumped into an object. If coded correctly, it is possible for the robot to eventually *correlate its range finder sensor data with its bumper sensor data and the directions that sends to the wheels*, and ultimately choose a form of navigation that results in it not bumping into objects.

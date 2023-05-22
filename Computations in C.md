@@ -2,17 +2,13 @@
 tags: processed
 course: CS2100
 type: 
+date: 2022-08-09 Tuesday
 ---
-Date:: 2022-08-09 Tuesday
-Links: [[CS2100]]
-Previous Lecture: [[Introduction to C]]
-Next: [[Control Structure in C]]
+<< Previous: [[Introduction to C]] | Next: [[Control Structure in C]] >>
 - - -
-# Computations in C
 
-## Notes
+## Side-effect
 
-### Side-effect
 - Assignments have side-effect of returning the assignment value
 - This allows for nested assignments
 
@@ -20,7 +16,8 @@ Next: [[Control Structure in C]]
 c = (b = (a = 12)) // a = 12 returns 12
 ```
 
-### Arithmetic Operations
+## Arithmetic Operations
+
 - Execution from left to right: respecting parentheses, then **precedence rule**, then associative rule.
 
   ![[Pasted image 20220817025341.png]]
@@ -44,7 +41,7 @@ int x = 1 + 10 % 3; // 1 + 1 = 2
 int n = 9 * 0.5 // result = 4, truncated to 4 bytes
 ```
 
-##### Mixed type Arithmetic Expression
+### Mixed type Arithmetic Expression
 
 ```C
 int m = 10 / 4; // m = 2 
@@ -59,7 +56,7 @@ int n = 10 / 4.0; // n = 2
 int r = -10 / 4.0; // r = -2, NOT -3?? (2.5 → 2 → -2)
 ```
 
-##### Type Casting
+### Type Casting
 
 ```C
 int a = 6; 
@@ -72,13 +69,17 @@ int n = (int) f / a; // reduced to 2
 float q = (float) (a / 4); // 1.0 (1.5 -> 1 -> 1.0)
 ```
 
-##### Modulo 
-- Python % is modulo (**always positive**)
-	- `b = -10 % 4 -> b = 2`
-- C % is remainder (**Can be negative**)
-	- `b = -10 % 4 -> b = -2`
+### Modulo 
+
+Python % is modulo (**always positive**)
+- `b = -10 % 4 -> b = 2`
+
+C % is remainder (**Can be negative**)
+- `b = -10 % 4 -> b = -2`
+
 See also: [[Difference between Modulus and Remainder]]
 
-
+- - -
+Links: [[CS2100]]
 
 

@@ -1,5 +1,3 @@
-## Equivalent Subquery Commands
----
 
 ##### IN vs = ANY
 
@@ -28,7 +26,7 @@ is equivalent to
 
 ```sql
 :
-WHERE EXISTS(
+WHERE EXISTS (
 	SELECT *
 	FROM <rel>
 	WHERE <cond> 

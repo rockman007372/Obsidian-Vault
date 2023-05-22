@@ -11,7 +11,7 @@ date: 2023-01-18 Wednesday
 
 [[Spanish Verb Conjugacions]]
 
-[[Spanish Pronouns]]
+[[Spanish Subject Pronouns]]
 
 Important phrases to remember:
 - Como se apellida: how do you call your last name?

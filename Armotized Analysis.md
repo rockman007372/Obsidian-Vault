@@ -1,8 +1,8 @@
 ---
 tags: algorithm
 aliases: Armotized Cost
+date: 2022-07-24 Sunday
 ---
-Date:: 2022-07-24 Sunday
 Links: [[Data Structure and Algorithm]]
 - - -
 # Armotized Analysis

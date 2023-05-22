@@ -13,12 +13,13 @@
 
 **Example:**
 
-Consider a forum database with the following relation filled with many thousands of users: _Accounts(email: **TEXT**, password: **TEXT**, name: **TEXT**)_.
+Consider a forum database with the following relation filled with many thousands of users: _Accounts(userId: **INT**, email: **TEXT**, password: **TEXT**, name: **TEXT**)_.
 
 Using reasonable guess, which subsets of attributes are **superkeys** of relation _Accounts_?
 
 **Answer:**
 
+{userID} = key = superkey
 {password} = key
 {email, password} = superkey 
 

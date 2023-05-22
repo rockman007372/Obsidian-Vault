@@ -11,7 +11,8 @@ date: 2023-02-27 Monday
 
 ### Active - Passive Voice
 
-##### Verbos Activos vs Pasivo
+##### Verbos Activos vs Pasivo (Not tested)
+
 The defendant calls the lawyer → El acusado llama al abogado (**al = a + el**)
 The lawyer is called by the defendant → El abogado es llamado por el acusado
 
@@ -34,8 +35,8 @@ To me: IS ONLY AFFECTED BY THE SUBJECT, NOT THE OBJECT OR VERB
 **gustar:** to like
 
 Example:
-a mi me gusta el chocolate
-a mi me gustan el cafe y el helado (ice cream)
+a mi me gust**a** el chocolate
+a mi me gust**an** el cafe y el helado (ice cream)
 a el le gustan los helados = he likes ice creams
 
 3 rules:
@@ -60,8 +61,7 @@ Frase positiva: Gustar + encantar, yo
 - A nosotros nos gusta la pizza de pina (pineapple pizza) y nos encanta jugar a los deportes. 
 
 Frase negativa
-- A mi companera Vienne no le gustan **la cebolla frita ni los durianos**.
-
+- A mi companera Vienne **no le** gustan la cebolla frita **ni** los durianos.
 
 ## Wednesday
 
@@ -87,15 +87,15 @@ anteayer: 2 days ago
 manana por la manana: tmr in the morning
 manana por la tarde/noche: tmr in the evening / tmr night
 
-por la tarde vs por las tardes? its the same
+por la tarde vs por las tardes? its the same - but I suppose por las tardes refer to a routing while por la tarde refers to a specific day in time.
 
 a las ocho de la manana: at 8 in the morning
 
 >[!note]
 > If it is **la** manana, it is in the morning
 
-te presento a David: I present you David
-te amo: I love you
+**te** presento a David: I present to you David
+**te** amo: I love you (you I love)
 
 ### Notebook - listening exercise 9 page 18
 
@@ -114,20 +114,23 @@ me ducho (duchar): to shower myself
 monto (montar) en mi bici: ride my bicycle
 
 antes: before 
-despues: after 
+despues: after  
 luego: later
 
 To say "after doing something": **despues de + infinitive** → despues de comer: after eating
 
-tomar vs bibir: both to drink but tomar requires an object
-→ tomamos un cafe: we drink coffee
+tomar vs beber: both to drink but:
+
+- "Tomar" is a more general verb that can also mean "to take" or "to have" something, not necessarily a liquid. For example, "tomar una foto" means "to take a photo" and "tomar una decisión" means "to make a decision."
+- On the other hand, "beber" is more specific and is used only for drinking liquids, such as water, juice, or alcohol.
+
+[[Por la tarde vs De la tarde]]
 
 ### Notebook - exercise 13 page 19
 
 Dar (v): to give
 doy/das/da/damos/dais/dan
 dame: give me??
-
 
 ---
 Links: [[LAS1201]]
