@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "142aa569f668f07b",
+        "id": "2f62384a619853f0",
         "type": "tabs",
         "children": [
           {
-            "id": "428592b7b17cc6be",
+            "id": "23e81acc227e87cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-01-26 Thursday.md",
+                "file": "LeetCode.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -21,38 +21,12 @@
             }
           },
           {
-            "id": "26e7e755720fd64b",
+            "id": "e9bc80f3cff625cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model City Week 3.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdc1c46e74a7f656",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Ideological Alignment of Smart Urbanism in Singapore.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b855d2fb43cf3dd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intro to Machine Learning.md",
+                "file": "Quick Select.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -60,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#self-improvement",
+                "query": "pass by reference",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -103,6 +77,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "046951b5bad1cc92",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -128,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intro to Machine Learning.md",
+                "file": "Quick Select.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +138,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Intro to Machine Learning.md",
+                "file": "Quick Select.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:Excalidraw -path:Daily",
@@ -179,7 +161,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5616718275713583,
+                  "scale": 0.5589197240203546,
                   "close": true
                 }
               }
@@ -199,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intro to Machine Learning.md",
+                "file": "Quick Select.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,12 +193,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intro to Machine Learning.md"
+                "file": "Quick Select.md"
               }
             }
+          },
+          {
+            "id": "f17879667226eebb",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "5a15f5b20c4edac3",
@@ -239,28 +228,60 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "switcher:Open quick switcher": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
+      "command-palette:Open command palette": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "b855d2fb43cf3dd9",
+  "active": "e9bc80f3cff625cd",
   "lastOpenFiles": [
-    "The Ideological Alignment of Smart Urbanism in Singapore.md",
-    "Model City Week 3.md",
-    "UTC2105.md",
-    "Daily/2023-01-26 Thursday.md",
-    "Daily/2023-01-25 Wednesday.md",
-    "Stubs.md",
-    "Unit Testing.md",
-    "Quality Assurance in SWE.md",
-    "Daily/2023-01-24 Tuesday.md",
-    "Singapore as Model - Planning Innovations, Knowledge Experts.md"
+    "Trie.md",
+    "Quick Select.md",
+    "JavaScript Classes and Prototypes.md",
+    "JavaScript.md",
+    "JavaScript Objects.md",
+    "LeetCode.md",
+    "Top K Frequent Elements.md",
+    "Priority Queue.md",
+    "Heap as an Array.md",
+    "Heap.md",
+    "Heap Sort.md",
+    "How to build a binary heap (Heapify).md",
+    "Implementation of Heap operations.md",
+    "Store Heap as an Array (Binary Heap).md",
+    "Shortest Bridge.md",
+    "Breadth First Search.md",
+    "Attachments/Problem-Solving Agents in AI 2022-08-20 12.50.29.excalidraw.md",
+    "Daily/2023-05-21 Sunday.md",
+    "Evaluate Division.md",
+    "Path Compression.md",
+    "Longest Repeating Character Replacement.md",
+    "Maximum Average Subarray I.md",
+    "Decode Ways.md",
+    "00. HOME.md",
+    "Daily/2023-05-20 Saturday.md",
+    "Daily/2023-05-22 Monday.md",
+    "Attachments/Pasted image 20220803133410.png",
+    "Attachments/Pasted image 20230518141821.png",
+    "Attachments/Pasted image 20230518141113.png",
+    "Attachments/Pasted image 20230516152238.png",
+    "Attachments/Pasted image 20230427140916.png",
+    "Attachments/Pasted image 20230424183822.png",
+    "Attachments/Pasted image 20230425144346.png",
+    "Attachments/Pasted image 20230425143623.png",
+    "Attachments/Pasted image 20230425143454.png",
+    "Attachments/Pasted image 20230425143402.png",
+    "Spanish Canvas.canvas",
+    "CS2103T tp.canvas",
+    "PL",
+    "New Text Document.txt",
+    "CS2102 Project.canvas"
   ]
 }

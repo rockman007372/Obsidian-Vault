@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
-  "search": " -tag:hidden -path:Weekly -path:Daily -path:Excalidraw -path:Obsidian -path:Templates -path:Attachments ",
+  "search": "-path:\"Weekly\" -path:\"Daily\" -path:\"Attachments\" - path:\"Excalidraw\" -tag:hidden",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#leetcode",
@@ -34,11 +34,11 @@
   "textFadeMultiplier": -2,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1.60769230769231,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 14.921568627451,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.7941736209973334,
+  "collapse-forces": false,
+  "centerStrength": 0.3875,
+  "repelStrength": 12.3333333333333,
+  "linkStrength": 0.5994140625,
+  "linkDistance": 191,
+  "scale": 0.5343795777577962,
   "close": false
 }
