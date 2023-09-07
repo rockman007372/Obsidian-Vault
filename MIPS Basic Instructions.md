@@ -1,8 +1,8 @@
 ---
 tags: MIPS, Assembly Language
 aliases: 
+date: 2022-09-07 Wednesday
 ---
-Date:: 2022-09-07 Wednesday
 Links: [[MIPS]], [[Adddition Using Bit Manipulation]]
 - - -
 ## Arithmetic Operation
@@ -141,5 +141,5 @@ t0        = 1010 1010 1010 1010 1111 0000 1111 0000
 
 
 ## Summary
-### Arthimatic and Logical Operations
+
 ![[Pasted image 20220904005337.png]]

@@ -32,7 +32,7 @@ Through our expo research.
 
 #### Artificial intelligence and intelligence in technology
 
-##### [[Week 5 Seminar]]
+##### [[UTS2100 Week 5 Seminar]]
 What is AI? Can AI be considered sentient? What is the difference between AI and human intelligence?
 
 Mainstream conceptions about consciousness: duelism vs physicalism → determined whether AI is sentient

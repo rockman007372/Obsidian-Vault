@@ -9,8 +9,7 @@ alias: Prime Attribute
 
 ## Example
 
-Suppose we have a table of customers with the following attributes: `customer_id, first_name, last_name, email, phone_number `
-
-If we choose `customer_id` as the primary key, then c`ustomer_id` is a prime attribute. 
-
-If we choose a composite key consisting of `first_name, last_name, email`, then all three attributes are prime attributes.
+Suppose we have a table of customers with the following attributes:
+- `customer_id, first_name, last_name, email, phone_number `
+- If we choose `customer_id` as the primary key, then `customer_id` is a prime attribute. 
+- If we choose a composite key consisting of `first_name, last_name, email`, then all three attributes are prime attributes.

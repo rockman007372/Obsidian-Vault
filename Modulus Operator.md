@@ -2,10 +2,6 @@
 tags: computerScience, math
 aliases: 
 ---
-Date:: 2022-08-09 Tuesday
-Links: 
-- - -
-# Modulus Operator
 ### For positive numbers
 (This explanation is only for positive numbers since it depends on the language otherwise)
 
@@ -37,4 +33,3 @@ Applied to the last example, this gives:
 5 % 7 = 5 - floor(5 / 7) * 7 = 5
 ```
 
-### [[Difference between Modulus and Remainder]]

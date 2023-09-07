@@ -1,6 +1,12 @@
-2022-06-05 16:44
-Tags: [[LeetCode]] 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
+---
+tags:
+  - LeetCode
+  - leetcode
+topics: greedy
+difficulty: medium
+performance: 
+date: 2022-07-24 Sunday
+---
 ### Question
 Input:  an array of intervals
 Output: an array of intervals in which overlapping intervals are merged

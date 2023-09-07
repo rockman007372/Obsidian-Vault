@@ -4,11 +4,10 @@ aliases:
 topics: queue, stack
 difficulty: easy
 performance: complete, onTime
+date: 2022-07-24 Sunday
 ---
-Date:: 2022-07-24 Sunday
 Tags: [[LeetCode]] - [[Armotized Analysis]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Implement Queue using 2 Stacks
 ### My Performance
 #complete #onTime 
 

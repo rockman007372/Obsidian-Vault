@@ -1,27 +1,21 @@
 2022-06-05 16:13
 Tags: [[Dynamic Programming]] - [[Data Structure and Algorithm]] - [[LeetCode]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Longest Increasing Subsequence
-### Essense
+
 ![[Pasted image 20220717093701.png||500]]
 ![[Pasted image 20220717093355.png||500]]
 ![[Pasted image 20220717093542.png||500]]
 
 Time Complexity: O($N^2$) - N iteration, iteration i costs O(i).
 
-### My Performance
-#complete #notOptimal 
+## Solution
 
-### Questions
-Difficulty: #medium 
-
-### Solution
-##### O(N^2) [[Dynamic Programming]] Solution
+###  [[Dynamic Programming]] Solution
 
 ```Java
 /*
 Idea 1:
-    1. State: DP[i] = length of LIS between index 0 and i
+    1. State: DP[i] = length of LIS which ends at nums[i]
     2. Relation: DP[i] = Max(DP[j]) + 1 for 0 <= j < i and nums[j] < nums[i]
     3. Space = O(N)
     4. Time = O(N^2)
@@ -51,14 +45,35 @@ class Solution {
 }
 ```
 
-##### O(NlgN) solution using [[Binary Search]]
+```python
+class Solution:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        n = len(nums)
+        dp = [1 for i in range(n)]
+
+        for index in range(n):
+            for k in range(index):
+                if nums[index] > nums[k]:
+                    dp[index] = max(dp[index], dp[k] + 1)
+        
+        return max(dp)
+```
+
+###  [[Binary Search]] Solution
 
 Let `S[i]` be defined as the smallest integer that ends an increasing sequence of length `i`. Now iterate through every integer `X` of the input set and do the following:
 
 -   If `X` is more than the last element in `S`, then append `X` at the end of `S`. This essentially means we have found a new largest LIS.
 -   Otherwise, find the smallest element in `S`, which is more than or equal to `X`, and replace it with `X`. Because `S` is sorted at any time, the element can be found using [binary search](https://www.techiedelight.com/binary-search/) in `log(N)` time.
+-   In total, O(N x logN)
+
+Illustration:
+
+![[Pasted image 20230722022946.png]]
 
 ```
+nums = [2, 6, 3, 4, 1, 2, 9, 5, 8]
+
 Initialize to an empty set S = {}
 
 Inserting 2 —- S = {2} – New largest LIS  
@@ -123,5 +138,24 @@ class Solution {
         return lo; // return the next smallest element's index
     }
 }
+```
 
+Simplified Python solution:
+
+```python
+class Solution:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        n = len(nums)
+        dp = [float('inf') for i in range(n)]
+        dp[0] = nums[0]
+
+        for index in range(1, n):
+            if nums[index] < dp[index - 1]:
+                insertionPoint = bisect.bisect_left(dp, nums[index])
+                dp[insertionPoint] = nums[index]
+            
+            elif nums[index] > dp[index - 1]:
+                dp[index] = nums[index]
+
+        return len(list(filter(lambda x : x != float('inf'), dp)))
 ```

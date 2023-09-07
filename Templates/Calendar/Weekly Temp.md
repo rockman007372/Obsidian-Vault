@@ -8,12 +8,12 @@ Week ?
 ```dataview
 TABLE WITHOUT ID
   file.link as Date,
-  choice(exercise > 0, "✅", "❌") as Exercise,
-  choice(breakfast > 0, "✅", "❌") as Breakfast,
   choice(sleep > 6, "✅", "❌") as Sleep,
+  choice(breakfast > 0, "✅", "❌") as Breakfast,
   choice(study >= 3, "✅", "❌") as Study,
-  choice(reflection > 0, "✅", "❌") as Reflection,
-  choice(news > 0, "✅", "❌") as News
+  choice(pull-ups >= 10, "✅", "❌") as Pull-ups,
+  choice(basketball-practice >= 0, "✅", "❌") as Basketball
+  
 FROM "Daily" AND [[{{title}}]]
 SORT file.day ASC
 ```

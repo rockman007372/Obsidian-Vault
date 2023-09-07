@@ -4,10 +4,7 @@ course: CS2100
 type: 
 date: 2022-08-09 Tuesday
 ---
-<< Previous: [[Introduction to C]] | Next: [[Control Structure in C]] >>
-- - -
-
-## Side-effect
+## Side-effect of assignment
 
 - Assignments have side-effect of returning the assignment value
 - This allows for nested assignments
@@ -64,20 +61,11 @@ float f = 15.8;
 
 float p = (float) a / 4; // 1.5
 
+float q = (float) (a / 4); // 1.0 (1.5 -> 1 -> 1.0)
+
 int n = (int) f / a; // reduced to 2
 
-float q = (float) (a / 4); // 1.0 (1.5 -> 1 -> 1.0)
 ```
-
-### Modulo 
-
-Python % is modulo (**always positive**)
-- `b = -10 % 4 -> b = 2`
-
-C % is remainder (**Can be negative**)
-- `b = -10 % 4 -> b = -2`
-
-See also: [[Difference between Modulus and Remainder]]
 
 - - -
 Links: [[CS2100]]

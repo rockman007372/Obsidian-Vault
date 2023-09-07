@@ -4,9 +4,6 @@ course: CS2100
 type: 
 date: 2022-08-09 Tuesday
 ---
-Links: [[CS2100]]
-Previous: [[Computations in C]]
-- - -
 
 ## Switch Structure
 

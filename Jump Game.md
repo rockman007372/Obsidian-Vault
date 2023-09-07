@@ -3,11 +3,10 @@ tags: LeetCode
 topics: [DynamicProgramming, Greedy]
 difficulty: medium
 performance: [complete, onTime, notOptimal]
+date: 2022-08-01 Monday
 ---
-Date:: 2022-08-01 Monday
 Tags: [[LeetCode]] - [[Dynamic Programming]] - [[Greedy]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Jump Game
 ### My Performance
 #complete #onTime #notOptimal 
 

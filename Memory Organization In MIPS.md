@@ -3,8 +3,6 @@ tags: MIPS
 aliases: 
 date: 2022-09-07 Wednesday
 ---
-Links: [[MIPS]]
-- - -
 
 - Main memory = large, single-dimension array of memory allocations
 - Each location has an **address** (index) → Given a k bit address, the address space has size $2^k$
@@ -23,7 +21,9 @@ Links: [[MIPS]]
 - 32 **registers**, each is 32-bit (4 bytes) long
 - Each **word** contains 32 bits (4 bytes)
 - Memory **addresses** are 32-bit long → Address size = $2^{32}$
-- Number of memory words = $2^{30}$ = $\frac{2 ^ {32}}{2 ^ 2}$ → MIPS uses Byte address (Each address holds 1 byte) → Consecutive words differ by 4 bytes (4 addressses)
+- Number of memory words = $2^{30}$ = $\frac{2 ^ {32}}{2 ^ 2}$ 
+	- MIPS uses Byte address (Each address holds 1 byte)
+	- Consecutive words differ by 4 bytes (4 addressses)
 
 ![[Pasted image 20220904012222.png]]
 

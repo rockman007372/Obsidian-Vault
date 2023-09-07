@@ -1,10 +1,8 @@
 ---
 tags: MIPS
 aliases: 
+date: 2022-09-07 Wednesday
 ---
-Date:: 2022-09-07 Wednesday
-Links: [[MIPS]]
-- - -
 
 ## Control Instructions
 ### Conditional branch: beq and bne
@@ -36,6 +34,9 @@ Exit:
 ```
 
 ### Unconditional branch: j
+
+`j` jumps/skips to a new instruction.
+
 ![[Pasted image 20220907232140.png]]
 
 ### Inequalities: slt

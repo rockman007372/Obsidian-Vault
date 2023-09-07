@@ -13,7 +13,7 @@ END TRANSACTION;
 
 Hence, we must defer the trigger until the end of the transation!
 
-### DEFERABLE INITIALLY DEFERRED
+### DEFERRABLE INITIALLY DEFERRED
 
 We can defer the trigger check until **the end of the transation** using `DEFERRABLE INITIALLY DEFERRED` in the trigger.
 
@@ -28,7 +28,7 @@ EXECUTE FUNCTION bal_check_func();
 Note:
 - ! `CONSTRAINT` must be specified for deferred triggers
 
-### DEFERABLE INITIALLY IMMEDIATE
+### DEFERRABLE INITIALLY IMMEDIATE
 
 We can also set `DEFERABLE INITIALLY IMMEDIATE` to the **trigger** and defer the constraint on the go in the **transaction**:
 

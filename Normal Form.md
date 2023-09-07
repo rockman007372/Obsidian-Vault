@@ -1,5 +1,5 @@
 ---
-tags: toProcess
+tags: processed
 course: CS2102
 type: content, lecture
 date: 2023-04-01 Saturday

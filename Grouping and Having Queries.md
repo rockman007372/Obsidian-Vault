@@ -5,10 +5,9 @@
 GROUP BY attr1, attr2,...
 ```
 
-**Notes:**
 - Logical partition of relation into groups based on values for specified attributes. (In reality, no actual reordering performed)
 - ! In principle, always applied together with [[Aggregate Functions]]
-- @ Appication of aggregation function are now **over each group** (one result tuple for each group)
+- @ Application of aggregation function are now **over each group** (one result tuple for each group)
 
 > [!Example]
 > For each restaurant, find the lowest and highest price pizza
@@ -19,14 +18,14 @@ FROM   Sells
 GROUP BY rname;
 ```
 
-**Restrictions of `GROUP BY` to `SELECT` clause:**
+##### Restrictions of `GROUP BY` on `SELECT` clause:
 
 If column $A_i$ of table R appears in the `SELECT` clause, one of the following conditions must hold:
 1. $A_i$ appears in the `GROUP BY` clause
-2. $A_i$ appears as an input of an aggregation function in the `SELECT` clause
+2. $A_i$ appears as an **input of an aggregation function** in the `SELECT` clause
 3. The primary key of R appears in the `GROUP BY` clause. **(not candidate key)**
 
-Reason: to avoid ambiguity about which $A_i$ of which row/tuple to select.
+Reason: to avoid ambiguity about which $A_i$ of which row to select.
 
 ```sql
 -- Valid

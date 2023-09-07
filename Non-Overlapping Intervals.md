@@ -1,12 +1,22 @@
-2022-06-05 16:44
-Tags: [[LeetCode]] - [[Merge Intervals]] 
+---
+tags:
+  - LeetCode
+  - leetcode
+topics: dp, greedy
+difficulty: 
+performance: 
+date: 2022-07-24 Sunday
+---
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-### Questions
+## Questions
+
 Input: Array of intervals `int[][] intervals`
 Output: Minimum numbers of intervals removed so that no intervals overlapped 
 
-### Solution
-##### [[Dynamic Programming]] 
+## Solution
+
+### Dynamic Programming
+
 Sort the intervals by lower bound.
 State: DP[i] = max number of non-overlapping intervals from start to i
 Relation: DP[i] = Max(DP[j]) + 1, where $0 \leq j < i$ , if there is no overlap between intervals[i] and intervals[j]
@@ -50,7 +60,8 @@ class Solution {
 Time: O($N^2$) due to double for loop
 Space: O(N) due to tabulation
 
-##### Greedy Algorithm where the lower bound is sorted
+### Greedy Algorithm where the lower bound is sorted
+
 1. Sort by lower bound.
 2. Traverse from left to right. There will be 3 cases:
    ![[Pasted image 20220622224732.png]]
@@ -87,8 +98,15 @@ class Solution {
 Time: O(NlogN) due to sorting
 Space: O(1)
 
-##### Greedy where upper bound is sorted
-Just like above, but we always *remove the latter interval* (current interval) if there is overlap.
+### Greedy where upper bound is sorted
+
+Instead of dividing into cases like above, we can sort the intervals by the upper bound first, then iterate **from left to right.**
+
+Whenever there is overlap, we always **remove the latter interval** (current interval).
+
+Why does this work?
+
+![[Pasted image 20230905104422.png]]
 
 ```Java
 class Solution {

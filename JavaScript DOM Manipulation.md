@@ -1,3 +1,9 @@
+---
+tags: JS
+aliases: 
+date: 2023-05-20 Saturday
+---
+
 #### Add JavaScript to HTML
 
 Add the `<script>` element at the end of the body element.

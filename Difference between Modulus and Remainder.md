@@ -3,7 +3,7 @@ tags: math
 aliases: 
 sate: 2022-08-09 Tuesday
 ---
-Links: [[Modulus Operator]]
+See also: [[Modulus Operator]]
 - - -
 
 Remainder is simply the remaining part after the arithmetic division between two integer number. 

@@ -1,5 +1,5 @@
 ---
-tags: toProcess
+tags: processed
 alias: 3NF
 course: CS2102
 type: content, lecture

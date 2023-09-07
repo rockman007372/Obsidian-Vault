@@ -2,13 +2,15 @@
 Tags: [[LeetCode]] 
 - - -
 ### Main Points
+
 + Technique: [[Dynamic Programming]]
 + Can be solved efficiently with [[Kadane's Algorithm]] with O(1) space
 + See also: [[Longest Increasing Subsequence]]
 + Time: O(n)
 + Space: O(n)
 
-##### Dynamic Programming
+### Dynamic Programming
+
 ``` Java 
 class Solution {
     public int maxSubArray(int[] nums) {
@@ -37,9 +39,9 @@ class Solution {
 }
 ```
 
-##### Kadane's Algorithm
+### Kadane's Algorithm
 
-Key idea: If current sum is ever negative, discard it. 
+Key idea: If current sum is ever negative, discard it (because you will only end up with a loss if you include the prior sum)
 
 ``` Java
 class Solution {

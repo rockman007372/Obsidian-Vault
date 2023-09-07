@@ -4,7 +4,7 @@ course: CS2109S
 type: lecture
 date: 2022-08-28 Sunday
 ---
-Links: [[Problem-Solving Agents in AI]], [[CS2109S]]
+Links: [[How to solve an AI problem]], [[CS2109S]]
 - - -
 
 What are [[Search Strategies]]?

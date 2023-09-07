@@ -6,8 +6,11 @@ Input: String S, String T
 Output: Minimum length of the substring of S that contains all the characters in T.
 
 ## Solution
-### [[Fast-Slow Sliding Window]]
-Idea: 
+
+### Sliding Window
+
+Idea: [[Fast-Slow Sliding Window]]
+
 1.  We start with two pointers, `left` and `right` initially pointing to the first element of the string SS.
 2.  We use the `right` pointer to expand the window until we get a desirable window i.e. a window that contains all of the characters of TT.
 3.  Once we have a window with all the characters, we can move the `left` pointer ahead one by one. If the window is still a desirable one we keep on updating the minimum window size.
@@ -65,6 +68,7 @@ Takeaways:
 - Need to keep track of number of unique chars in anagram questions
 
 ### Optimized Sliding Window
+
 Instead of going through every character in S, we can filter S to get only the characters in T.
 
 ```

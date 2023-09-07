@@ -75,6 +75,9 @@ CREATE TABLE Includes (
 
 ![[Pasted image 20230214143708.png]]
 
+>[!Why is it also called Key Constraint]
+> Given that a booking can only be made by exactly one user, given a booking you can identify who books it. Hence Booking must be the PK of the relationship.
+
 2 approaches:
 - Create 2 entity sets and 1 relationship set. Set the primary key of the relationship set to the PK of the "One" entity set. (Hence, Many-to-one is also called as **Key Constraint**)
 - Combine the "One" entity set with the relationship set.

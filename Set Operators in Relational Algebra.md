@@ -1,5 +1,5 @@
-
-![[Union Compatible]]
+>[!reminder]
+>In order to apply set operators on 2 relations, they must be [[Union Compatible|union compatible|]]
 
 ## Cross Product
 
@@ -8,7 +8,7 @@
 >[!definition]
 > The cross product of 2 relations (R x S) is a relation formed by combining all pairs of tuples from the 2 input relations.
 
-- The set of attributes in R and S must be **disjoint** (so there is no duplicated attribute in result): $$Attr(R) \cap Attr(S) = \emptyset$$
+- The set of attributes in R and S must be **disjoint** (so there is no duplicated attribute/column in the result): $$Attr(R) \cap Attr(S) = \emptyset$$
 >[!example]
 > Find all pairs of senior employee names (age >= 45) and junior employee names (age <= 25) 
 

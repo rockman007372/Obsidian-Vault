@@ -1,15 +1,18 @@
 2022-07-04 17:45
-Tags: [[Data Representation and Number System]]
+Tags: [[How to represent data in computers]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Binary Number
 
-### How to change base-2 (Binary) to base-10 (Decimal)
-eg: $110010 = 2^5 + 2^4 + 2^1$
+## Binary to Decimal
 
-### How to change Decimal to Binary:
+Example:
+$$110010 = 2^5 + 2^4 + 2^1$$
+
+## Decimal to Binary
 
 #### For Whole Number: Repeated Division of 2 
-**Algorithm:**
+
+Algorithm:
+
 ```
 int x;
 binary number y;
@@ -40,5 +43,6 @@ return y.reverse();
 	- We stop when the **fractional part = 0**
 	- Most significant bits are **on top!!**
 
-### Bit Manipulation
+## Bit Manipulation
+
 See [[Adddition Using Bit Manipulation]]. 

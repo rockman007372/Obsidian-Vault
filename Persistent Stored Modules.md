@@ -1,5 +1,5 @@
 ---
-tags: toProcess
+tags: processed
 alias: PSM
 course: CS2102
 type: lecture
@@ -16,9 +16,6 @@ Some common PSM languages include
 - **PL/pgSQL** (PostgreSQL)
 
 In CS2102, we are concerned with [[PL-pgSQL|PL/pgSQL]].
-
-
-
 
 ---
 Links: [[CS2102]]

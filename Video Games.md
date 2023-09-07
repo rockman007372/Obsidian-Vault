@@ -4,8 +4,16 @@ aliases:
 ---
 Links: [[00. HOME]]
 - - -
-### Final Update
-No more video games. No more purchases. I am done.
+
+## Current games
+
+- [ ] CP2077
+- [ ] deus ex
+- [ ] Firewatch
+- [ ] Stasis
+- [ ] Windwaker
+- [ ] OOT
+- [ ] Majora Mask
 
 ## Game Purchase History
 Rough total so far: 50SGD
@@ -13,16 +21,16 @@ Rough total so far: 50SGD
 ### 2022
 #### November
 Total = 281k
-- [ ] What Remains of Edith Finch - 56k
-- [ ] Subnautica - 225k
-	- [ ] Sub 1
-	- [ ] Sub 2
+- [x] What Remains of Edith Finch - 56k
+- [x] Subnautica - 225k
+	- [x] Sub 1
+	- [x] Sub 2
 #### October
 Total: 378,000VND = 22.15SGD
-- [ ] Dishonoured 
-- [ ] Dishonoured 2
-- [ ] Fallout New Vegas Ultimate
-- [ ] System Shock 2 (30K)
+- [x] Dishonoured 
+- [x] Dishonoured 2
+- [x] Fallout New Vegas Ultimate
+- [x] System Shock 2 (30K)
 #### September
 Total: 94000VND = 5.45SGD
 - [ ] Dead Space
@@ -34,7 +42,7 @@ Total: 300002VND = 17.35SGD
 	- [ ] Bio 2
 	- [ ] Bio 3
 	- [ ] Bio DLCs
-- [ ] Tekken 7
+- [x] Tekken 7
 #### July
 Total: 109000 VND = 6.3 SGD
 - [x] Black Mesa

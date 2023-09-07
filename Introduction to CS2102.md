@@ -12,7 +12,7 @@ date: 2023-01-09 Monday
 
 What is a database: a collection of *organized* data, info and records.
 
-Common challenged:
+Common challenges:
 - Efficiency: **fast** access to **huge** volumn of data
 - Transaction: **All of nothing** changes to data (Bank Transfer)
 - Data Integrity: **parallel** access and **changes** to data
@@ -81,14 +81,6 @@ DBMS:
 - Logical Schema: logical organization of data (table, graph, ...)
 - Physical Schema: physical organization / storage (disk, memory, files...)
 
-## Relational Model
-[[Relational Model]]
-
-
-
-
-
-## Questions/Cues
 
 ---
 Links: [[CS2102]]

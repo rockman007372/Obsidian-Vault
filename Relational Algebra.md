@@ -14,17 +14,14 @@ date: 2023-01-23 Monday
 
 ![[Pasted image 20230123150449.png]]
 
-## [[Closure Property]]
+## Content
 
-## [[Three-Valued Logic]]
-
-## [[Unary Operators In Relational Algebra]]
-
-## [[Set Operators in Relational Algebra]]
-
-## [[Join Operators]]
-
-## [[Equivalence in Relational Algebra]]
+1. [[Closure Property]]
+2. [[Three-Valued Logic]]
+3. [[Unary Operators In Relational Algebra]]
+4. [[Set Operators in Relational Algebra]]
+5. [[Join Operators]]
+6. [[Equivalence in Relational Algebra]]
 
 ## Summary
 ![[Pasted image 20230123170310.png]]

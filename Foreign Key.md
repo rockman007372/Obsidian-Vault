@@ -4,6 +4,7 @@
 We say that:
 - R1 is the **referencing** relation
 - R2 is the **referenced** relation
+- R1 -> R2
 
 >[!Notes]
 >-   A **_referencing relation_** can be a **_referenced relation_** for different foreign key  

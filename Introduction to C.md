@@ -1,13 +1,171 @@
----
-tags: processed
-course: CS2100
-type: lecture
-sate: 2022-08-07 Sunday
----
 Links: [[CS2100]] 
-Next: [[Computations in C]]
 - - -
 
+
+### What is C
+
+- C is very fast and close to computer language (much faster than Python)
+- Edit -> Compile -> Execute (Just like Java, it is a [[Compile Language]])
+- Compile error: Error during compilation. 
+- Runtime error: Error during runtime, because the compiler could not catch the error.
+
+### Sample C code
+
+Standard C framework:
+
+```C
+preprocessor directives
+
+main function header {
+	declaration of variables
+	executable statements
+}
+```
+
+```C
+#include <stdio.h> /* printf, scanf definitions */
+#define KMS_PER_MILE 1.609 /* conversion constant */
+
+int main(void) {
+	float miles, kms;
+	
+	printf("Enter distance: ");
+	scanf("%f", &miles);
+	
+	kms = KMS_PER_MILE * miles;
+	
+	printf("That's equals %9.2f km. \n", kms);
+	
+	return 0; // inform of the status of the program
+}
+```
+
+- To compile: `gcc MileToKm.c`
+- To run: `a.out`
+- `$ gcc DataTypes.c -o DataTypes` is used to compile C program.
+	- `-o` flag specifies name of the executable **output file** (default name is `a.out`).
+### Variables
+
+- Data used in a program are stored in variables.
+- Every variable has a **name**, **data type** and contains a **value** which could be modified.
+- ! Each variable also has an **address**.
+- ! Without initialization, the variable contains an **unknown value** (Cannot assumed to be zero!).
+
+```C
+int main(void) {
+	int count;
+	count = count + 1 // error
+	return count;
+}
+```
+
+### Data Type
+
+- Basic data types in C: 
+	- `int`: 4 bytes - 32 bits
+	- `float`: 4 bytes
+	- `double`: 8 bytes (better precision, but slower execution, more memory used)
+	- `char`: 1 byte.
+		- 8-bit integer used to store a single character in ''
+		- Each char is mapped to a number in ASCII table.
+
+>[!attention]
+> There is no `boolean`  and `string` in C
+
+```C
+// this program checks the memory size of each of the basic data types - in BYTES
+#include <stdio.h>
+
+int main(void) {
+	printf("Size of int (in bytes): %d\n", sizeof(int)); // 4
+	printf("Size of float (in bytes): %d\n", sizeof(float)); // 8
+	return 0;
+}
+```
+
+- Basic principle in C: **Everything is a number.**
+- A programming language can be either *strongly typed* or *weakly typed*.
+	- *Strongly typed*: every variable to be declared with a data type. (C, Java, Pascal)
+	- *Weakly typed*: the type depends on how the variable is used. (Python, Javascript)
+- Variables in C can be typecasted: `int y = (int) 1.1 // y = 1`
+### Program Structure
+- A basic C program has 4 main parts:
+	- Preprocessor directives
+		- `#include <stdio.h>`
+		- `#include <math.h>`
+		- `#define PI 3.142`
+	- Input: through stdin (using `scanf`) or file input.
+	- Compute: through arithmetic operations and assignment statements.
+	- Output: through stdout (using `printf`) or file output.
+
+### Preprocessor Directives
+- The C preprocessor provides the following:
+	- Inclusions of header files
+	- Macro expansions
+	- Conditional compilation
+- *Inclusion of header files:*
+	- `#include <stdio.h>` allows us to use input/output functions like scanf() and printf()
+	- `#include <math.h>` to use mathematical functions (need to compile with `-lm` option, else compilation error).
+	- `#include <string.h>` for string functions.
+- *Macro expansions*
+	- One of the uses is to define a macro for a constant value
+	- Eg: `#define PI 3.142 // declare a constant`
+
+```C
+#define PI 3.142
+
+int main(void) {
+	...
+	areaCircle = PI * radius * radius; 
+	// preprocessor replaced all instances of PI with 3.142 
+	// before passing the program to the compiler
+}
+```
+
+**DO NOT** put semicolon `;` at the end of `#define PI 3.142;` because C will replace all instances of PI as `3.142;` 
+
+### Input/Output
+
+>[!attention]
+> When using `scanf`, you need to pass pointers to the variables where the data will be stored. This is done using the `&` operator, which returns the address of a variable.
+
+```C
+int age;
+double cap;
+printf("What is ur age? ");
+scanf("%d", &age); 
+// %d is for integer
+// &age is for the address of the variable
+
+printf("Whats ur cap? ");
+scanf("%lf", &cap);
+
+printf("You are %d years old, ur cap is %f\n", age, cap);
+
+// another way to obtain input
+scanf("%d %lf", &age, &cap);
+```
+- `age` refers to the value in the variable age
+- `&age` refers to the address of the memory cell where the value of age is stored. (**Only used for scanf**)
+- `%d` is an example of *format specifiers*. They are placeholders for values to be displayed or read.
+
+  ![[Pasted image 20220809012222.png]]
+
+- You can specify the width of output in `printf()`:
+	- `%5d`to display an integer with width of 5, right justified
+		- eg: 123 →`_ _ 1 2 3`
+		- `%8.3f` to display a real number in the width of 8, with 3 dp
+
+- Example of  `escape sequence`:
+![[Pasted image 20220809012530.png]]
+
+```C
+printf("hello "world"") // will give an error
+printf("hello \"world\"") // will give double quote
+printf("5 %%") // will give 5% 
+```
+
+---
 ## Recitation Questions
 
 ##### Q1: Calculator
@@ -115,209 +273,4 @@ int main() {
     mean();
 }
 ```
-
-## Notes
-### What is C
-
-C is very fast and close to computer language (much faster than Python)
-
-Edit -> Compile -> Execute (Just like Java, it is a [[Compile Language]])
-
-Compile error: Error during compilation. 
-
-Runtime error: Error during runtime, because the compiler could not catch the error.
-
-### C vs Python
-
-Standard C framework:
-```C
-preprocessor directives
-
-main function header
-{
-	declaration of variables
-	executable statements
-}
-```
-
-Python version:
-```Python
-KMS_Per_MILE = 1.609 #conversion constant
-
-def main():
-	miles = float(input("Enter distance: "))
-	kms = KMS_PER_MILE * miles
-	print("That equals", kms, "km.")
-	
-	return 0
-
-# to check if this programme is run in command line
-if __name__ == "__main__":
-	main()
-```
-Python does not have constant, only variable.
-2 ways to run Python, either run in command line or import them as modules?
-
-C version:
-```C
-#include <stdio.h> /* printf, scanf definitions */
-#define KMS_PER_MILE 1.609 /* conversion constant */
-
-int main(void) {
-	float miles, kms;
-	
-	printf("Enter distance: ");
-	scanf("%f", &miles);
-	
-	kms = KMS_PER_MILE * miles;
-	
-	printf("That's equals %9.2f km. \n", kms);
-	
-	return 0; // inform of the status of the program
-}
-```
-To compile: `gcc MileToKm.c`
-
-To run: `a.out`
-
-`$ gcc DataTypes.c -o DataTypes` is used to compile C program.
-`-o`option specifies name of executable file (default name is `a.out`).
-
-### von Neumann Architecture
-
-RAM ([[Random Access Memory]]) is the memory where programmes and variables are stored.
-
-von Neumann describes the computer consisting of 3 components:
-- Central Procressing Unit (CPU)
-	- Registers
-	- A control unit containing an instruction register and program counter
-	- An arithmetic/logic unit (ALU)
-- Memory
-	- Stores both program and data in [[Random Access Memory|RAM]]
-- I/O devices (Input/Output)
-  
-![[Pasted image 20220808121724.png]]
-
-### Variables
-
-Data used in a program are stored in variables
-
-Every variable has a **name**, **data type** and contains a **value** which could be modified.
-
-Each variable also has an **address**.
-
-Without initialization, the variable contains an **unknown value** (Cannot assumed to be zero!).
-
-```C
-int main(void) {
-	int count;
-	count = count + 1 // error
-	return count;
-}
-```
-
-### Data Type
-
-- Basic data types in C: (no `boolean`  and `string`!)
-	- `int`: 4 bytes - 32 bits
-	- `float`: 4 bytes
-	-  `double`: 8 bytes (better precision, but slower execution, more memory used)
-	- `char`: 1 byte.
-		- 8-bit integer used to store a single character in ''
-		- Each char is mapped to a number in ASCII table.
-
-```C
-// this program checks the memory size of each of the basic data types - in BYTES
-#include <stdio.h>
-
-int main(void) {
-	printf("Size of int (in bytes): %d\n", sizeof(int)); // 4
-	printf("Size of float (in bytes): %d\n", sizeof(float)); // 8
-	return 0;
-}
-```
-
-- Basic principle in C: **Everything is a number.**
-
-- A programming language can be either *strongly typed* or *weakly typed*.
-	- *Strongly typed*: every variable to be declared with a data type. (C, Java, Pascal)
-	- *Weakly typed*: the type depends on how the variable is used. (Python, Javascript)
-
-- Variables in C can be typecasted: `int y = (int) 1.1 // y = 1`
-
-### Program Structure
-- A basic C program has 4 main parts:
-	- Prepocessor directives
-		- `#include <stdio.h>`
-		- `#include <math.h>`
-		- `#define PI 3.142`
-	- Input: through stdin (using `scanf`) or file input.
-	- Compute: through arithmetic operations and assignment statements.
-	- Output: through stdout (using `printf`) or file output.
-
-### Preprocessor Directives
-- The C preprocessor provides the following:
-	- Inclusions of header files
-	- Macro expansions
-	- Conditional compilation
-- *Inclusion of header files:*
-	- `#include <stdio.h>` allows us to use input/output functions like scanf() and printf()
-	- `#include <math.h>` to use mathematical functions (need to compile with `-lm` option, else compilation error).
-	- `#include <string.h>` for string functions.
-- *Macro expansions*
-	- One of the uses is to define a macro for a constant value
-	- Eg: `#define PI 3.142 // declare a constant`
-
-```C
-#define PI 3.142
-
-int main(void) {
-	...
-	areaCircle = PI * radius * radius; 
-	// preprocessor replaced all instances of PI with 3.142 
-	// before passing the program to the compiler
-}
-```
-
-**DO NOT** put semicolon `;` at the end of `#define PI 3.142;` because C will replace all instances of PI as `3.142;` 
-
-### Input/Output
-```C
-int age;
-double cap;
-printf("What is ur age? ");
-scanf("%d", &age); 
-// %d is for integer
-// &age is for the address of the variable
-
-printf("Whats ur cap? ");
-scanf("%lf", &cap);
-
-printf("You are %d years old, ur cap is %f\n", age, cap);
-
-// another way to obtain input
-scanf("%d %lf", &age, &cap);
-```
-- `age` refers to the value in the variable age
-- `&age` refers to the address of the memory cell where the value of age is stored. (**Only used for scanf**)
-- `%d` is an example of *format specifiers*. They are placeholders for values to be displayed or read.
-  
-  ![[Pasted image 20220809012222.png]]
-
-- You can specify the width of output in `printf()`:
-	- `%5d`to display an integer with width of 5, right justified
-		- eg: 123 →`_ _ 1 2 3`
-		- `%8.3f` to display a real number in the width of 8, with 3 dp
-
-- Example of  `escape sequence`:
-![[Pasted image 20220809012530.png]]
-
-```C
-printf("hello "world"") // will give an error
-printf("hello \"world"\") // will give double quote
-printf("%5%") // will give 5% ???
-```
-
----
-
 

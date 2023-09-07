@@ -2,11 +2,10 @@ Date: Jun 3, 2022
 Course: [[Web Development]] - [[Introduction to Databases]]
 - - -
 ## Introduction
+
 MongoDB is a NoSQL **document-oriented** database system. It is designed to handle unstructured or semi-structured data, and provides a flexible data model that allows developers to store and retrieve data in a way that best suits their needs.
 
 In MongoDB, data is stored as documents, which are similar to [[JSON]] objects. Each document can have its own unique schema, and can contain nested data structures, arrays, and other complex data types. This makes it easy to store and retrieve data in a way that is natural and intuitive for developers.
-
-MongoDB also provides a number of features that make it well-suited for modern web applications, such as automatic sharding and replication, which allow for high scalability and availability.
 
 ## CRUD Commands
 

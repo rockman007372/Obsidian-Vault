@@ -20,7 +20,7 @@ Using reasonable guess, which subsets of attributes are **superkeys** of relat
 **Answer:**
 
 {userID} = key = superkey
-{password} = key
+~~{password} = key~~  *you should never make password key*
 {email, password} = superkey 
 
-Using a password, you can uniquely identify the email associated with it.
+Using a userID, you can uniquely identify the email and password associated with it.

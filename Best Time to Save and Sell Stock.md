@@ -1,10 +1,16 @@
-2022-06-05 16:44
-Tags: [[LeetCode]] 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Best Time to Save and Sell Stock
-#easy 
+---
+tags: LeetCode, leetcode
+topics: 
+difficulty:
+performance:
+date: 2022-07-24 Sunday
+---
+---
+Link: [[LeetCode]]
 
-### Question
+
+## Question
+
 You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day.
 
 You want to maximize your profit by choosing a **single day** to buy one stock and choosing a **different day in the future** to sell that stock.
@@ -24,9 +30,12 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 **Output:** 0
 **Explanation:** In this case, no transactions are done and the max profit = 0.
 
-### Main Points
-##### O(N) Space solution using [[Maximum Sum Subarray]] 
+## Main Points
+
+### O(N) Space solution 
+
 Idea:
+- Make use of [[Maximum Sum Subarray]] 
 - Create another array containing the difference btw adjacent elements.
 - Find maximum subarray sum -> largest difference
 
@@ -34,46 +43,27 @@ Idea:
 > `Difference = [-6, 4, -2, 3, -2]`
 > `Max Subarray sum = 4 + -2 + 3 = 5 = greatest difference btw 1 and 6`
 
-##### Optimal O(1) Space 
+### Optimal O(1) Space 
+
 + Maintain 2 variable: minPrice and maxDifference
 + Time: O(n)
 + Space: O(1)
 + Very similar to [[Kadane's Algorithm]], in which we move along the array until we find a more suitable starting point
 
-``` Java 
-class Solution {
-    public int maxProfit(int[] prices) {
-        int minPrice = prices[0];
-        int maxDifference = 0;
-        for (int i = 0; i < prices.length; i++) {
-            // start from the next minimum price 
-            if (prices[i] < minPrice) {
-                minPrice = prices[i];
-            }
-            
-            // else, we find the max profit so far
-            if (prices[i] - minPrice > maxDifference) {
-                maxDifference = prices[i] - minPrice;
-            }
-        }
-        
-        return maxDifference;
-    }
-}
-```
+```python
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        # keep track of min element so far
+        # keep track of max difference so far
+        if not prices:
+            return 0
 
-More resemblance to Kadane's:
-```Java
-    public int maxProfit(int[] prices) {
-        if(prices == null || prices.length == 0){
-            return 0;
-        }
-        int profit = 0;
-        int buy = prices[0];
-        for(int i=1; i<prices.length; i++){
-            buy = Math.min(buy,prices[i]);
-            profit = Math.max(profit,prices[i]-buy);
-        }
-        return profit;
-    }
+        minPrice = prices[0]
+        maxDiff = 0
+        for i in range(1, len(prices)):
+            curr = prices[i]
+            maxDiff = max(maxDiff, curr - minPrice)
+            minPrice = min(minPrice, curr)
+
+        return maxDiff
 ```

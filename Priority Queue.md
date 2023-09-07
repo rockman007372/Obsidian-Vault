@@ -12,9 +12,17 @@ PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
 // max heap
 PriorityQueue<Integer> maxHeap = 
 	new PriorityQueue<>(Comparator.reverseOrder()); 
+
+// methods
+minHeap.offer(1);
+minHeap.poll();
+minHeap.peek();
+
 ```
 
 #### Python
+
+Python only supports min heap via `heapq` module.
 
 ```python
 # importing "heapq" to implement heap queue

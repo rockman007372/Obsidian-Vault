@@ -1,5 +1,5 @@
 ---
-tags: 
+tags: JS
 aliases: 
 date: 2023-05-20 Saturday
 ---

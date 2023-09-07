@@ -64,7 +64,34 @@ class Solution {
         return buckets;
     }
 }
+```
 
+```python
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        n = len(nums)
+
+        # create freq hash
+        freq = defaultdict(lambda: 0)
+        for num in nums:
+            freq[num] += 1
+        
+        # bucket sort: 
+        # idea: frequency <= n 
+        buckets = [[] for _ in range(n + 1)]  
+        for num in freq:
+            index = freq[num]
+            buckets[index].append(num)
+        
+        # get the first k elements
+        res = []
+        for bucket in reversed(buckets):
+            for num in bucket:
+                res.append(num)
+                k -= 1
+                if k == 0:
+                    return res
+        return res
 ```
 
 ### Heap 

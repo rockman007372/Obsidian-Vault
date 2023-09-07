@@ -8,14 +8,11 @@ Week: [[{{date:YYYY}}-W{{date:WW}}]]
 
 ## Habits
 
-**Sleep**::
-**Breakfast**::
-**Study**:: 
-**Exercise**:: 
-**Reflection**:: 
-**Pullups**::
-**News**::
-
+- Sleep:: 
+- Breakfast:: 
+- Pull-ups:: 
+- Study:: 
+- Basketball-practice:: 
 ## Interesting News Today
 
 ```dataview

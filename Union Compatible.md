@@ -1,4 +1,3 @@
-## Union Compatibility
 
 >[!Definition]
 > Two relation R and S are union-compatible if it satisfies both of the following:

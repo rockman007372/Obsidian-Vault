@@ -65,7 +65,7 @@ Global Hello
 
 This time we can access the message variable from outside of the `greet()` function.
 
-However, we can only access but **cannot** modify a global variable from within a function:
+**However, we can only access but cannot modify a global variable from within a function:**
 
 ```python
 # global variable
@@ -116,7 +116,7 @@ The basic rules for `global` keyword in Python are:
 
 ## Python Nonlocal Variables
 
-In Python, nonlocal variables are used in nested functions whose local scope is not defined. This means that the variable can be neither in the local nor the global scope.
+In Python, nonlocal variables are used in **nested functions** whose local scope is not defined. This means that the variable can be neither in the local nor the global scope.
 
 We use the `nonlocal` keyword to create nonlocal variables.For example,
 

@@ -9,11 +9,17 @@ Note:
 Example:
 
 ```sql
--- Find all restaurants that sells any pizza cheaper than any pizza sold by Lorenzo Tavern (also possible, sells any pizza cheaper than the most expensive pizza sold by Lorenzo Tavern).
+-- Find all restaurants that sells any pizza cheaper than any pizza sold by Lorenzo Tavern 
 
 SELECT DISTINCT rname
 FROM   Sells
 WHERE  price < ANY (SELECT price
 					FROM   Sells
 					WHERE  rname = 'Lorenzo Tavern');
+
+-- Alternatively, find restaurants that sell any pizza cheaper than the most expensive pizza sold by Lorenzo Tavern.
+
+SELECT DISTINCT rname
+FROM Sells
+WHERE price < (SELECT MAX(price) FROM Sells WHERE rname = 'Lorenzo Tavern')
 ```

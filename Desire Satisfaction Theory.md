@@ -1,0 +1,8 @@
+- Definition:
+	- your desires being satisfied is the only thing that’s intrinsically good for you
+	- your desires being frustrated is the only thing that’s intrinsically bad for you
+- Attractions:
+	- Explain why we do not want to plug into the experience machine ("in the experience machine, many of our desires are not actually satisfied. We just think that those desires are satisfied")
+	- allow different ways to live life (some people may not desire pleasure)
+- Objections:
+	- DST cannot distinguish btw good and bad desires. Desire satisfaction = intrinsically good.

@@ -2,6 +2,8 @@
 Tags: [[Data Structure and Algorithm]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
 
+See also: [[Bisect function in Python]]
+
 ## Template 1
 
 Most common and straightforward template:
@@ -39,10 +41,11 @@ def binarySearch(nums, target):
 **Key attributes:**
 -   Search Condition can be determined without comparing to the element's neighbors (or use specific elements around it)
 -   No post-processing required because at each step, you are checking to see if the element has been found. If you reach the end, then you know the element is not found
+- ! Problem: cannot determine what `left` and `right` would return by the end of bs. 
 
-## Template 2 (CS2040S)
+## Template 2 
 
-### Search
+Template given in CS2040S:
 
 ```Java
 public int binarySearch(int[] nums, target) {
@@ -51,9 +54,9 @@ public int binarySearch(int[] nums, target) {
 	while (lo < hi) {
 		int mid = lo + (hi - lo) / 2;
 		if (nums[mid] >= target) {
-			hi = mid; // mid could be the answer
+			hi = mid;
 		} else {
-			lo = mid + 1;
+			lo = mid + 1; // mid cannot be the answer
 		}
 	}
 	return nums[lo] == target ? lo : -1;
@@ -69,6 +72,8 @@ public int binarySearch(int[] nums, target) {
 **Key attributes:**
 -   Guarantees Search Space is at least 2 in size at each step
 -   Post-processing required. Loop/Recursion ends when you have 1 element left. Need to assess if the remaining element meets the condition.
+- !  `lo` gives you the index of the leftmost element that matches `target` in the case of duplication. 
+- Specifically, `lo` gives you the index of the smallest element that is `>= target`, or the number of elements `< target`
 
 ### Generalised
 
@@ -157,4 +162,4 @@ def binarySearch(nums, target):
 
 **Key attributes:**
 -   Gurantees Search Space is at least 3 in size at each step
--   Post-processing required. Loop/Recursion ends when you have 2 elements left. Need to assess if the remaining elements meet the condition.
+-   Post-processing required. **Loop ends when you have 2 elements left**. Need to assess if the remaining elements meet the condition.

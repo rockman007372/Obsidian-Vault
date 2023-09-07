@@ -9,9 +9,9 @@ ALTER TABLE <table_name>
 ```
 
 Common modifications:
-- Adding / dropping columns
-- Adding / dropping constraints
-- Changing the specification (data type/ default values...) of a single column.
+- Adding / dropping **columns**
+- Adding / dropping **constraints**
+- Changing the **specification** (data type/ default values...) of a single column.
 
 ##### Adding / Dropping Columns
 
@@ -28,8 +28,8 @@ ALTER TABLE Projects
 
 ```sql
 ALTER TABLE Teams 
-	ADD CONSTRAINT
-	eid_fkey FOREIGN KEY (eid) REFERENCES Employees (id);
+	ADD CONSTRAINT eid_fkey 
+	FOREIGN KEY (eid) REFERENCES Employees (id);
 
 ALTER TABLE Teams 
 	DROP CONSTRAINT eid_fkey;

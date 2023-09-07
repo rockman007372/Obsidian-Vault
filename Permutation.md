@@ -13,11 +13,11 @@ Eg: Number of ways to rearrage 1, 2, 3 into distinct numbers = 3! = $3 * 2 * 1$ 
 
 ## Permutation formula
 
-${}^{n} P _{k} = \frac{n!}{(n-k)!} = n(n - 1)(n - 2)...(n - k + 1)$
+$${}^{n} P _{k} = \frac{n!}{(n-k)!} = n(n - 1)(n - 2)...(n - k + 1)$$
 
 Special case: When k = n, ${}^{n} P _{k} = n!$ (number of ways to arrange n objects in order)
 
-${}^{n} P _{k} = {k! * {{n}\choose{k}}}$
+$${}^{n} P _{k} = {k! * {{n}\choose{k}}}$$
 
 --- 
 For LeetCode question: [[Permutation (Leet)]]

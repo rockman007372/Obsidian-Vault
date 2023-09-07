@@ -1,6 +1,6 @@
 ---
-tags: toProcess
-course: UTS2100
+tags: processed
+course: UTC2105
 type: seminar
 date: 2023-03-23 Thursday
 ---

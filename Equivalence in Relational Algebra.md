@@ -1,4 +1,3 @@
-## Equivalence
 
 Motivation: Different query trees can produce the same relational output.
 

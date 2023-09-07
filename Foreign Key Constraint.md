@@ -41,7 +41,7 @@ CREATE TABLE Projects (
 ```
 
 Note:
-- Since each relation can only have one primary key, you can just reference the relation without specifying the primary key!
+- Since each relation can only have one primary key, ~~you can just reference the relation without specifying the primary key!~~ False
 	- In reality, a foreign key can reference any candidate key and not just primary key. Hence it's good practice to specify which attributes are being referenced.
 - As long as there is at least one NULL value, foreign key constraint is satisfied.
 
@@ -61,9 +61,11 @@ CREATE TABLE Teams (
   hours  INT,
   PRIMARY KEY (eid, pname),
   FOREIGN KEY (eid) REFERENCES Employees (id) 
-	  ON DELETE NO ACTION ON UPDATE CASCADE,
+	  ON DELETE NO ACTION 
+	  ON UPDATE CASCADE,
   FOREIGN KEY (pname) REFERENCES Projects (name) 
-	  ON DELETE SET DEFAULT ON UPDATE CASCADE
+	  ON DELETE SET DEFAULT 
+	  ON UPDATE CASCADE
 );
 ```
 

@@ -5,7 +5,6 @@ date: 2022-07-24 Sunday
 ---
 Links: [[Data Structure and Algorithm]]
 - - -
-# Armotized Analysis
 ### Main Points
 Amortized analysis gives the average performance (over time) of each operation in the worst case. 
 

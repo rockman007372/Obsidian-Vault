@@ -7,7 +7,7 @@ The network edge is responsible for connecting end-users to the network and prov
 
 ## Network Core
 
-On the other hand, the network core refers to the part of the network that provides high-speed connectivity between different parts of the network, such as data centers, **servers**, and backbone networks.
+On the other hand, the network core refers to the part of the network that **provides high-speed connectivity between different parts of the network**, such as data centers, **servers**, and backbone networks.
 
 It typically includes high-speed **routers**, **switches**, and other networking devices that connect different parts of the network and ensure fast and reliable data transmission. 
 

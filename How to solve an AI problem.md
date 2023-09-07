@@ -2,19 +2,16 @@
 tags: processed
 course: CS2109S
 type:  lecture
+date: 2022-08-20 Saturday
 ---
-Date:: 2022-08-20 Saturday
 Links: [[CS2109S]]
 - - -
-## Notes
-Better [note](https://github.com/vivin/cse598/blob/master/mt1/AI_midterm_notes.md) than mine.
 
-### Introduction
-#### Goals:
+## Goals
 - How to take a problem and frame it as a search problems
 - Understand properties and see which search to apply
 
-#### Romania example:
+#### Romania example
 - On holiday in Romania, currently in Arad.
 - Flight leaves tmr from Bucharest
 - Steps in solving problem:
@@ -24,7 +21,8 @@ Better [note](https://github.com/vivin/cse598/blob/master/mt1/AI_midterm_notes.m
 		- Actions: drive between cities
 	- Find **solution**: Sequences of cities to drive 
 
-### 1. Different problem states
+## Different problem states
+
 - **Single state** problem: Deterministic, fully observable
 	- Agen knows exactly which state will be in, solution is a sequence
 - **Sensorless** problem (Conformant problem): Non-observable
@@ -41,7 +39,7 @@ Better [note](https://github.com/vivin/cse598/blob/master/mt1/AI_midterm_notes.m
 	- **Sensorless**: Dont know where is dirty, suck both rooms
 	- **Contingency**: Not deterministic, dont know if machine sucks well → have an if condition: `if dirty: suck, else move to next room`
 
-### 2. Single State Problem Formulation
+## Single State Problem Formulation
 
 A problem is defined by four items:
 1. **Initial state** (at Arad)
@@ -91,7 +89,8 @@ NP-hard problem apparently
 **Goal test:** Complete assembly
 **Path cost:** time to execute a motion?
 
-### 3. Tree Search Algorithm
+## Tree Search Algorithm
+
 Basic idea: Offline, simulated explorations of state space by **generating successors of already explored states**
 
 Difference between Tree Search and Graph Search: Tree Search does **NOT** keep a hash set of visited nodes!

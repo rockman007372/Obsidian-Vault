@@ -4,23 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "2f62384a619853f0",
+        "id": "3a41c2bbae73ae37",
         "type": "tabs",
         "children": [
           {
-            "id": "23e81acc227e87cd",
+            "id": "1dfab67454506e20",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily/2023-09-05 Tuesday.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "7500f03f26cf9024",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode.md",
+                "file": "Blank page.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48b33c427f84ea0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ER Model.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pass by reference",
+                "query": "deferr",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -96,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LeetCode.md",
+                "file": "ER Model.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "LeetCode.md",
+                "file": "ER Model.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:Excalidraw -path:Daily",
@@ -167,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LeetCode.md",
+                "file": "ER Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,19 +208,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LeetCode.md"
+                "file": "ER Model.md"
               }
             }
           },
           {
-            "id": "f17879667226eebb",
+            "id": "471838b845e07acc",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "5a15f5b20c4edac3",
@@ -209,8 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,51 +248,51 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "23e81acc227e87cd",
+  "active": "48b33c427f84ea0d",
   "lastOpenFiles": [
-    "Spanish Subject Pronouns.md",
-    "Data Query Language.md",
-    "SQL Commands.md",
-    "SQL.md",
-    "How is data transmitted in a network.md",
-    "Quick Select.md",
-    "Trie.md",
-    "JavaScript Classes and Prototypes.md",
-    "JavaScript.md",
-    "JavaScript Objects.md",
-    "LeetCode.md",
-    "Top K Frequent Elements.md",
-    "Priority Queue.md",
-    "Heap as an Array.md",
-    "Heap.md",
-    "Heap Sort.md",
-    "How to build a binary heap (Heapify).md",
-    "Implementation of Heap operations.md",
-    "Store Heap as an Array (Binary Heap).md",
-    "Shortest Bridge.md",
-    "Breadth First Search.md",
-    "Attachments/Problem-Solving Agents in AI 2022-08-20 12.50.29.excalidraw.md",
-    "Daily/2023-05-21 Sunday.md",
-    "Evaluate Division.md",
-    "Path Compression.md",
-    "Longest Repeating Character Replacement.md",
-    "Attachments/Pasted image 20220803133410.png",
-    "Attachments/Pasted image 20230518141821.png",
-    "Attachments/Pasted image 20230518141113.png",
-    "Attachments/Pasted image 20230516152238.png",
-    "Attachments/Pasted image 20230427140916.png",
-    "Attachments/Pasted image 20230424183822.png",
-    "Attachments/Pasted image 20230425144346.png",
-    "Attachments/Pasted image 20230425143623.png",
-    "Attachments/Pasted image 20230425143454.png",
-    "Attachments/Pasted image 20230425143402.png",
+    "CS2102.md",
+    "Daily/2023-09-05 Tuesday.md",
+    "ER Model.md",
+    "Aggregation in ER model.md",
+    "ISA Hierarchies in ER model.md",
+    "Relationship Constraints.md",
+    "Entity Relationship.md",
+    "Attachments/Pasted image 20230213124436.png",
+    "Relational Mappings From ER to Schema.md",
+    "CS3230 Lecture 4 - Greedy Algorithms.md",
+    "Blank page.md",
+    "CS2106 Lecture 3 - Scheduling.md",
+    "CS2106 Lecture 2b - Process Abstraction in Unix.md",
+    "Daily/2023-09-06 Wednesday.md",
+    "CS3230 Lecture 2 - Order of Growth.md",
+    "GEX1015 Lecture 2 - Wellbeing Theory.md",
+    "CS2102 TA meeting.md",
+    "GEX1015 Lecture 3 - Morality Theories.md",
+    "Objective List Theory.md",
+    "Desire Satisfaction Theory.md",
+    "Hedonism.md",
+    "Famine, Affluence, and Morality.md",
+    "Video Games.md",
+    "Minimum Rounds To Complete All Tasks.md",
+    "Course Schedule.md",
+    "Non-Overlapping Intervals.md",
+    "Attachments/Pasted image 20230905104422.png",
+    "Merge Intervals.md",
+    "Attachments/Pasted image 20230903205517.png",
+    "Attachments/Pasted image 20230903174511.png",
+    "Attachments/Pasted image 20230903173101.png",
+    "Attachments/Pasted image 20230903173232.png",
+    "Attachments/Pasted image 20230903172507.png",
+    "Attachments/Pasted image 20230903101738.png",
+    "Attachments/Pasted image 20230830154248.png",
+    "Attachments/Pasted image 20230827100453.png",
     "Spanish Canvas.canvas",
     "CS2103T tp.canvas",
     "PL",

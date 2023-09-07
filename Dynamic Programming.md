@@ -1,19 +1,26 @@
-2022-06-05 16:29
-Tags: [[Data Structure and Algorithm]]  
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
+---
+tags: algorirthm
+aliases: dp
+date: 2022-07-24 Sunday
+---
+Links: [[Data Structure and Algorithm]]
+- - -
+
 ## When to use
 1. Count sth, often the number of ways (Alternatively, use Combinatorics)
 2. Minimize/maximize (look for Greedy solution if possible)
 3. Yes/no Questions (Greedy if possible)
 
 ## Techniques
-Can be either iterative (using [[Tabulation]]) or recursive (using [[Memoization]]) 
 
-## Characteristics:
-1. Overlapping substructure property:
+Either iterative (using [[Tabulation]]) or recursive (using [[Memoization]]) 
+
+## Properties
+
+1. **Overlapping substructure** property:
 	+ Use previously calculated results to compute the next result
 	+ Can be implemented using [[Memoization]] or [[Tabulation]] technique 
-2. Optimal substructure property:
+2. **Optimal substructure** property:
 	+ Guarantee an optimal solution to a subproblem can be reused to help you find the optimal solution to a larger problem
 
 ## Framework

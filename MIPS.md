@@ -2,14 +2,13 @@
 tags: processed
 course: CS2100
 type: lecture
+date: 2022-09-01 Thursday
 ---
-Date:: 2022-09-01 Thursday
-Links: [[CS2100]]
-- - -
-# MIPS
+
 Higher-lever language written by programmer → Translated by Compiler into machine language → Translated by Assembler into machine code
 
 ## Components in Computer
+
 - 2 major components:
 	- Processor: perform computations, containing **registers** which are temporary memory
 	- Memory: Storage of code and data
@@ -18,29 +17,23 @@ Higher-lever language written by programmer → Translated by Compiler into mach
 - Load-store model: Data are transferred into memory and **stored in register** to save time during computation, and **loaded back into memory** as computed results.
 
 ## General Purpose Registers
+
 - Purpose: Faster computation in processor
 - Limited in numbers - typical architecture has 16 to **32 registers**
 - Compiler associates variables with registers
 - Registers have no **data type** → Weakly typed → Assembly relies on instructions to interpret types
 - `$s0 to $s7`: Program variables 
-- `t0 to t7`: Temporary variables
+- `$t0 to $t7`: Temporary variables
 
 ![[Pasted image 20220904101434.png]]
 
-## MIPS Basic Instruction
-![[MIPS Basic Instructions]]
+## MIPS topics
 
-## Memory Organisation in MIPS
-![[Memory Organization In MIPS]]
-
-## Control Flow in MIPS
-![[Control Flow In MIPS]]
-
-## Instruction Format in MIPS
-![[Instruction Format in MIPS]]
-
-## Instruction Set Architecture
-![[Instruction Set Architecture]]
+1. [[MIPS Basic Instructions]]
+2. [[Memory Organization In MIPS]]
+3. [[Control Flow In MIPS]]
+4. [[Instruction Format in MIPS]]
+5. [[Instruction Set Architecture]]
 
 ## Summary
 ##### Arthimatic and Logical Operations

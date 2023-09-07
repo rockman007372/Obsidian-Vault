@@ -22,7 +22,7 @@ SELECT COUNT(A) FROM R; -- Count of non-NULL values in column A
 SELECT COUNT(*) FROM R; -- Count of ALL rows in column A
 ```
 
-You can apply functions over **distinct values**. Take note that `IS DISTINCT` operation is used to check (Eg. NULL IS DISTINCT FROM NULL == FALSE)
+You can apply functions over **distinct values**. Take note that `IS DISTINCT` operation is used to check (Eg. `NULL IS DISTINCT FROM NULL == FALSE`)
 
 ```sql
 SELECT AVG(DISTINCT A) FROM R;

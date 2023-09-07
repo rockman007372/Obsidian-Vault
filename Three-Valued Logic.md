@@ -12,7 +12,13 @@ Consist of True, False, NULL.
 
 - Any relational/arithmetic operation with NULL produces NULL values:
 
-![[Pasted image 20230201174122.png]]
+```sql
+NULL < 2023
+NULL >= 0
+id = NULL
+id <> NULL
+-- these all produce NULL values
+```
 
 - We add operators to treat NULL as values: `IS DISTINCT FROM`
 

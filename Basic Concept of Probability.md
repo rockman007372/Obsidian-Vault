@@ -119,5 +119,6 @@ Example: [[Monty-Hall Problem]]
 Remember that A and A' are partitions of S, meaning they are **mutually exclusive** events. 
 
 ## Slide
+
 ![[ST2334_Chapter_1_Slides.pdf]]
 
