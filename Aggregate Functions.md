@@ -14,10 +14,10 @@ FROM   Sells;
 Usually, aggregate functions do not count NULL values.
 
 ```sql
-SELECT MIN(A) FROM R; -- Minimum non-NULL values in column A
-SELECT MAX(A) FROM R; -- Maximum non-NULL values in column A
-SELECT AVG(A) FROM R; -- Average of non-NULL values in column A
-SELECT SUM(A) FROM R; -- Sum of non-NULL values in column A
+SELECT MIN(A) FROM R;   -- Minimum non-NULL values in column A
+SELECT MAX(A) FROM R;   -- Maximum non-NULL values in column A
+SELECT AVG(A) FROM R;   -- Average of non-NULL values in column A
+SELECT SUM(A) FROM R;   -- Sum of non-NULL values in column A
 SELECT COUNT(A) FROM R; -- Count of non-NULL values in column A
 SELECT COUNT(*) FROM R; -- Count of ALL rows in column A
 ```

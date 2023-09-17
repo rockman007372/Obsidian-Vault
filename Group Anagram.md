@@ -18,6 +18,8 @@ An **Anagram** is a word or phrase formed by rearranging the letters of a diff
 - Time: O(NK), where N is the number of strings and K is the length of the longest string (in order the build the count)
 - Space: O(NK), the size of ans?
 
+##### Java
+
 ``` Java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
@@ -30,6 +32,7 @@ class Solution {
             for (int i = 0; i < s.length(); i++) {
                 count[s.charAt(i) - 'a']++; 
             }
+            
             StringBuilder sb = new StringBuilder("");
             for (int i = 0; i < count.length; i++) {
                 sb.append(count[i]);
@@ -47,7 +50,10 @@ class Solution {
 }
 ```
 
+Learning points:
 + To create ArrayList from Collection: `new ArrayList<>(Collection)`
+
+##### Python
 
 ```Python
 class Solution:

@@ -18,5 +18,9 @@ Extended notations:
 
 ## Summary
 
+
+## ques
+- capture order in er dia
+- 
 ---
 Links: [[CS2102]]

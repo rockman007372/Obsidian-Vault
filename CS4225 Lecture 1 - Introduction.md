@@ -16,7 +16,7 @@ Everything as a service:
 
 Data center:
 - Instead of building a super quantum computer, just cluster a bunch of normal comps
-- the data center **is** the computer: think of the machines in the data center as a big **processsing unit** used to sove a problem
+- the data center **is** the computer: think of the machines in the data center as a big **processsing unit** used to solve a problem
 
 ### Bandwidth vs Latency
 
@@ -48,13 +48,4 @@ Trade-offs: **speed vs capacity.** Larger capacity = slower access speed.
 - Scale out, not up (horizontal > vertical scaling): combine more cheapter machines
 - Move processing to the data: Clusters have limited bandwidth => move the task to machine where the data is stored
 - Process data sequentially, avoid random access
-- Seamless scalability
-
-## MapReduce
-
-
-
-
-
----
-Links:
+- Seamless scalability?

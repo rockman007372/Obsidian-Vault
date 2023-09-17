@@ -29,3 +29,8 @@ Problems?
 	- difference between game and machine? we are aware we r in a game
 	- "what is the difference btw real life and the machine?": cannot answer duh
 	- there are things that can only be achieved by living a real life
+
+## Rebuttal against The Experience Machine
+
+- Status quo bias: people are biased to maintain status quo / familiar situation. If the question is rephrased to "would you stay in the experience machine (alr plugged in) or unplug yourself to return to a reality of less pleasure", responses may be different
+- People **wrongly** believe there are other intrinsic goods besides pleasure, hence this belief grant them pleasure??

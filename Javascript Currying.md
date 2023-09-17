@@ -28,7 +28,7 @@ console.log(curriedSum(1, 2, 3)); // Output: 6
 console.log(curriedSum()()(1, 2, 3)); // Output: 6
 ```
 
-Currying in JavaScript has several practical applications that can help improve code readability, maintainability, and reusability. Here are some practical use cases of currying:
+## Use cases
 
 1. Reusable utility functions: Currying can help create reusable utility functions that can be easily customized for specific use cases. Currying allows you to create a function that returns another function with a partially applied argument. 
 

@@ -1,58 +1,26 @@
 ---
-tags: toProcess
-course: 
-type:
+tags:
+  - toProcess
+course: CS3230
+type: lecture
 date: 2023-09-05 Tuesday
 ---
-### Interval Schedule
+## Examples of greedy algorithm solutions
 
->[!question]
-> Given list of intervals, find the subset with largest number of non-overlapping intervals.
-
-- Related leetcode equivalent: [[Non-Overlapping Intervals]] and [[Merge Intervals]]
-- iterate throught some greedy template/heuristics:
-	- Sort by start time
-	- ! Sort by finish time (only this work)
-	- Sort by interval length 
-	- Sort by no.conflicts
-- Use contradiction to prove our solution is optimal
-### Interval Partitioning
-
->[!question]
-> Find the minimum number of classrooms to schedule all lectures so that so lecture overlap in the same room at the same time.
-
-- depth = max number of overlapping lessons
-- key observation: ??
-- Algorithm:
-
-```
-sort by start time of lecture
-pq = {}
-iterate through the lectures:
-	if there is a room avail:
-		assign lecture to room
-	else:
-		add another room to PQ and assign lecture to it
-```
-
-- did not understand this
-
-### Scheduling to Minimize Lateness
-
-- Explore some strategies:
-	- earliest deadline first
-	- ...
-	- ...
-- Come up with some common heuristic and find counter-example if possible
-- Then analyse algo using proof by contradiction.
-- Prove by **structural bound**
-
-### Optimal Caching
+- [[Interval Scheduling]]
+- [[Interval Partitioning]]
+- [[Scheduling to Minimize Lateness]]
+- [[Optimal Caching]]
+- [[Dijkstra's Algorithm]]
 
 
+## Strategy to find greedy solution
+
+1. Consider all heuristics or greedy template
+2. Find counter-examples to disprove heuristics
+3. If cannot find, we prove the greedy solution to be optimal
+	1. Assuming S' is the optimal solution
+	2. We prove that S' cant do better than S.
 
 
-## Summary
-
-## Questions/Cues
 

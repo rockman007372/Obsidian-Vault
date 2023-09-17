@@ -7,10 +7,10 @@ Links: [[00. HOME]]
 
 ## Current games
 
-- [ ] CP2077
+- [x] CP2077
 - [ ] deus ex
-- [ ] Firewatch
-- [ ] Stasis
+- [x] Firewatch
+- [x] Stasis
 - [ ] Windwaker
 - [ ] OOT
 - [ ] Majora Mask

@@ -18,5 +18,9 @@
 ![[Pasted image 20230123164446.png]]
 
 - The dangle tuples are those where employees' names do not match ename.
-- In those tuples, the ename will be assigned NULL.
+- In those tuples, the **ename** (right attribute) will be assigned NULL.
 - ! Pay attention to which relation comes first.
+
+
+
+

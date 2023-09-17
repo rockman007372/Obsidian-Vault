@@ -1,0 +1,10 @@
+- Give out "lottery tickets" to processes for resources (cpu time, i/o device)
+- When a scheduling decision is needed, a lottery ticket is chosen randomly among eligible tickets => winner takes resource
+- In the long run, a process can hold X% of the total ticket. Hence they can use the resource X% of the time.
+- Goods:
+	- Responsive: new process can immediate participate in lottery
+	- Good level of control of process's resource usage:
+		- important processes given more tickets
+		- process can distribute tickets to child process
+		- each resource has its own set of tickets, hence different proportion of resource usage
+	- Simple to implement

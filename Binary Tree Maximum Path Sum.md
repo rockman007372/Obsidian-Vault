@@ -1,5 +1,13 @@
-2022-06-05 16:44
-Tags: [[LeetCode]] - [[Binary Tree]] - [[Recursion]]
+---
+tags:
+  - LeetCode
+  - leetcode
+topics: binaryTree
+difficulty: hard
+performance: uncomplete
+date: 2022-07-24 Sunday
+---
+Tags: [[Binary Tree]] 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
 ### Questions
 Input: Binary Tree

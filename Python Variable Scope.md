@@ -3,9 +3,6 @@ tags: Python
 aliases: 
 date: 2023-01-11 Wednesday
 ---
-
-## Main Points
-
 Based on the scope, we can classify Python variables into three types:
 
 1.  Local Variables
@@ -109,10 +106,10 @@ add()
 
 The basic rules for `global` keyword in Python are:
 
--   When we create a variable inside a function, it is local by default.
--   When we define a variable outside of a function, it is global by default. You don't have to use the `global` keyword.
--   We use the `global` keyword to read and write a global variable inside a function.
--   Use of the `global` keyword outside a function has no effect.
+- When we create a variable inside a function, it is local by default.
+- When we define a variable outside of a function, it is global by default. You don't have to use the `global` keyword.
+- ! We use the `global` keyword to read and write a global variable inside a function.
+- Use of the `global` keyword outside a function has no effect.
 
 ## Python Nonlocal Variables
 

@@ -168,14 +168,6 @@
   "editor:open-link-in-new-window": [],
   "editor:save-file": [],
   "editor:set-heading-1": [],
-  "workspace:previous-tab": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "Tab"
-    }
-  ],
   "editor:focus-bottom": [
     {
       "modifiers": [

@@ -21,8 +21,8 @@ date: 2023-08-29 Tuesday
 		- identify all edges takes O(m + n)
 		- why m + n? check each node once and **each edge at most twice**
 - paths and connectivity
-	- a path is a sequece of consecutive nodes connected by edges
-	- a simple path: no repeated nodes
+	- a path is a sequence of consecutive nodes connected by edges
+	- a simple path: no repeated nodes (all **distinct** nodes)
 	- graph is connected = there is a path btw every 2 nodes
 - cycle: same start and end node, else no repeated nodes
 - tree: connected undirected graph with no cycle
@@ -33,7 +33,7 @@ date: 2023-08-29 Tuesday
 - rooted tree
 - [[Breadth First Search]]
 	- Property: the level of x and y differ by at most 1 where (x, y) is an edge of G
-		- prove by contradiction
+		- prove by contradiction??
 	- BFS forms a tree
 	- runtime: O(m + n) if graph is adj list. 
 - Connected components
@@ -42,16 +42,13 @@ date: 2023-08-29 Tuesday
 
 >[!question]
 > Let G be a graph on n nodes where n is even. Suppose every node in the graph has degree at least n/2. Then G is connected. True or false? Why?
-> 
-> Answer:
+
+> [!Answer]
 > - Yes
 > - Assumes G is not connected, there are at least 2 separated components c1 and c2
 > - Every node has degree of at least n/2, hence a node in c1 is connected to at least n/2 other nodes. Hence there are at least n/2 + 1 nodes in c1
 > - Similary there are at least n/2 + 1 nodes in c2
 > - In total, there are at least n + 2 nodes, which contradicts G having n nodes.
-
-
-
 
 - [[Bipartite Graph]]: every edge has one red and one blue end
 	- not obvious from drawing!

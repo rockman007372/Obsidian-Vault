@@ -6,7 +6,7 @@ WHERE <conditions> -- Based on principle of acceptance
 ```
 
 >[!Principle of Acceptance]
->Perform the operation if the condition evaluates to **True**. Used in WHERE clause (and relational algebra)
+>Perform the operation if the condition evaluates to **True**. 
 
 ## SQL to Relational Algebra
 
@@ -31,8 +31,7 @@ Only remove duplicated rows if `DISTINCT` is specified.
 - Remove duplicated rows
 
 ```sql
-SELECT rname, pizza,
-       'S$' || (price * 1.36) AS sgd -- rename and string concatenation
+SELECT rname, pizza, 'S$' || (price * 1.36) AS sgd 
 FROM   Sells;
 
 SELECT DISTINCT pizza -- remove duplicates
@@ -160,4 +159,18 @@ WHERE  L.pizza IS NULL; -- keep only dangling tuples
 SELECT cname FROM Customers
 EXCEPT
 SELECT DISTINCT cname FROM Likes
+```
+
+
+```sql
+SELECT *
+FROM student s, department d 
+WHERE s.department = d.department
+```
+
+
+```sql
+SELECT *
+FROM student s LEFT OUTER JOIN department d 
+	ON s.department = d.department
 ```

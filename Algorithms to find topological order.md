@@ -19,6 +19,7 @@ Check [[Course Schedule]] and [[Alien Dictionary]] for implementation.
 3. Add all nodes with zero incoming edges to S
 4. While S is not empty:
      u = S.remove;
+     append u to L
 	 for each neighbor v of u:
 	   remove edge (u, v)
 	   if v has no incoming edges: add v to S

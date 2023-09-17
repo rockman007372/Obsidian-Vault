@@ -4,6 +4,17 @@ course: CS2102
 type: meeting
 date: 2023-08-17 Thursday
 ---
+## People missing
+
+### 31 Aug
+chee teng
+
+
+### 7 Sep
+bai zhou
+yong ning
+shaun
+
 ## Meeting minutes
 
 - Attendance compulsory. 1 mark deducted per tut missed. 2 grace tutorials, anymore we deduct.

@@ -102,6 +102,9 @@ int main() {
 
 A **pointer to a function** (function pointer) is a variable that stores the memory address of a function. This allows the function to be called indirectly through the pointer.
 
+>[!attention]
+> Remember to state the type of the argument in the function pointer!
+
 ```c
 int add(int x, int y) {
 	retunr x + y;

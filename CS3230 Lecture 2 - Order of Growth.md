@@ -7,11 +7,14 @@ date: 2023-08-22 Tuesday
 ## Tips
 
 - Log grows slower than polynomial and polynomial grows slower than exponential
-- Apply $x = e^{lg(x)}$ to [compare OOG](https://math.stackexchange.com/questions/1935285/order-of-growth-for-algorithms-n-logn-vs-2n)
+- ! Apply $x = e^{lg(x)}$ to [compare OOG](https://math.stackexchange.com/questions/1935285/order-of-growth-for-algorithms-n-logn-vs-2n)
 - Apply L'Hospital Rule: 
 
 ![[Pasted image 20230903101738.png]]
-
+- Use transitivity, symmetry and additivity to compare OOG:
+	- Transitivity: $$f = \theta (g) \text{ and } g=\theta (h) \Rightarrow f = \theta (h) $$
+	- Symmetry: $$f = \theta (g) \iff g = \theta (f)$$
+	- Additive: $$f = \theta (h) \text{ and } g=\theta (h) \Rightarrow f + g = \theta (h) $$
 ## Content
 ### Word-RAM model
 

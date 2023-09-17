@@ -1,5 +1,5 @@
 ---
-tags: toProcess
+tags: []
 course: CS2106
 type: lecture
 date: 2023-08-30 Wednesday
@@ -188,7 +188,13 @@ Calling exit on a child process turns it into a **zombie process**.
 int wait(int *status)
 ```
 
-Make parent process wait for child process to terminate. It cleans up remainder of the child system resources => kill zombie process.
+Signature:
+- Returns the PID of the terminated child process.
+- Status is a pointer that stores exit status of the terminated child process. Can sometimes retrieve function return values through here.
+
+Usage:
+- Make parent process wait for child process to terminate. It cleans up remainder of the child system resources => kill zombie process.
+
 
 ![[Pasted image 20230830154248.png]]
 

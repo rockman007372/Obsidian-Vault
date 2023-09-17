@@ -1,5 +1,5 @@
 ---
-tags: toProcess
+tags: []
 course: CS2106
 type: lecture
 date: 2023-08-18 Friday

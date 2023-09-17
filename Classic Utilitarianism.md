@@ -1,0 +1,13 @@
+
+- A right action is the action that maximises **total net pleasure or happiness**.
+- Number of people an action benefits does not matter. Only the net pleasure matters.
+- Impartial: everyone's pleasure and pain are equal, regardless of class, gender, race, species....
+	- Implication: It is morrally wrong for Bill Gates to donate to children in the US instead of children in developing countries.
+- ! Demanding: Only the action that maximize total net pleasure is right (all others are wrong)
+	- Morally right = morally required 
+	- Exception: 2 actions maximize the same amount of net pleasure, you can choose btw the 2 (not morally required to pick one, but to pick at least one).
+	- Doesnt care about violating rights, as long as net pleasure increases (even torture is right)
+- Counter-arguments as thought experiments:
+	- torture person vs finding bomb?
+	- shut down soccer games or eletrify?
+	- Rebuttal: there are indirect consequences that can affect net pleasure

@@ -1,14 +1,20 @@
-#leetcode
-2022-06-05 16:44
-Tags: [[LeetCode]] - [[Binary Tree]]
+---
+tags:
+  - LeetCode
+  - leetcode
+topics: binaryTree
+difficulty: medium
+performance: 
+date: 2022-07-24 Sunday
+---
+[[Binary Tree]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
 ### Questions
 Input: Root node of a binary tree
 Output: Diameter of the tree
 Diameter of a graph is the longest length (in the shortest path) between any 2 nodes in the graph.
 
-### Solution
-#### DFS
+### Solution - DFS
 
 Time: O(N)
 Space: O(N)
@@ -54,19 +60,19 @@ class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         global diameter
         diameter = 0
-
+		
+		# update the diameter and return the height != depth of tree
         def helper(root):
             global diameter
             if not root:
                 return 0
-
+                
             left = helper(root.left)
             right = helper(root.right)
             
             diameter = max(diameter, right + left + 1)
             return max(right, left) + 1
-
-
+        
         helper(root)
         return diameter - 1
 ```

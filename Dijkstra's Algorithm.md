@@ -4,9 +4,6 @@ date: 2022-08-03 Wednesday
 ---
 Tags: [[SSSP]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-
-## Overview
-
 A greedy SSSP algorithm in which we only relax each edge once (by following the "right" relax order).
 
 Idea:
@@ -26,7 +23,7 @@ Idea:
 	2. Add this node to S
 	3. Relax all outgoing edges, add and update estimate in PQ
 
-## Illustration
+##### Illustration
 
 ![[Pasted image 20220803222204.png]]
 ![[Pasted image 20220803222221.png]]
@@ -75,7 +72,7 @@ public Dijkstra {
 ##### Time Complexity
 - Each node is extracted from PQ once -> O(V * lgV)
 - Each edge is relaxed once, and each relax call costs O(lgV) -> O(E * lgV)
-- Total: O((E + V) * logV) = O(ElogV) since E = O(V)
+- Total: O((E + V) * logV) = O(ElogV) for V = O(E)  (assume there are more edges than vertices)
 
 ## Why does it work
 

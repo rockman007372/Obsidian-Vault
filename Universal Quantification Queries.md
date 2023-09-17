@@ -17,9 +17,9 @@ In discrete math terms:
 $$
 \begin{align*}
 
-\forall x: Exist(x) \\
-\iff \neg \neg (\forall x: Exist(x)) \\
-\iff \neg (\exists x : \neg Exist(x)) 
+\forall x \in \text{Homer's pizza}: Sell(x) \\
+\iff \neg \neg (\forall x: Sell(x)) \\
+\iff \neg (\exists x : \neg Sell(x)) 
 
 \end{align*}
 $$
@@ -33,9 +33,9 @@ WHERE NOT EXISTS (
 	WHERE L.cname = 'Homer'
 	-- the restaurant does not sell a pizza that Homer likes
 	AND NOT EXISTS (
-		SELECT 1 FROM Sells S
-		WHERE S.pizza = L.pizza
-		AND S.rname = S1.rname
+		SELECT 1 FROM Sells S2
+		WHERE S2.pizza = L.pizza
+		AND S2.rname = S1.rname
 	)
 );
 ```
