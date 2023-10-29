@@ -29,6 +29,5 @@ Eg: [2, 2, 2, 2, 2] -> each partition will only reduce the search by 1 element -
 
 ## Concrete Implementations
 
-[[Lomuto Partition Scheme]]
-
-[[Hoarse Partition Scheme]]
+- [[Lomuto Partition Scheme]]
+- [[Hoarse Partition Scheme]]

@@ -1,4 +1,3 @@
-## File Operations
 
 **The [`java.nio.file.Files`](https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html) is a utility class that provides several useful file operations.** It relies on the [`java.nio.file.Paths`](https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html) file to generate `Path` objects that represent file paths.
 

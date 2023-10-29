@@ -6,5 +6,5 @@ date: 2022-08-28 Sunday
 ---
 Links: [[Application Layer]], [[Transport Layer]]
 - - -
-1. [[Process]]
+1. [[Process (Networking)]]
 2. [[Sockets]]

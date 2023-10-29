@@ -1,5 +1,5 @@
 
-## Monolithic OS
+## Monolithic-kernel
 
 ![[Pasted image 20230820103923.png]]
 
@@ -9,7 +9,7 @@
 - Pros: Well understood and good performance.
 - Cons: Highly coupled components, very complicated internal structure.
 
-## Microkernel OS
+## Micro-kernel
 
 ![[Pasted image 20230820104223.png]]
 

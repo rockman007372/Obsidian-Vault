@@ -1,4 +1,3 @@
-## Comparing revisions
 
 **Git can show you what changed in each commit**
 

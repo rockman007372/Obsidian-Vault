@@ -1,5 +1,5 @@
 >[!reminder]
->In order to apply set operators on 2 relations, they must be [[Union Compatible|union compatible|]]
+>In order to apply set operators on 2 relations, they must be [[Union Compatible|union compatible]]
 
 ## Cross Product
 

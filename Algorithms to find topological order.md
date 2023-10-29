@@ -1,4 +1,4 @@
-Check [[Course Schedule]] and [[Alien Dictionary]] for implementation.
+
 
 ## Post-Order Depth First Search 
 
@@ -28,3 +28,7 @@ Check [[Course Schedule]] and [[Alien Dictionary]] for implementation.
 ```
 
 - If number of edges removed != |E| => There is a **cycle**!
+
+## Implementation
+
+Check [[Course Schedule]] and [[Alien Dictionary]].

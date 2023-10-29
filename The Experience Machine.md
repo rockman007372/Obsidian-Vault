@@ -1,5 +1,7 @@
 ---
-tags: book, article, toProcess
+tags:
+  - book
+  - article
 course: GEX1015
 author: Robert Nozick
 date: 2023-08-25 Friday

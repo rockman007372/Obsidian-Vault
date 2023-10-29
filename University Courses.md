@@ -30,7 +30,8 @@ WHERE year = "Y3" AND semester = "S1"
 
 
 mods to consider:
-
+- CS3223
+- CS3211 (only in sem 2)
 
 
 ---

@@ -5,7 +5,6 @@ type: lecture
 date: 2022-10-19 Wednesday
 ---
 
-## Notes
 
 Linear regression and logistic regression are both machine learning algorithms that are part of **supervised** learning models.
 
@@ -33,7 +32,7 @@ and $h_{w}(x)$ represents the probability that y = 1 on input x.
 **Cost Function:**$$Cost(h_{w}(x), y) = -y*log(h_{w}(x)) - (1 - y)*log(1 -h_{w}(x))$$
 Basically, when $y = 1$, we penalise $h_w(x) = 0$ and vice versa.
 
-**Gradient Descent:** $$w_{n}= w_{n}- \alpha*\frac{ 1}{m}\sum^{m}_{i=1}(h_{w}(x^{(i)})- y^{(i)})*x_{n}^{(i)}$$
+**Gradient Descent:** $$w_{n}:= w_{n}- \alpha*\frac{ 1}{m}\sum^{m}_{i=1}(h_{w}(x^{(i)})- y^{(i)})*x_{n}^{(i)}$$
 Same as gradient descent in [[Linear Regression]]
 
 ### Multi-class Classification
@@ -46,7 +45,6 @@ Same as gradient descent in [[Linear Regression]]
 
 ![[Pasted image 20221117213844.png]]
 
-## Questions/Cues
 
 ---
 Links: [[CS2109S]]

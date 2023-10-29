@@ -1,4 +1,3 @@
-## Separation of Concerns Principle
 
 > [!definition]
 > To achieve better modularity, 

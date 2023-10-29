@@ -1,7 +1,6 @@
 ![[Pasted image 20230911153612.png]]
 
-- Select task with the smallest total CPU time first (order by processing time)
-	- Ordering minimizes average waiting time.
+- Select task with the smallest total CPU time first (order by processing time) => minimizes average waiting time.
 - Starvation is possible: short jobs keep getting added and being executed first.
 - How to guess total CPU time for a task in advance? **Exponential Average**
 #### Exponential Average
@@ -15,3 +14,5 @@ Where:
 
 >[!big idea]
 > What to you value more? The *most recent* CPU time consumed by the task or *the history* of CPU time consumed by the task so far?
+
+![[Pasted image 20230918094410.png]]

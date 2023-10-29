@@ -10,14 +10,10 @@ date: 2022-07-24 Sunday
 
 ## Concepts
 
-1. [[JavaScript Objects]]
-2. [[JavaScript Classes and Prototypes]]
-3. [[JavaScript DOM Manipulation]]
-4. [[Javascript Currying]]
-5. [[JavaScript Event Loop]]
-6. [[JavaScript Promises]]
-7. [[JavaScript Regex]]
-
+```dataview
+TABLE 
+FROM (#JS)
+```
 
 
 

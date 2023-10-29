@@ -12,8 +12,7 @@
 Restaurants that sell **all** pizzas liked by 'Homer'
 = There exists **no** pizzas that Homer like **and** the restaurant does not sell them.
 
-In discrete math terms:
-
+In discrete math terms: $\forall = \neg(\neg\exists)$
 $$
 \begin{align*}
 

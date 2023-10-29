@@ -30,4 +30,5 @@ Prove (ii):
 >[!Corollary]
 > A graph G is bipartite **iff** it contains no odd length cycle.
 
-Use this corollary to prove if a graph is bipartite or not!
+Use this corollary to prove bipartiteness: 
+If a graph has no odd length cycle, it is a bipartite graph.

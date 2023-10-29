@@ -1,11 +1,11 @@
-### Pull (Update)
+>[!analogy]
+>Update/sync your local files with the remote files
 
-- To update the working directory + local repo with the new commits from the remote repo:
 
 ```
 git pull origin
 ```
-
+- Update the working directory + local repo with the new commits from the remote repo
 - We can achieve the same thing with `git fetch` then `git merge`
 
 >[!What is origin]

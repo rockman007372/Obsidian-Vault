@@ -11,9 +11,9 @@ Databases = a structure to store data.
 
 NoSQL (Not only SQL):
 - Any format
-- Eg: mongoDB, redis 
+- Eg: [[MongoDB]], redis 
 
-Comparision between SQL and NoSQL:
+Comparision between MySQL and NoSQL:
 
 ![[Pasted image 20220629013209.png]]
 

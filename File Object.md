@@ -1,4 +1,3 @@
-## File Object
 
 **You can use the [`java.io.File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html) class to represent a file object**. It can be used to access properties of the file object.
 

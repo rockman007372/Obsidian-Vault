@@ -5,7 +5,6 @@ difficulty:
 performance:
 date: 2023-05-25 Thursday
 ---
-
 ## Questions
 
 Given an **asyncronous** function `fn` and a time `t` in milliseconds, return a new **time limited** version of the input function.
@@ -76,6 +75,44 @@ var timeLimit = function(fn, t) {
   };
 };
 ```
+
+Note that ou can only use the `await` keyword inside an `async` function, so we must add the `async` keyword to the callback passed to `new Promise`
+
+### Promise.Race
+
+We can simplify the code by using the `Promise.race` function. It accepts an array of promises and returns a new promise. The returned promise resolves or rejects with the first value one of the promises resolves or rejects with.
+
+```javascript
+var timeLimit = function(fn, t) {
+	return async function(...args) {
+        const originalPromise = fn(...args);
+        const timeoutPromise = new Promise((_, reject) => {
+            setTimeout(() => reject('Time Limit Exceeded'), t)
+        });
+        
+        return Promise.race([originalPromise,timeoutPromise]);
+    }
+};
+```
+
+If we want to clear the timeout to free up memory, we can do:
+
+```typescript
+var timeLimit = function(fn, t) {
+	return async function(...args) {
+        const originalPromise = fn(...args);
+		
+		let timeoutId;
+        const timeoutPromise = new Promise((_, reject) => {
+            timeoutId = setTimeout(() => reject('Time Limit Exceeded'), t)
+        });
+        
+        return Promise.race([originalPromise,timeoutPromise])
+	        .finally(() => clearTimeout(timeoutId));
+    }
+};
+```
+
 
 ---
 Link: [[LeetCode]]

@@ -4,10 +4,10 @@ course: CS3230
 type: lecture
 date: 2023-08-22 Tuesday
 ---
-## Tips
+# Tips
 
-- Log grows slower than polynomial and polynomial grows slower than exponential
-- ! Apply $x = e^{lg(x)}$ to [compare OOG](https://math.stackexchange.com/questions/1935285/order-of-growth-for-algorithms-n-logn-vs-2n)
+- Log < polynomial < exponential with constant base < factorial < exponential with n base
+- ! Apply $x = e^{lg(x)}$ to [compare exponentials](https://math.stackexchange.com/questions/1935285/order-of-growth-for-algorithms-n-logn-vs-2n)
 - Apply L'Hospital Rule: 
 
 ![[Pasted image 20230903101738.png]]
@@ -15,8 +15,13 @@ date: 2023-08-22 Tuesday
 	- Transitivity: $$f = \theta (g) \text{ and } g=\theta (h) \Rightarrow f = \theta (h) $$
 	- Symmetry: $$f = \theta (g) \iff g = \theta (f)$$
 	- Additive: $$f = \theta (h) \text{ and } g=\theta (h) \Rightarrow f + g = \theta (h) $$
-## Content
-### Word-RAM model
+- Common confusion:
+	- $2^{n + 5} = O(2^{n})$
+	- $2^{5n} \neq O(2^{n})$
+
+
+# Content
+## Word-RAM model
 
 How does an instruction execute:
 1. decode ins
@@ -24,9 +29,9 @@ How does an instruction execute:
 3. processor execute ins
 4. return result to ram
 
-- word is the basic storage of RAM
+Word is the basic storage of RAM
 
-### How to measure running time
+## How to measure running time
 
 Mathematically: number of instructions taken in Word-RAM model.
 
@@ -41,7 +46,7 @@ Problem 1: Given a and b, find F(n) mod m
 - Iterative: 2 variables, dp solution
 - If we analyze run time, recursive is exponential while iterative is linear (since its dynamically computed)
 
-### Polynomial Time
+## Polynomial Time
 
 Exponential time: O(2^n)
 - Bruteforce solution, check every combination
@@ -53,7 +58,7 @@ An algorithm is poly-time if:
 >[!definition]
 > There exists constant c > 0 and d > 0 st on every input of size N, its running time is bounded by cN^d steps.
 
-### Worst-Case Analysis
+## Worst-Case Analysis
 
 Worst case running time:
 - Obtain bound on **largest possible running time** of algorithm on input of a given size N
@@ -66,7 +71,7 @@ Average case runnning time:
 
 > [!theorem]
 > An algo is efficient if its running time is polynomial
-### Asymptotic Order of Growth
+## Asymptotic Order of Growth
 
 compare efficiency of 2 algo:
 - T(n) = 10n + 1000
@@ -83,12 +88,15 @@ Properties:
 - Transitivity
 - Additivity: if f = O(h) and g = O(h) then f + g = O(h)
 
-
 Common function observations:
 - Logarithms: for every x > 0, log N = O(N^x) => **log grows slower than every polynomial**
 - Exponentials: for every r > 1 and d > 0, N^d = O(r ^ N) => **exponential grows faster than poly**
 
+## Master Theorem
 
+[[Master Theorem]]
+
+![[Pasted image 20231008210847.png]]
 
 
 

@@ -25,7 +25,7 @@ date: 2023-08-29 Tuesday
 	- a simple path: no repeated nodes (all **distinct** nodes)
 	- graph is connected = there is a path btw every 2 nodes
 - cycle: same start and end node, else no repeated nodes
-- tree: connected undirected graph with no cycle
+- tree: **connected** undirected graph with **no cycle**
 	- ! Tree theorem: Let G be an undirected graph on n nodes. Any 2 of the statements imply the third:
 		- G is connected
 		- G does not contain a cycle
@@ -33,7 +33,6 @@ date: 2023-08-29 Tuesday
 - rooted tree
 - [[Breadth First Search]]
 	- Property: the level of x and y differ by at most 1 where (x, y) is an edge of G
-		- prove by contradiction??
 	- BFS forms a tree
 	- runtime: O(m + n) if graph is adj list. 
 - Connected components

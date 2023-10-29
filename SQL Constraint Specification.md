@@ -1,8 +1,5 @@
-## Constraint Specification
 
 ### Where
-
-Column vs table constraints.
 
 Column Constraints:
 - Applies to a single column
@@ -14,4 +11,5 @@ Table Constraint (**Preferred**):
 
 ### Naming
 
-Named Constraint vs Unnamed Constraint
+- Named Constraint vs Unnamed Constraint
+- Only table constraint can be named.

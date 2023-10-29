@@ -8,28 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7f18c2b3d06e011a",
+            "id": "36201c7a4d8fe6f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-09-17 Sunday.md",
-                "mode": "preview",
+                "file": "Weekly/2023-W43.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "ecc6a444f5c5c242",
+            "id": "49876e499e651883",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "CS2106 Lecture 4 - Threads.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Priority List.canvas",
+                "viewState": {
+                  "x": -174.3274002545977,
+                  "y": -220.26091069822024,
+                  "zoom": -0.22103799331933266
+                }
               }
             }
           }
@@ -63,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "to",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -110,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2106 Lecture 4 - Threads.md",
+                "file": "Priority List.canvas",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS2106 Lecture 4 - Threads.md",
+                "file": "Priority List.canvas",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:Excalidraw -path:Daily",
@@ -161,7 +163,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8526638107335557,
+                  "scale": 0.39866372471942707,
                   "close": true
                 }
               }
@@ -181,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2106 Lecture 4 - Threads.md",
+                "file": "Priority List.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,16 +195,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2106 Lecture 4 - Threads.md"
+                "file": "Priority List.canvas"
               }
-            }
-          },
-          {
-            "id": "471838b845e07acc",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
             }
           },
           {
@@ -214,9 +208,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "91c213a015065c35",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       },
       {
         "id": "5a15f5b20c4edac3",
@@ -234,7 +236,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 252.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,51 +245,51 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "ecc6a444f5c5c242",
+  "active": "49876e499e651883",
   "lastOpenFiles": [
-    "Daily/2023-09-17 Sunday.md",
-    "CS2106 Lecture 4 - Threads.md",
-    "Path With Minimum Effort.md",
-    "Priority Queue.md",
-    "Dijkstra's Algorithm.md",
-    "JavaScript Objects.md",
-    "Higher Order Functions in Javascript.md",
-    "JavaScript.md",
-    "JavaScript Regex.md",
-    "JavaScript Promises.md",
-    "JavaScript Event Loop.md",
-    "Javascript Currying.md",
-    "JavaScript DOM Manipulation.md",
-    "JavaScript Classes and Prototypes.md",
-    "Attachments/Pasted image 20230917103027.png",
-    "Daily/2023-09-16 Saturday.md",
-    "Group Anagram.md",
-    "Python Variable Scope.md",
-    "C Language.md",
-    "Computations in C.md",
-    "Utility and Header File in C.md",
-    "Introduction to C.md",
-    "Binary Tree Maximum Path Sum.md",
-    "Diameter of Binary Tree.md",
-    "CS2106 Lecture 2b - Process Abstraction in Unix.md",
-    "CS2106.md",
-    "CS2106 Lecture 2 - Process Abstraction.md",
-    "Attachments/Pasted image 20230916144237.png",
-    "Attachments/Pasted image 20230915110646.png",
-    "Attachments/Pasted image 20230915105222.png",
-    "Attachments/Pasted image 20230914140753.png",
-    "Attachments/Pasted image 20230914132934.png",
-    "Attachments/Pasted image 20230123151253.png",
-    "Attachments/Pasted image 20230912115401.png",
-    "Attachments/Pasted image 20230912115157.png",
-    "Attachments/Pasted image 20230912115335.png",
+    "Dynamic partition.md",
+    "Attachments/Pasted image 20231029125841.png",
+    "Attachments/Pasted image 20231029125756.png",
+    "CS2106 Lecture 7 - Contiguous Memory Allocation.md",
+    "Fixed-size partition.md",
+    "Memory Organization In MIPS.md",
+    "Priority List.canvas",
+    "Weekly/2023-W43.md",
+    "Untitled.md",
+    "CS4225 Lecture 6 and Lecture 7- Spark.md",
+    "Logistic Regression.md",
+    "Linear Regression.md",
+    "Polynomial Regression.md",
+    "Generalized Linear Regression.md",
+    "Univariate Linear Regression.md",
+    "Gradient Descent.md",
+    "Normalization.md",
+    "Resilient Distributed Datasets.md",
+    "Apache Spark.md",
+    "Regression Testing.md",
+    "CS4225.md",
+    "Dataset.md",
+    "Dataframe.md",
+    "Attachments/Pasted image 20231028153206.png",
+    "Attachments/Pasted image 20231028152914.png",
+    "Attachments/Pasted image 20231028145528.png",
+    "MapReduce.md",
+    "CS4225 Lecture 2 - MapReduce.md",
+    "Hadoop.md",
+    "HDFS.md",
+    "CS4225 Lecture 4 - NoSQL.md",
+    "Attachments/Pasted image 20231028113535.png",
+    "Attachments/Pasted image 20231028110639.png",
+    "Attachments/Pasted image 20231024205405.png",
+    "Attachments/Pasted image 20231024123704.png",
+    "Attachments/Pasted image 20231024123550.png",
     "Spanish Canvas.canvas",
     "CS2103T tp.canvas",
     "PL",

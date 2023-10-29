@@ -35,7 +35,7 @@ Idle time:
 Inversion:
 
 - Greedy S does not have inversions.
-- If a schedule has at least one inversion, there must be an inversion with a pair of adjacent jobs.
+- If a schedule has at least one inversion, there **must** be an inversion with a pair of adjacent jobs.
 - Swapping 2 adjacent inverted jobs reduce the number of inversions by one but **does not increase max lateness.**
 
 ##### Proof

@@ -53,7 +53,7 @@ HAVING <condition>
 ```
 
 **Notes:**
-- Condition check fo each group defined in `GROUP BY`
+- Condition check for each group defined in `GROUP BY`
 - ! Cannot be used without `GROUP BY` clause
 - Conditions typically (but not always) involve aggregate functions
 

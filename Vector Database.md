@@ -1,0 +1,6 @@
+- Store rows as vectors (a point in d-dimensions)
+- Allow fast **similarity search**
+	- Given a query, retrieve similar neighbors from the database
+- Features: scalability, real time update, replication
+- Use case:
+	- Language models convert text into vectors (aka **embeddings**) => Vector DB allows quick search for similar embeddings.

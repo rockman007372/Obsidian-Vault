@@ -1,5 +1,6 @@
 ---
-tags: toProcess
+tags:
+  - processed
 course: CS4225
 type: lecture
 date: 2023-08-20 Sunday
@@ -28,7 +29,9 @@ Data center:
 
 ### Storage hierarchy
 
-- One server:
+![[Pasted image 20230923103619.png]]
+
+- One server: A single computer or hardware device.
 	- DRAM: dynamic RAM (data only exists while running) 
 	- Disk: Where you contain data long-term
 	- Flash: Solid state drive, thumb drive
@@ -36,6 +39,8 @@ Data center:
 - Cluster (30 racks)
 
 Trade-offs: **speed vs capacity.** Larger capacity = slower access speed. 
+
+![[Pasted image 20230923103737.png]]
 
 >[!takeaways]
 > 1. Disk has higher storage capacity then DRAM
@@ -48,4 +53,4 @@ Trade-offs: **speed vs capacity.** Larger capacity = slower access speed.
 - Scale out, not up (horizontal > vertical scaling): combine more cheapter machines
 - Move processing to the data: Clusters have limited bandwidth => move the task to machine where the data is stored
 - Process data sequentially, avoid random access
-- Seamless scalability?
+- Seamless scalability: if a machine takes 100 hours to process a dataset, ideally a cluster of 10 machines can do it in 10 hours.

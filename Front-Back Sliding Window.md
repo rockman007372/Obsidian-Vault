@@ -4,7 +4,6 @@ aliases:
 date: 2023-01-11 Wednesday
 ---
 
-## Main Points
 
 These ones are different because instead of having both pointers traveling from the front, you have one from the front, and the other from the back.
 

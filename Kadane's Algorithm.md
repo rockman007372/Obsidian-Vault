@@ -2,7 +2,6 @@
 Tags: [[Data Structure and Algorithm]] - [[Dynamic Programming]]  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
 
-## Main Points
 An efficient solution to [[Maximum Sum Subarray]] problem. Find the contiguous subsequence such that the sum is maximum.
 
 ``` Python

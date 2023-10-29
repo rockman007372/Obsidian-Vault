@@ -36,12 +36,12 @@
 
 
   --link-color: hsl(171, 88%, 38%);
-  --link-color-hover: hsl(171, 88%, 48%);
+  --link-color-hover: hsl(171, 95%, 48%);
   --link-unresolved-color: hsl(171, 88%, 38%);
 
 
   --link-external-color: hsl(171, 88%, 38%);
-  --link-external-color-hover: hsl(171, 88%, 48%);
+  --link-external-color-hover: hsl(171, 95%, 48%);
 
   --code-normal: #7095c2;
 
@@ -125,6 +125,17 @@
 /*   --tab-outline-color: none; */
 
 }
+
+
+@media(max-width: 950px) {
+	.theme-dark{
+		 --file-line-width: 100%;
+	}
+	.view-content > .markdown-source-view.mod-cm6 > .cm-editor > .cm-scroller {
+    padding: var(--size-4-5);
+	}
+}
+
 
 /* title padding */
 .markdown-reading-view .inline-title {
@@ -288,6 +299,12 @@ p {
 
 
 /* Code blocks */
+
+/* body:not(.no-codeblock-line-numbers) .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin, .HyperMD-codeblock-end) {
+    word-break: break-all;
+} */
+
+
 .cm-inline-code,
 .cm-s-obsidian .HyperMD-codeblock,
 .markdown-preview-view.markdown-preview-view :is(pre, code) {
@@ -409,4 +426,9 @@ body:not(.no-codeblock-line-numbers) .markdown-preview-view pre code {
 /* hide attachments folder */
 div[data-path='0attachments'] {
   display: none;
+}
+
+
+.cm-header-1 ~ a {
+  color: red;
 }

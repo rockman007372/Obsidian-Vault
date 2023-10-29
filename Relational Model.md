@@ -4,23 +4,8 @@ course: CS2102
 type: lecture
 date: 2023-01-17 Tuesday
 ---
-
-## History
-
-- Hierarchical model: high to low rank, tree → no overlapping of children
-- Network model
-- **Relational Model:** All data are organised in terms of their relations to each other
-	- Commercial RDBMS
-	- Open-Source RDBMS
-- Object-Oriented Model:
-- More Recent Development:
-	- NoSQL Model
-	- In-Memory DBMS
-
-
-## Relational Model
-
-Based on [[Relation]] concepts.
+- Based on [[Relation]] concepts. 
+- All data are organised in terms of their relations to each other.
 
 ### Relation Schema
 - A schema is the **definition** of a relation.
@@ -44,7 +29,7 @@ Employees(id: INT, name: TEXT, dob: DATE, salary: NUMERIC)
 ### Relation
 
 >[!definition]
->A relation is a set of tuple.
+>A relation is a set of tuples.
 
 - A relation is basically a table - an instance of the relation schema. 
 - Each **instance** of schema R is a relation which is a subset of $$\set{(a_{1}, a_{2},...,a_{n}) \text{ | } a_{i} \in dom(A_{i}\cap \set{NULL}}$$
@@ -90,25 +75,21 @@ Casts(
 
 ![[Pasted image 20230117155015.png]]
 
-## Data Integrity
+### Data Integrity
 
 Conditions that restrict what constitutes valid data.
 
-**Structural:**
+**Structural constraints:**
 - Independent of application
 - Domain constraints (Cannot store TEXT in INT column)
 - [[Key Constraints]]
 - [[Foreign Key]]
 
-**General:**
+>[!misconception]
+> Key constraints are not an intrinsic property of a relation. They are designed by the database engineer to define what constitutes valid data
+
+**General constraints:**
 - Dependent on application
 - *Check constraints*
 - Triggers?
 
-## Misconceptions
-
-- Key constraints are not an intrinsic property of a relation. They are designed by the database engineer to define what constitutes valid data.
-
-## Summary
-
-![[Pasted image 20230117205308.png]]

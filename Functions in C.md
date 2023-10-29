@@ -68,7 +68,7 @@ int b = 0;
 swap(&a, &b); // Pass by reference
 ```
 
-##### Functions that return a pointer
+#### Functions that return a pointer
 
 A **function that returns a pointer** is a function that, when called, returns a memory address of a variable.
 
@@ -98,9 +98,9 @@ int main() {
 
 ```
 
-##### Function Pointer
+#### Function Pointer
 
-A **pointer to a function** (function pointer) is a variable that stores the memory address of a function. This allows the function to be called indirectly through the pointer.
+A function pointer is a pointer variable that stores the memory address of a function. This allows the function to be called indirectly through the pointer.
 
 >[!attention]
 > Remember to state the type of the argument in the function pointer!
@@ -111,7 +111,9 @@ int add(int x, int y) {
 }
 
 int main() {
-	int (*fpter)(int, int); # function pointer
+	// pointer to a function that takes in 2 ints 
+	// and return an int
+	int (*fpter)(int, int); 
 	fpter = &add;
 	int result = (*fpter)(3, 4);
 	return result;

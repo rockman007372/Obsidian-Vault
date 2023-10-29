@@ -1,13 +1,16 @@
-Date: Jun 3, 2022
-Course: [[Web Development]] - [[Introduction to Databases]]
-- - -
-## Introduction
-
-MongoDB is a NoSQL **document-oriented** database system. It is designed to handle unstructured or semi-structured data, and provides a flexible data model that allows developers to store and retrieve data in a way that best suits their needs.
-
-In MongoDB, data is stored as documents, which are similar to [[JSON]] objects. Each document can have its own unique schema, and can contain nested data structures, arrays, and other complex data types. This makes it easy to store and retrieve data in a way that is natural and intuitive for developers.
+---
+tags:
+  - noSQL
+aliases: 
+date: 2022-07-24 Sunday
+---
+- MongoDB is a NoSQL **document-oriented** database system. 
+- Handle unstructured or semi-structured data.
+- Data is stored as documents, which are similar to [[JSON]] objects. Each document can have its own unique schema, and can contain nested data structures, arrays, and other complex data types. 
 
 ## CRUD Commands
+
+CRUD = CREATE, READ, UPDATE, DELETE
 
 **CREATE**
 - db -> show which dbase u are in
@@ -32,7 +35,7 @@ db.products.find({name: "Pencil"})
 
 db.products.find(
 	{
-		price: {$gt: 1} # greater than 1
+		price: {$gt: 1} // greater than 1
 	}
 )
 ```
@@ -66,7 +69,7 @@ db.products.insert(
 		id: 3,
 		price: 1.30,
 		stock: 43,
-		reviews: [ # Array of reviews
+		reviews: [ // Array of reviews
 			{
 				authorName: "Sally"
 				rating: 5

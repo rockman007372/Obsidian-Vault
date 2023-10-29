@@ -1,6 +1,8 @@
 ---
-tags: algorirthm
-aliases: dp
+tags:
+  - algorithm
+aliases:
+  - dp
 date: 2022-07-24 Sunday
 ---
 Links: [[Data Structure and Algorithm]]
@@ -26,7 +28,7 @@ Either iterative (using [[Tabulation]]) or recursive (using [[Memoization]])
 ## Framework
 Example: [[Palindromic Substring]]
 
-1. Define the **DP state** . This is the *result that get reused in further computations*. 
+1. Define the **DP state**. This is the *result that get reused in further computations*. 
 	- DP(i, j) gives a Boolean value stating whether the substring between i<sup>th</sup> and j<sup>th</sup> index is a Palindrome.
 	- The answer is the number of DP(i, j) that return true (substrings whose state is true).
 2. Identify the base cases. In this question, there are 2 base cases:

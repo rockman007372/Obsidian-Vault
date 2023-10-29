@@ -28,6 +28,6 @@ iterate through the lectures:
 2. Classroom d is opened because we needed to schedule a job, say j, that is incompatible with all d-1 other classrooms.
 3. ! Since we sorted by start time, all these incompatibilities are caused by lectures that start no later than sj.
 4. Thus, we have **d lectures overlapping** at time $s_j + \epsilon$.
-5. Since there are d overlaps,  all schedules use >= d classrooms. 
+5. Since there are d overlaps,  all schedules use >= d classrooms. Cant do better than d.
 
 

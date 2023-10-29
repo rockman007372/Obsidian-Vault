@@ -7,6 +7,7 @@ date: 2023-01-13 Friday
 ---
 
 ## Questions
+
 Given an array of positive integers `nums` and a positive integer `target`, return the **minimal length** of a subarray whose sum is greater than or equal to `target`. If there is no such subarray, return `0` instead.
 
 **Example 1:**
@@ -35,7 +36,7 @@ class Solution:
         res = float('inf')
         for hi in range(n):
             sum += nums[hi]
-
+            
             while sum >= target and lo <= hi:
                res =  min(res, hi - lo + 1)
                sum -= nums[lo]

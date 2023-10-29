@@ -1,16 +1,16 @@
 ---
-tags: toProcess
-course: cs4225
+tags: []
+course: CS4225
 type: lecture
 date: 2023-08-25 Friday
 ---
+![[Hadoop]]
 
-[[MapReduce]]
-[[Hadoop]]
+We covered in lecture:
+- [[MapReduce]]
+- [[HDFS]]
 
-## Summary
+Putting everything together:
 
-## Questions/Cues
+![[Pasted image 20230923120845.png]]
 
----
-Links:

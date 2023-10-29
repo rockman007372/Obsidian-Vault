@@ -58,7 +58,3 @@ int quickSelect(array A, lo, hi, k) {
 In Quick select, we typically compare the pivot index with the value `k - 1` (not `k`).
 
 The reason for this is that when we're finding the kth smallest element, we're working with zero-based indexing. So if we want to find the element at index k, it would be the (k+1)th element in one-based indexing. Therefore, we compare the pivot index with `k - 1`.
-
-For example, if we're looking for the 5th smallest element (k = 5), we compare the pivot index with `5 - 1 = 4`. If the pivot index is less than 4, we know that the desired element is in the right partition. If the pivot index is greater than 4, we know that the desired element is in the left partition. And if the pivot index is exactly 4, we have found the 5th smallest element.
-
-This adjustment accounts for the difference between zero-based indexing and one-based indexing and ensures we're comparing the correct indices during the partitioning process in Quick select.

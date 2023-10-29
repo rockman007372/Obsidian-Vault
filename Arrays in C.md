@@ -15,7 +15,7 @@ for (int i = 0; i < MAX; i++) {
 ```
 
 #### Arrays and Pointers
-When an array name `a` appears in an expression, it refers to the *address of the first element* (`a[0]`) of that array → Array name is pointer! → Array is passed ard by reference!
+When an array name `a` appears in an expression, it refers to the *address of the first element* (`a[0]`) of that array → Array name is pointer! → Array is passed ard "by reference"!
 
 Remember that when a pointer is incremented, it increments by the number of **bytes** the particular **data type**  it points to occupies in memory.
 
@@ -95,9 +95,9 @@ int sumArray(int [], int); // same
 Since array is a pointer, alternatively we can **pass it as a pointer** as well:
 
 ```C
-int sum_array(int *, int);
+int sumArray(int *, int);
 
-int sum_array(int *arr, int size) {
+int sumArray(int *arr, int size) {
 
 }
 ```

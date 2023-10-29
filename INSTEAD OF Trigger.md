@@ -1,8 +1,8 @@
+#### Use case
 - Only defined on `VIEWS`.
-- Typical usage: Instead of performing operation on a view (virtual table), do it on the actual table instead.
+- Instead of performing operation on a view (virtual table), do it on the actual table instead.
 
-### Example
-
+#### Example
 We have a view `Max_Score`:
 
 ```sql
@@ -17,7 +17,8 @@ Whenever someone wants to update the view `Max_Score`, we update the correspondi
 ```sql
 CREATE TRIGGER update_max_trigger
 INSTEAD OF UPDATE ON Max_Score
-FOR EACH ROW EXECUTE FUNCTION update_max_func();
+FOR EACH ROW 
+EXECUTE FUNCTION update_max_func();
 ```
 
 ```sql

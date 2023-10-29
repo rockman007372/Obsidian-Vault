@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"f44f3f556ef293b5","x":-700,"y":-680,"width":380,"height":400,"type":"text","text":"## Urgent and Important\n\n- [x] CS2106 tutorial 7 - left with question 4\n- [ ] CS3230 week 9 lecture\n- [ ] CS3230 problem set"},
+		{"id":"be5b938e906fa6b2","type":"text","text":"## Not Urgent and Important\n\n- [ ] cs2106 lab 4 - demos\n- [ ] CS3230 assignment\n- [ ] Ask cs2106 midterm questions\n- [ ] practice synchronisation problems using midterm papers\n\t- [x] 18-19\n\t- [ ] 17-18\n\t- [ ] 16-17\n\t- [ ] 15-16\n- [ ] Review Dynamic programming - take notes on sample questions","x":-700,"y":-220,"width":380,"height":400},
+		{"id":"06876aa1e74113dc","x":-200,"y":-680,"width":340,"height":400,"type":"text","text":"## Urgent and Not Important\n\n- [ ] 3 CS4225 lectures behind\n\t- [ ] Week 8: spark 2\n\t- [ ] CS4225 tutorial on Sparks\n\t- [ ] Week 9: stream\n\t- [ ] week 10: graph"},
+		{"id":"67b90d28ae0c649a","type":"text","text":"## Not Urgent and Not Important","x":-200,"y":-220,"width":340,"height":400}
+	],
+	"edges":[]
+}

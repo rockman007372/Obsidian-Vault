@@ -152,3 +152,9 @@ coinChange(coins, amount) = min(
 
 ---
 Link: [[LeetCode]], [[Dynamic Programming]], [[Recursion]], [[Coin Change II]]
+
+
+## Coin Change
+
+[[Knapsack Problem]]
+[[Sequence Alignment]]

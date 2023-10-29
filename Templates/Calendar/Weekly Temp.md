@@ -1,7 +1,14 @@
 Week ?
 ---
-### Goals Tracker
-- [ ] 
+### Tasks
+
+#### Urgent and Important
+
+#### Urgent but not imporant
+
+#### Not urgent but important
+
+#### Not urgent and not important
 
 ### Habit Tracker
 
@@ -18,8 +25,4 @@ FROM "Daily" AND [[{{title}}]]
 SORT file.day ASC
 ```
 
-### Academic Tracker
-
-
-### Social Tracker
 

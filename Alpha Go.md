@@ -5,7 +5,6 @@ aliases:
 Date:: 2022-08-11 Thursday
 Links: 
 - - -
-# Alpha Go
 ### Main Points
 **AlphaGo** is a computer program that plays the board game Go. It was developed by [DeepMind](https://en.wikipedia.org/wiki/DeepMind "DeepMind") Technologies, a subsidiary of [Google](https://en.wikipedia.org/wiki/Google "Google"). 
 

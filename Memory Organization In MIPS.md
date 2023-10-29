@@ -3,9 +3,10 @@ tags: MIPS
 aliases: 
 date: 2022-09-07 Wednesday
 ---
-
-- Main memory = large, single-dimension array of memory allocations
-- Each location has an **address** (index) → Given a k bit address, the address space has size $2^k$
+## Memory
+- Main memory = 1D array of bytes.
+- Each byte has an **address** (index) 
+	- Given a k bit address, the address space has size $2^k$
 - Each address location contains 1 byte = 8 bits
 
 ![[Pasted image 20220904011353.png]]
@@ -13,7 +14,7 @@ date: 2022-09-07 Wednesday
 ## Word
 - Usually contain $2^n$ bytes
 - Common unit of transfer between processor and memory
-- Coincide with register size, integer size and **instruction size** (4 bytes - 32 bits)
+- Coincide with register size, integer size and **instruction size** (4 bytes = 32 bits)
 - **Word alignment:** Words are aligned if the **byte address** is a **mutiple** of the number of bytes in a word
 ![[Pasted image 20220904011709.png]]
 

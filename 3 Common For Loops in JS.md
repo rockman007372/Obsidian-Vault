@@ -1,3 +1,11 @@
+---
+tags:
+  - JS
+aliases: 
+date: 2023-06-19 Monday
+---
+Links: 
+- - -
 
 ```js
 for (let i = 0; i < 5; i++) { 

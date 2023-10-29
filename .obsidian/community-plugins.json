@@ -2,7 +2,6 @@
   "table-editor-obsidian",
   "calendar",
   "dataview",
-  "cm-editor-syntax-highlight-obsidian",
   "obsidian-excalidraw-plugin",
   "nldates-obsidian",
   "note-refactor-obsidian",
@@ -16,5 +15,6 @@
   "obsidian-underline",
   "obsidian-list-callouts",
   "highlightr-plugin",
-  "obsidian-spaced-repetition"
+  "obsidian-spaced-repetition",
+  "cm-editor-syntax-highlight-obsidian"
 ]

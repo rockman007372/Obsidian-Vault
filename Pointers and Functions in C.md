@@ -1,5 +1,5 @@
 ---
-tags: toProcess
+tags: []
 course: CS2100
 type: lecture
 date: 2022-08-19 Friday

@@ -1,18 +1,21 @@
-2022-06-24 01:00
-Tags: {{[[Data Structure and Algorithm]]}} - [[Sorting Algorithms]]
+---
+tags:
+  - sorting
+aliases: 
+date: 2022-07-24 Sunday
+---
+Tags: [[Sorting Algorithms]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-# Merge Sort
-### Main Points
-![[Pasted image 20220624010054.png]]
 
-#### Implementations
+![[Pasted image 20230919102826.png]]
+## Implementations
 ##### Recursive Merge Sort with additional array to merge
 
 ##### In-place Recursive Merge Sort
 
 ##### Bottom-up iterative Merge Sort
 
-#### Performance
+## Performance
 Time: O($N*logN$) 
 Space: O(NlogN) or O(N) or O(1) 
 Stability: Stable

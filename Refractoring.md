@@ -4,10 +4,8 @@ course: CS2103T
 date: 2023-02-12 Sunday
 ---
 
-Refactoring is a systematic process of improving code without creating new functionality that can transform a mess into clean code and simple design.
-
 >[!proper definition]
-> The process of **improving a program's internal structure in small steps without modifying its external behavior is called _refactoring_.**
+> The process of improving a program's internal structure in small steps without modifying its external behavior.
 
 Characteristics:
 

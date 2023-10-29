@@ -1,14 +1,17 @@
-### Before
 
-`BEFORE`: If value returned is `null`, no operation will be done. Else, operation happens as per normal.
+`BEFORE INSERT ON Scores`: 
+- If value returned is `null`, no operation will be done. 
+- Else, operation happens as per normal.
 
 ```sql
 CREATE OR REPLACE FUNCTION scores_log_func() RETURNS TRIGGER AS $$
 
 BEGIN
-	INSERT INTO Scores_Log(Name, EntryDate); 
-    VALUES (NEW.Name, CURRENT_DATE);
-	RETURN NULL; -- No operation is done
+	IF NEW.Name = 'Peter' THEN
+		RETURN NULL; -- No operation is done
+	ELSE 
+		RETURN NEW;
+	END IF;
 END;
 
 $$ LANGUAGE plpgsql;
@@ -17,12 +20,14 @@ $$ LANGUAGE plpgsql;
 ```sql
 CREATE TRIGGER scores_log_trigger
 BEFORE INSERT ON Scores
-FOR EACH ROW EXECUTE FUNCTION scores_log_func();
+FOR EACH ROW 
+EXECUTE FUNCTION scores_log_func();
 ```
 
-### After
 
-`AFTER`: The return value **does not matter.** The trigger function is invoked after the main operation is done.
+`AFTER INSERT ON Scores`: 
+- The return value **does not matter.** 
+- The trigger function is invoked after the main operation is done.
 
 ```sql
 CREATE TRIGGER scores_log_trigger

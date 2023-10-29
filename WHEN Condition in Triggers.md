@@ -18,8 +18,10 @@ WHEN (NEW.Name = 'Elise') -- TRIGGER COND, after FOR EACH
 EXECUTE FUNCTION for_Elise_func();
 ```
 
-Constraints on **WHEN** condition:
-- No SELECT (Prevent recursive queries)
-- no OLD for INSERT (**OLD = null in INSERT initially**)
-- no NEW for DELETE (NEW = null in DELETE)
-- ! no WHEN for INSTEAD OF
+#### Caveats
+
+There are restrictions on the `WHEN` condition:
+- The `WHEN` condition cannot include a subquery (no `SELECT` clause)
+- Cannot call `OLD` for `INSERT` (OLD = null in INSERT initially)
+- Cannot call `NEW` for `DELETE` (NEW = null in DELETE)
+- ! Cannot use `WHEN` clause for `INSTEAD OF`

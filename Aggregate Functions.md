@@ -19,7 +19,7 @@ SELECT MAX(A) FROM R;   -- Maximum non-NULL values in column A
 SELECT AVG(A) FROM R;   -- Average of non-NULL values in column A
 SELECT SUM(A) FROM R;   -- Sum of non-NULL values in column A
 SELECT COUNT(A) FROM R; -- Count of non-NULL values in column A
-SELECT COUNT(*) FROM R; -- Count of ALL rows in column A
+SELECT COUNT(*) FROM R; -- Count of ALL rows in table R
 ```
 
 You can apply functions over **distinct values**. Take note that `IS DISTINCT` operation is used to check (Eg. `NULL IS DISTINCT FROM NULL == FALSE`)

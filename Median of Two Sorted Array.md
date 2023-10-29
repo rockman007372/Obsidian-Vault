@@ -37,6 +37,13 @@ Key points:
 
 1.  We want to make two cuts, separating nums1 into `[...L1 | R1...]` and nums2 into `[...L2 | R2...]` respectively, so that `[...L1] + [...L2]` has equal number of elements as `[R1...] + [R2...]`. Our goal is to find such cutting positions that give us the median values.
 2.  For an array of length `N`, there are `2*N + 1` different cutting positions.
+   
+```
+arr = [1, 2, 3, 4]
+
+cutting position = [x, 1, x, 2, x, 3, x, 4, x]
+```
+   
 3.  Cutting on a gap is simple. Cutting on a number means both left half and right half get the number.
 4.  With two arrays, a valid cutting position that gives the median can be **ANY** cutting position of the shorter array. This is not true for the longer array. Therefore, **we always cut the shorter array**, and then calculate the cutting position of longer array directly (by using the fact that each half has the same number of cutting positions). We want to make nums1 always point to the shorter array for convenience.
 5.  Using [[Binary Search]], If L1 > R2, we know current cutting position is incorrect. A valid cutting position for median should be on the **left** half of nums1.

@@ -26,7 +26,6 @@ date: 2023-01-23 Monday
 ## Summary
 ![[Pasted image 20230123170310.png]]
 
-## Questions/Cues
 ## Data
 
 Data used in this lecture:

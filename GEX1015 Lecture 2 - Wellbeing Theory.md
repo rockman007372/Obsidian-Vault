@@ -1,5 +1,5 @@
 ---
-tags: toProcess
+tags: []
 course: GEX1015
 type: lecture
 date: 2023-08-25 Friday
