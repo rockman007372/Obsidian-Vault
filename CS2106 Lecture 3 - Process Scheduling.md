@@ -12,11 +12,8 @@ date: 2023-09-06 Wednesday
 - Even if you have 1 CPU-core, concurrent execution is possible
 	- Virtual parallelism: interleaving processes to create illusion of parallism
 	- Physical parallelism: multi-cores architecture running processes at the same time.
-- Multitasking OS:
-	- 1 core: timeslice execution of tasks
-	- n-core: timeslicing on n cores
 - Question: if processes > CPUs, which should be chosen => scheduling problem
-- Scheduler: part of OS, makes scheduling decision; each scheduler uses different schedulling algo.
+- **Scheduler:** part of OS, makes scheduling decision; each scheduler uses different schedulling algo.
 - Process behavior: a typical process goes through phases of:
 	- CPU activity: computation; **compute-bound process** spends majority of time here.
 	- IO-activity: request and receive services from I/O devices. **IO-bound processes** spends majority of time here.
@@ -33,16 +30,6 @@ date: 2023-09-06 Wednesday
 
 ## Scheduling algorithms
 
-Criteria for Batch Processing:
-- Turnaround time: duration between request submission and process completion (waiting time + execution time).
-- Throughput: no. tasks **finished**/time
-- CPU utilization: percentage of **time** when CPU is working on a task.
-
-Criteria for Interactive Environment:
-- Waiting time: total time waiting in the queue.
-- Response time: little time between first request and first execution of process.
-- Consistency: consistent and predictable response time.
-
 We have different algorithms for different processing environments:
 - [[Scheduling for Batch Processing]]
 - [[Scheduling for Interactive Environment]]
@@ -51,7 +38,7 @@ We have different algorithms for different processing environments:
 # Question
 
 1. What does it mean for a process to "block"?
-- When a process is waiting for some event to occur / resource to become availble 
+- When a process is waiting for some event to occur / resource to become available 
 - e.g. **I/O operations**
 
 2. Why do we give priority to tasks that block a lot in [[Multi-level Feedback Queue]]?
@@ -68,7 +55,7 @@ We have different algorithms for different processing environments:
 - If a process finishes before the time quantum is over, it will not wait for the remainder of the time quantum. Instead, the scheduler will move on to the next process in the queue and allocate the next time quantum to that process.
 
 6. Why must time quantum be a multiple of timer interrupt?
-- 
+- so processes do not have to wait for the scheduler to be invoked
 
 
 

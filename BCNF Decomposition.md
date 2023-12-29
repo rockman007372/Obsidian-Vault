@@ -8,17 +8,17 @@ Algorithm:
 1. Find a closure $X^+$ that violates **more but not all**
 2. Decompose R into two tables R1 and R2, such that
 	- R1 contains all attributes in ${X}^+$
-	- R2 contains all attributes in X as well as the attributes not in ${X}^+$
+	- R2 contains all attributes in $X$ as well as the attributes not in ${X}^+$
 3. Repeat if any decomposed table is not in BCNF
 
 Note:
-- ! If a table has only 2 attributes, it must be in BCNF => Prioritise table with 2 attributes during decomposition/normalization
+- ! If a table has only 2 attributes, it must be in BCNF ⇒ Prioritise table with 2 attributes during decomposition/normalization
 - BCNF decomposition may not be unique
 
 Sometimes a decomposed table R1 may have hidden FDs that are not obvious:
 
 >[!example]
-> Given table R with FD A -> B, BC -> D.
+> Given table R with FD A → B, BC → D.
 > 
 > ![[Pasted image 20230401211031.png]]
 

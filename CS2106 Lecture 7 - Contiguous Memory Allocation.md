@@ -1,6 +1,5 @@
 ---
-tags:
-  - toProcess
+tags: []
 course: CS2106
 type: lecture
 date: 2023-10-24 Tuesday
@@ -29,13 +28,14 @@ date: 2023-10-24 Tuesday
 	- Load the range of the memory space into the limit register. 
 	- Actual physical address = base + logical address.
 	- If actual > limit, invalid read.
-
+	- ![[Pasted image 20231114104916.png]]
 ## Contiguous Memory Management
 
 If we were to store the processes contiguously in memory, we can partition them in 2 ways:
 - [[Fixed-size partition]]
 - [[Dynamic partition]]
 
+[[Internal vs External Fragmentation]]: Each ways of partitioning can lead to different fragmentation types.
 
 
 

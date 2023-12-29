@@ -7,9 +7,9 @@ Compared this to [[BCNF Decomposition]], which performs multiple binary splits.
 
 ![[Pasted image 20230421165345.png]]
 
-Algorithm:
+### Algorithm
 
-Given a table E and a set S of [[Functional Dependency]]
+Given a table R and a set S of [[Functional Dependency]]
 
 1. Derive a [[Minimal Basis]] of S
 2. In the minimal basis, combine the FDs whose **left-hand sides** are the same.
@@ -19,9 +19,9 @@ Given a table E and a set S of [[Functional Dependency]]
 
 ### Example 
 
-Table R(A, B, C, D) with S = { A → BD, AB -> C, C -> D, BC -> D } 
+Table R(A, B, C, D) with S = { A → BD, AB → C, C → D, BC → D } 
 
-1. Minimal basis S' = {A -> B, A -> C, C -> D}
-2. Combine FDs whose left-hand sides are the same: S' = {A -> BC, C -> D}
+1. Minimal basis S' = {A → B, A → C, C → D}
+2. Combine FDs whose left-hand sides are the same: S' = {A → BC, C → D}
 3. Create tables: R1(A, B, C), R2(C, D)
 4. Since R1 contains A, which is the key of the original table, no need to insert additional table.

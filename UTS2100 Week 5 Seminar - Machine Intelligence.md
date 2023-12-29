@@ -18,7 +18,7 @@ Links: [[UTS2100]]
 	- Sensations, feelings, thoughts → You experience the world as you
 	- Can we build a machine that have the same experience as we do?
 - **2 mainstream conceptions:**
-	- Duelism: Mind and body are 2 separate things → This is basically religion?
+	- Dualism: Mind and body are 2 separate things → This is basically religion?
 	- Physicalism: Your mind is a product of physical body
 - Religion: Idea of the soul and spirit → Duelism
 - Arugument for duelism:

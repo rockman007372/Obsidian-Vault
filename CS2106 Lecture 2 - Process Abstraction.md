@@ -18,6 +18,6 @@ date: 2023-08-26 Saturday
 	- [[Stack Memory]]
 	- [[Dynamically Allocated Memory (Heap)]]
 - Process Management:
-- [[System Call]]
-- [[Exception and Interrupt]]
+	- [[System Call]]
+	- [[Exception and Interrupt]]
 

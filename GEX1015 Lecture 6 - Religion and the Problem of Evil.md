@@ -6,6 +6,7 @@ date: 2023-10-22 Sunday
 ---
 
 # Reading 
+
 [[Dialogue on good, evil and the existence of god]]
 
 # Content

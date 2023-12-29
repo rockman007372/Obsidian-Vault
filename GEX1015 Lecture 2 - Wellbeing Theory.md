@@ -48,12 +48,12 @@ There are 3 theories as to what is intrinsically good:
 
 Exercise 1:
 What is sth that is
-- intrinsically good but instrumentally bad: drugs, alcohol, cigarette, porn?
-- instrinsically good and instrumentally good: workout? games?
-- Instrinsically bad but instrumentally good: study, workout
-- instrinsically bad and instrumentally bad: injury? traffic accident
-- both instrumentally good and bad: stealing (good if not caught), cheating (wtf)
-- both intrinsically good and bad: jogging, workout
+- intrinsically good but instrumentally bad: honesty, pleasure (to encourage addiction), pursuit of perfection
+- instrinsically good and instrumentally good: pleasure
+- Instrinsically bad but instrumentally good:  pain (pain from workout and running)
+- instrinsically bad and instrumentally bad: dishonesty
+- both instrumentally good and bad: stealing (good if not caught), cheating 
+- both intrinsically good and bad: ?
 
 Exercise 2:
 - Hedonist does not claim that people must plug into the experience machine because there is more pleasure to be gained.
@@ -68,7 +68,7 @@ Exercise 2:
 ## Tutorial 2:
 
 Argument:
-- If hedonism is true, then life in the experience machine is better than real life?
+- If hedonism is true, then life in the experience machine is better than real life
 - Life in the experience machine is not better than real life according to most people
 - Hence, hedonism is false.
 

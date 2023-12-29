@@ -8,7 +8,7 @@ Node.js is an open-source, cross-platform, **JavaScript runtime environment** th
 
 Node.js allows developers to use JavaScript to **write server-side code that can interact with databases, file systems, and network services**. 
 
-Node.js includes a built-in package manager, **npm**, which provides access to a vast array of third-party libraries and modules that can be used to **build web applications**, APIs, and other types of software. 
+Node.js includes a built-in package manager, **npm**, which provides access to a vast array of third-party libraries and modules.
 
 Key features:
 

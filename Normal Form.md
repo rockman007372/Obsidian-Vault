@@ -1,19 +1,23 @@
 ---
-tags: processed
+tags:
+  - processed
 course: CS2102
-type: content, lecture
+type: lecture
 date: 2023-04-01 Saturday
 ---
 
-Motivation: Given many ER diagrams, how to determine which one is better than others? We have to rely on normal form.
+> [!Motivation] 
+> Given many ER diagrams, how to determine which one is better than others? 
+> - We prefer tables with fewer redundancy and dependecy
+> - We use normal form to normalise our table to a "better" table.
 
-Normal form is a definition of *minumum requirements to*
-- reduce data redundancy
-- improve data integrity
+Normal form is series of progressive stages used to eliminate certain types of **redundancy** and **dependency** in database tables.
 
-Roadmap to understand normal form:
+Roadmap to understanding of normal form:
+
 1. [[Functional Dependency]]
 2. [[Closure]]
-3. [[Boyce-Codd Normal Form]]
-4. [[Third Normal Form]]
+3. [[Minimal Basis]]
+4. [[Boyce-Codd Normal Form]]
+5. [[Third Normal Form]]
 

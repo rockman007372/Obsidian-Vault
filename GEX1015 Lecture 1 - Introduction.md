@@ -16,7 +16,7 @@ date: 2023-08-18 Friday
 - Is it morally right to save one person to save more people?
 - If theres a god, why do so many bad things happen?
 - Do we really have free will? Or is it just an illusion?
-- What is the relationship between mind and brain? Could computers have a mind? [[UTS2100 Week 5 Seminar]]
+- What is the relationship between mind and brain? Could computers have a mind? [[UTS2100 Week 5 Seminar - Machine Intelligence]]
 - Do we live in a computer simulation :)
 - What is the definition of art?
 - Do reading next week: "The experience machine"

@@ -16,7 +16,7 @@ date: 2023-09-05 Tuesday
 		- morally required: actions that are wrong **not to perform** (keep promises)
 		- morally super-erogatory: actions that are morally good but **not wrong to not perform** (jumping on grenade to save others)
 		- morally neutral: "take philosophy class"
-	- morrally wrong = impermissible action
+	- Morally wrong = impermissible action
 - 2 approach to determine morality:
 	- Consequentialism
 	- Non-consequentialism (not gonna go into deep details)
@@ -74,7 +74,7 @@ There are 3 non-consequentialist philosophers' attempt to explain the above comm
 > - Premise 2: if it is morally wrong to turn the trolley in Bystader 3 way, it is morally wrong to turn the trolly in the Bystander 2 way.
 > - Conclusion: **morally wrong to turn the trolly in the Bystander 2 way.**
 
-- Why do most people this it is morally permissible to throw the switch? Because the means is not obvious in turning the switch as compared to pushing the fat man => there is no distinction in the means.
+- Why do most people think it is morally permissible to throw the switch? Because the means is not obvious in turning the switch as compared to pushing the fat man => However, there is no distinction in the means.
 - Big idea: **negative duties outweighs positive duties.**
 	- positive duties are the duties we have towards people in the form of aid
 	- negative duties are the duties we have towards people in the form of non-interference

@@ -75,7 +75,7 @@ Parameters:
 - `newfd`: the file descriptor you want `oldfd` to duplicate to.
 
 Usage:
-- The new file descriptor will refer to the same file/channel as the old file descriptor.
+- The new file descriptor will point to the same file as the old file descriptor.
 
 Example:
 

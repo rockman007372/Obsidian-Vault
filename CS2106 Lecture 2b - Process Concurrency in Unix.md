@@ -134,8 +134,8 @@ int main() {
 - meanwhile, parent process is still around to accept a new request
 
 >[!question]
-> Are the parent and child processes working asynchronously? or sequentially?
-> Ans: dependent on number of cores.
+> Are the parent and child processes working asynchronously? 
+> Ans: Yes. Whether they are in parallel is dependent on number of cores. 
 
 ### Master Process
 
@@ -187,7 +187,7 @@ Why do zombie processes exist?
 ### Implementation of fork()
 
 - how to copy parent memory space effciently?
-	- Copy on Write: only copy a memory location when it is written to. the remaining memory space is still **shared**
+	- Copy on Write: only copy a memory location when it is written to. The remaining memory space is still **shared**
 - Linux provides clone() which supersedes fork().
 
 ## Summary
@@ -200,7 +200,6 @@ Why do zombie processes exist?
 > - `getpid()`: get process info
 
 
-## Questions/Cues
 
 ---
 Links:

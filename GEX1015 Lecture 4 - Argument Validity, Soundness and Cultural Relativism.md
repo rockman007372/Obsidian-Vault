@@ -33,6 +33,6 @@ Soundness: Validity + premises are true.
 - Moral truths are relative to a culture or society.
 - There is no such thing as universal truths in ethics/morality.
 - This does not mean we cannot criticize other society (there is no objective rule forbidding that)
-- This does not say anything about whether the moral truths are mind-dependent or mind-independent => A moral truth be mind-independent and not universal? (e.g. there are many truths, and different societies just happen to follow different truths)
+- This does not say anything about whether the moral truths are mind-dependent or mind-independent => A moral truth can be mind-independent and not universal? (e.g. there are many truths, and different societies just happen to follow different truths)
 
 

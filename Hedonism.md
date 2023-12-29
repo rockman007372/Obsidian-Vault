@@ -22,7 +22,7 @@ Why hedonism?
 Can your pleasure and pain be affected by other wellbeing? Yes.
 
 Problems?
-- Pleasure based on false belief?
+- Pleasure based on false belief: I thought I pet a cat, hence I am happy. Actually I pet a dog, but at the end of the day, I am still happy.
 - Pleasure is **not the only thing** intrinsically good:
 	- [[The Experience Machine]]
 	- "We learn that something matters to us in addition to experience by imagining an experience machine and then **realizing that we would not use it**."

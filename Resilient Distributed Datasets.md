@@ -12,7 +12,7 @@ RDD stands for **Resilient Distributed Dataset**, and it is one of the core data
 #### Key characteristics
 
 - **Distributed Dataset:** Collections of **objects** that are distributed over machines.
-- **Resilient:** If a partition of an RDD is lost due to a node failure, Spark can recompute the lost partition using the lineage information (the sequence of transformations).
+- **Resilient:** If a partition of an RDD is lost due to a node failure, Spark can recompute the lost partition using the lineage information (the sequence of transformations on the original data).
 - **Immutable**
 - **Lazy Evaluation:** transformations on RDDs are not executed immediately. Instead, they are recorded and executed only when triggered by actions.
 - **Cacheable:** RDDs can be explicitly cached in memory, allowing Spark to persist the data across multiple operations. This can significantly speed up iterative algorithms or interactive data analysis.
@@ -66,9 +66,10 @@ Wide Dependency:
 - Data needs to be shuffled accross partitions similar to shuffling stage in map-reduce.
 
 Stages:
-- Consecutive *narrow* dependencies are group together as stages
+- Consecutive **narrow** dependencies are group together as stages
 - Within stages, data are transformed on the same machine
-- Accross stages, intermediate data are shuffled and **written onto local disks** => if node is down, no need to do shuffling again.
+- Accross stages, intermediate data are shuffled and **automatically written onto local disks** ⇒ if node is down, no need to compute intermediate results and shuffle again.
+- ? does it write to local disk or ram
 
 It is the programmer's responsibility to minimize wide-dependency.
 

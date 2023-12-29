@@ -5,9 +5,9 @@ Intuitively, FD are like logic components on a circuit board. We activate the ba
 
 Let $S = \set{A_1, A_2, ... A_n}$ be a set of attributes
 
-The closure of S, denoted by $\set{A_1, A_2...An}^{+}$ is the set of attributes that can be **decided** by $A_1, A_2...An$ (either directly or indirectly)
+The closure of S, denoted by $\set{A_1, A_2...A_n}^{+}$ is the set of attributes that can be **decided** by $A_1, A_2...A_n$ (either directly or indirectly)
 
-Example: Given A -> B, B -> C, C -> D, D -> E
+Example: Given A → B, B → C, C → D, D → E
 $\set{A}^{+} = \set{A, B, C, D, E}$
 $\set{B}^{+} = \set{B, C, D, E}$
 $\set{E}^{+} = \set{E}$
@@ -16,8 +16,8 @@ $\set{E}^{+} = \set{E}$
 
 $$Y \in \set{X}^{+} \iff (X \rightarrow Y)$$ 
 This means:
-- To prove that X -> Y **hold**, you just need to show that $\set{X}^{+}$ **contains** Y.
-- To prove that X -> Y **does not hold**, you just need to show that $\set{X}^{+}$ **does not contain** Y.
+- To prove that X → Y **hold**, you just need to show that $\set{X}^{+}$ **contains** Y.
+- To prove that X → Y **does not hold**, you just need to show that $\set{X}^{+}$ **does not contain** Y.
 
 ### Link to Superkey
 
@@ -28,10 +28,5 @@ Algorithm to find all the keys of a table:
 3. Identify keys by finding minimal superkeys.
 
 Tips:
-- Always find closure of smaller subsets first => This avoids checking all the supersets as they are all superkeys
+- Always find closure of smaller subsets first ⇒ This avoids checking all the supersets as they are all superkeys
 - ! If an attribute does not appear anywhere on the right-hand side of any FDs, it must be part of every key!
-
-
-
----
-Links: [[CS2102]]

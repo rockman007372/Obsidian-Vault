@@ -1,6 +1,10 @@
-- Criteria:
-	- low and consistent response time (processes are I/O bound usually)
-	- Hence, **preemptive** scheduling algo are predominant (DOES NOT MEAN THERE IS NO NON-PREMPTIVE ALGO)
+
+Criteria for Interactive Environment:
+- Waiting time: total time waiting in the queue.
+- Response time: little time between first request and first execution of process.
+- Consistency: consistent and predictable response time.
+
+Timer Mechanism:
 - Timer Interrupt: Interrupt that goes off periodically based on hardware clock
 	- Timer interrupt cannot be intercepted by any other program
 	- **OS scheduler** is invoked on every timer interrupt

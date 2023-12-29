@@ -8,4 +8,4 @@ Supervised Learning is the machine learning approach defined by its use of **lab
 
 Major classes of Supervised Learning:
 - **Classification**: Predict results in a **discrete** output, map input variables into discrete categories → Spam detection
-- **[[Linear Regression]]**: Predict results within a **continuous** output, map input variables to some continuous function → Predicting housing price given area
+- **Prediction**: Predict results within a **continuous** output, map input variables to some continuous function → Predicting housing price given area

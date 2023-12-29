@@ -1,4 +1,7 @@
 
+>[!tip]
+> The attribute that **cannot** violate a **one-to-many** relationship is the attribute on the left.
+
 Lets say we have table:
 
 ```sql
@@ -27,5 +30,3 @@ FD: ProductID, Date -> ShopID
 **Example 5:** No shop should sell the same product to the same customer on the same date at two different prices.
 FD: Shop, Product, Customer, Date -> Price
 
->[!tip]
-> The attribute that **cannot** violate a **one-to-many** relationship is the attribute on the left.

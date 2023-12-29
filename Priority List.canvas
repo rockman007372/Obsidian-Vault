@@ -1,9 +1,10 @@
 {
 	"nodes":[
-		{"id":"f44f3f556ef293b5","x":-700,"y":-680,"width":380,"height":400,"type":"text","text":"## Urgent and Important\n\n- [x] CS2106 tutorial 7 - left with question 4\n- [ ] CS3230 week 9 lecture\n- [ ] CS3230 problem set"},
-		{"id":"be5b938e906fa6b2","type":"text","text":"## Not Urgent and Important\n\n- [ ] cs2106 lab 4 - demos\n- [ ] CS3230 assignment\n- [ ] Ask cs2106 midterm questions\n- [ ] practice synchronisation problems using midterm papers\n\t- [x] 18-19\n\t- [ ] 17-18\n\t- [ ] 16-17\n\t- [ ] 15-16\n- [ ] Review Dynamic programming - take notes on sample questions","x":-700,"y":-220,"width":380,"height":400},
-		{"id":"06876aa1e74113dc","x":-200,"y":-680,"width":340,"height":400,"type":"text","text":"## Urgent and Not Important\n\n- [ ] 3 CS4225 lectures behind\n\t- [ ] Week 8: spark 2\n\t- [ ] CS4225 tutorial on Sparks\n\t- [ ] Week 9: stream\n\t- [ ] week 10: graph"},
-		{"id":"67b90d28ae0c649a","type":"text","text":"## Not Urgent and Not Important","x":-200,"y":-220,"width":340,"height":400}
+		{"id":"f44f3f556ef293b5","type":"text","text":"## Urgent and Important\n\n- [ ] cut hair at 8am\n- [ ] fix phone at jurong east\n- [ ] go to outram park to meet vienne","x":-960,"y":-680,"width":640,"height":500},
+		{"id":"4b0c4776fd31d4de","type":"text","text":"There are many advices about how to get perfect grades here. Let me add my views of other aspects.\n\nFrankly, if you could get A/A+, you would have already gotten. Some people are just wired in a way that they can perform well in all assessments in school setting. Just let them win this game. Rather than trying to spend 80% of effort to squeeze out the 20% (the extra 0.5 grade point), you will benefit so much more from doing pet project, training leetcode, joining relevant cca and grinding internship.\n\nToo many of us are entrapped in the ideas of getting perfect grades due to our past 2 decades of education (psle, olevel, a level). Imo, at the stage of uni, it is not worth that much effort for the extra grade that don’t really help you in the career.\n\nMaybe it is time to take a step back and find the most efficient allocation of time.","x":-960,"y":-1080,"width":1340,"height":331},
+		{"id":"06876aa1e74113dc","type":"text","text":"## Urgent and Not Important\n\n\n","x":-200,"y":-680,"width":580,"height":500},
+		{"id":"be5b938e906fa6b2","type":"text","text":"## Not Urgent and Important\n\n","x":-960,"y":-120,"width":640,"height":400},
+		{"id":"67b90d28ae0c649a","type":"text","text":"## Not Urgent and Not Important\n\n","x":-200,"y":-120,"width":580,"height":400}
 	],
 	"edges":[]
 }

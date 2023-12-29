@@ -1,8 +1,10 @@
 ---
-tags: processed
-alias: 3NF
+tags:
+  - processed
+aliases:
+  - 3NF
 course: CS2102
-type: content, lecture
+type: content
 date: 2023-04-18 Tuesday
 ---
 
@@ -20,11 +22,11 @@ date: 2023-04-18 Tuesday
 ### Example
 
 Table R(A, B, C). 
-Non trivial and decomposed FDs: C -> B, AC -> B, AB -> C
-Keys: AB, AC
-C -> B is OK, since B is *a prime attribute* (part of key AB)
-AC -> B is OK, since AC is a key of R
-AB -> C is OK, since AB is a key of R
+- Non trivial and decomposed FDs: C → B, AC → B, AB → C
+- Keys: AB, AC
+- C → B is OK, since B is *a prime attribute* (part of key AB)
+- AC → B is OK, since AC is a key of R
+- AB → C is OK, since AB is a key of R
 
 Hence R is in 3NF.
 
@@ -36,9 +38,9 @@ Hence R is in 3NF.
 Hence, 3NF is more lenient than BCNF:
 
 >[!theorem]
-> - R is in BCNF -> R in in 3NF
-> - R is **not** in 3NF -> R is **not** in BCNF
+> - R is in BCNF → R in in 3NF
+> - R is **not** in 3NF → R is **not** in BCNF
 
-### Related
+### Decomposition
 
 [[3NF Decomposition]]

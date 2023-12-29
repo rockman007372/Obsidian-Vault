@@ -11,9 +11,8 @@ date: 2023-09-05 Tuesday
 
 - Extreme poverty still exists
 - Why should we donate?
-	- Thought experiement: save child in shallow pong
-	- Distance makes psychological difference, but not morally relevant.
-	- Distance does not reduce effectiveness of donation (modern tech)
+	- Thought experiement: save child in shallow pond = donate money to poor children
+	- Distance makes psychological difference, but not morally relevant. Distance does not reduce effectiveness of donation (modern tech)
 	- Other's inaction does not excuse you inaction. You may feel less guilty but you are still morally wrong.
 - How much should i donate?
 	- Strong version: reduce suffering as much as possible without sacrificing something else of **comparable moral importance** 
@@ -39,11 +38,10 @@ In this essay, Singer argues that individuals in affluent societies have a moral
 3. The Scope of Our Moral Obligations: 
 	- the geographical distance between those who suffer and those who can help should not diminish our moral responsibility. 
 	- the inaction of others cannot justify our own inactions.
-5. The Argument for Marginal Utility:  a dollar or resource has diminishing value as one's wealth increases => giving away a portion of one's income will have a greater positive impact on the lives of the impoverished than the marginal loss of utility for the donor.
-6. Counter Arguments:
+4. Counter Arguments:
 	1. Charity dissolves goverment's responsibility to donate => who says if you dont donate, government will donate more?
 	2. Charity to solve famine is not solution, needs population control => then donate to organization that promotes population control!
-7. Singer does not aim to maximize happiness/utility (unlike traditional [[Utilitarianism]]). You dont have to make people from developed countries happier. => SInger allows morally supererogatory actions.
+5. Singer does not aim to maximize happiness/utility (unlike traditional [[Utilitarianism]]). You dont have to make people from developed countries happier. => Singer allows morally supererogatory actions.
 	1. However, it is **morally obligatory** to help people in **developing countries**
 
 ## Questions

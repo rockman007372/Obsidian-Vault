@@ -1,4 +1,3 @@
-## Write File
 
 **You can use a [`java.io.FileWriter`](https://docs.oracle.com/javase/9/docs/api/java/io/FileWriter.html) object to write to a file.**
 

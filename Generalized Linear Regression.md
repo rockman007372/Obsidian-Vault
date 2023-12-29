@@ -16,15 +16,3 @@ We perform gradient descent in the generalised case similar to the univariate ca
 
 ![[Pasted image 20220920000502.png]]
 
-### Feature Scaling 
-
-When features have significantly different scales, Gradient Descent does not work very well:
-- Features with larger scales will affect the loss more significantly and influences the hypothesis curve more.
-- Hence we scale the features so that they have roughly the same scale.
-- We try to aim for: $-1 \leq x_i \leq 1$
-
-![[Pasted image 20220920001038.png]]
-
-Another feature scaling tecnique is **mean normalizatiton**:
-
-![[Pasted image 20220920001109.png]]

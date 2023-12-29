@@ -1,4 +1,3 @@
-## Append to File
 
 **You can create a `FileWriter` object that appends to the file** (instead of overwriting the current content) by specifying an additional boolean parameter to the constructor.
 

@@ -2,7 +2,7 @@
 - FIFO queue
 - Run first task from queue until 
 	- quantum elapsed
-	- task gives up CPU / task blocks
+	- task gives up CPU voluntarily / task blocks 
 - Task is then placed at the end of the queue **if there are other tasks in queue**
 - Guarantee response time (**no starvation**): bound by (n - 1)q where q is quantum 
 - **Timer interrupt** is needed for scheduler to check on quantum expiry

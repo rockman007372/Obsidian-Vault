@@ -28,5 +28,6 @@ date: 2023-10-17 Tuesday
 	- NO! Even when morality is mind-dependent, it can still be universal.
 	- Cultural relativism claims that there are no universal moral truths. Morality is dependent on culture.
 	- However, according to a mind-dependent view, there can still be universal moral truths. Some societies, after careful reflection, may realise that their morality is false and adopt the same universal truths of other society. 
+- If a moral truth is mind-independent, it must be universal. However, a universal moral truth may be mind-dependent.
 
 

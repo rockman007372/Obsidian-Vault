@@ -43,7 +43,7 @@ C. We should **not** accept a mind-independent view of morality.
 The argument is valid, hence we have to attack its premises (soundness).
 
 The most logical premise to attack is P2: it is not the case that we have to abandon our moral judgement if moral truths are mind-independent and P1 is true.
-- There may be some evolutionary advantages to discovering universal truths.
+- There may be some evolutionary advantages to discovering moral truths.
 - The moral judgement may come from external sources (the bible), not innate tendencies.
 
 #### Example of mind-dependent theory of morality

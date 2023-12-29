@@ -2,10 +2,7 @@
 tags: university
 aliases: 
 ---
-Date:: 2022-08-05 Friday
-Links: 
-- - -
-# Dataview and Templaters for School
+
 ### Dataview Commands
 
 ```dataview

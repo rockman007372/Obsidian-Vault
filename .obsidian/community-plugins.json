@@ -16,5 +16,7 @@
   "obsidian-list-callouts",
   "highlightr-plugin",
   "obsidian-spaced-repetition",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "symbols-prettifier",
+  "obsidian-code-block-enhancer"
 ]

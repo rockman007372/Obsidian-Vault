@@ -23,7 +23,7 @@ If another job arrives, it will be given the highest priority and preempt the cu
 
 ![[Pasted image 20230912115316.png]]
 
-Below is the case where a CPU-bound job (in Q0) and a IO-bound job (in Q2) are processed concurrently. CPU-bound job is processed in CPU most of the time, but will be preempted(?) by IO-bound job whenever it needs processing. This interleaving of execution maximizes utilization of both CPU and I/O.
+Below is the case where a CPU-bound job (in Q0) and a IO-bound job (in Q2) are processed concurrently. CPU-bound job is processed in CPU most of the time, but will be preempted(?) by IO-bound job whenever it needs processing. **This interleaving of execution maximizes utilization of both CPU and I/O.**
 
 ![[Pasted image 20230912115335.png]]
 

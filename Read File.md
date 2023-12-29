@@ -1,4 +1,3 @@
-## Read File
 
 **You can read from a file using a `Scanner` object that uses a `File` object as the _source_ of data.**
 

@@ -1,16 +1,19 @@
 ---
-tags: LeetCode
-topics: [DynamicProgramming, Greedy]
+tags:
+  - LeetCode
+topics:
+  - dp, greedy
 difficulty: medium
-performance: [complete, onTime, notOptimal]
+performance:
+  - complete
+  - onTime
+  - notOptimal
 date: 2022-08-01 Monday
 ---
-Tags: [[LeetCode]] - [[Dynamic Programming]] - [[Greedy]]
+[[Dynamic Programming]] - [[CS3230 Lecture 4 - Greedy Algorithms]]
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-### My Performance
-#complete #onTime #notOptimal 
+## Questions
 
-### Questions
 You are given an integer array `nums`. You are initially positioned at the array's **first index**, and each element in the array represents your maximum jump length at that position.
 
 Return `true` _if you can reach the last index, or_ `false` _otherwise_.
@@ -31,7 +34,7 @@ Difficulty: #medium
 Input: `int[]` nums
 Output: `boolean` can reach destination or not.
 
-### Solution
+## Solution
 ##### Bottom-Up Dynamic Programming
 Idea: 
 - We build from the back (right to left).

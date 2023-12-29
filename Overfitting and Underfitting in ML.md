@@ -1,7 +1,8 @@
 ---
-tags: processed
+tags:
+  - processed
 course: CS2109S
-type:
+type: lecture
 date: 2022-11-17 Thursday
 ---
 
@@ -29,11 +30,6 @@ Where $\lambda$ is some big value so that **gradient descent** will minimize wei
 #### Logistic Regression with Regularization
 
 ![[Pasted image 20221117223552.png]]
-
-
-
-
-
 
 ---
 Links: [[CS2109S]], [[Support Vector Machine]]

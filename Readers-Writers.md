@@ -41,6 +41,7 @@ while (TRUE) {
 	nReader--; 
 	if (nReader == 0) 
 		signal( roomEmpty ); 
-	signal( mutex ); }
+	signal( mutex ); 
+}
 ```
 

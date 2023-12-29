@@ -50,7 +50,7 @@ Trade-offs: **speed vs capacity.** Larger capacity = slower access speed.
 
 ### Big ideas of Massive Data Processing in Data Centers
 
-- Scale out, not up (horizontal > vertical scaling): combine more cheapter machines
+- Scale out, not up (horizontal > vertical scaling): combine cheaper machines
 - Move processing to the data: Clusters have limited bandwidth => move the task to machine where the data is stored
 - Process data sequentially, avoid random access
 - Seamless scalability: if a machine takes 100 hours to process a dataset, ideally a cluster of 10 machines can do it in 10 hours.

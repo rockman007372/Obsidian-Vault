@@ -19,7 +19,7 @@ HDFS is a **distributed file system** designed to handle big data applications t
 
 #### Solution
 
-Instead of moving data to workers, we move the workers to where the data is located!
+Instead of moving data to workers, we move the workers to where the data is located.
 - Store data on the local disks of nodes in the cluster.
 - Start up workers on the node that has the data.
 
