@@ -14,7 +14,7 @@ Quick select is an algorithm that extends the idea of the [[Quick Sort]] algorit
 	Else, do quicksort on appropriate half
 
 ```Java
-
+// Hoarse Partition
 int partition(int[] arr, int low, int high) {
 	int pivot = arr[low]; i = low + 1; j = high;
 		

@@ -4,37 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "f7c9095684c6981e",
+        "id": "60ff408ab6d6ffef",
         "type": "tabs",
         "children": [
           {
-            "id": "968082dcf7687d5d",
+            "id": "e4f65c172f5f1cd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Top K Frequent Elements.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bbab3f9c48ceaed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Serialize and Deserialize Binary Tree.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+                "file": "CS3211 Tutorial 3 - Smart Pointers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CS3211 Tutorial 3 - Smart Pointers"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -54,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -63,13 +53,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "password",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -77,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -85,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ],
@@ -93,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232,
-    "collapsed": true
+    "width": 232
   },
   "right": {
     "id": "37cc0ed0a88f4151",
@@ -110,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serialize and Deserialize Binary Tree.md",
+                "file": "Spanish Canvas.canvas",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Spanish Canvas"
             }
           },
           {
@@ -129,7 +126,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -138,7 +137,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Serialize and Deserialize Binary Tree.md",
+                "file": "Shortest Path Visiting All Nodes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:Excalidraw -path:Daily",
@@ -164,7 +163,9 @@
                   "scale": 0.39866372471942707,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Shortest Path Visiting All Nodes"
             }
           },
           {
@@ -172,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -181,10 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serialize and Deserialize Binary Tree.md",
+                "file": "Shortest Path Visiting All Nodes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Shortest Path Visiting All Nodes"
             }
           },
           {
@@ -193,8 +198,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serialize and Deserialize Binary Tree.md"
-              }
+                "file": "CS3210.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CS3210"
             }
           },
           {
@@ -203,19 +210,26 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
-              }
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
-            "id": "91c213a015065c35",
+            "id": "126592bf00cc209a",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
-              "state": {}
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       },
       {
         "id": "5a15f5b20c4edac3",
@@ -226,7 +240,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -244,52 +260,52 @@
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "3bbab3f9c48ceaed",
+  "active": "e4f65c172f5f1cd9",
   "lastOpenFiles": [
-    "Top K Frequent Elements.md",
-    "Hoarse Partition Scheme.md",
-    "Quick Sort.md",
-    "Quick Select.md",
-    "Video Games.md",
-    "Priority List.canvas",
-    "Deep Learning.md",
-    "CS2109S.md",
-    "CS4225 Lecture 6 and 7 - Spark.md",
-    "CS4225.md",
-    "Spark ML.md",
-    "Memory Organization In MIPS.md",
-    "Apache Spark.md",
-    "CS4225 Lecture 1 - Introduction.md",
-    "CS4225 Lecture 5 - Basics of Distributed Databases.md",
-    "CS4225 Lecture 4 - NoSQL.md",
-    "Duplication.md",
-    "Strong vs Eventual Consistency.md",
-    "Graph Database.md",
-    "Vector Database.md",
-    "Wide Column Stores.md",
-    "Document Stores.md",
-    "Key-Value Stores.md",
-    "CS2106 Lecture 7 - Contiguous Memory Allocation.md",
-    "CS2106.md",
-    "CS4225 Lecture 3 - MapReduce Applications.md",
-    "Similarity Search.md",
-    "Attachments/Pasted image 20231114104916.png",
-    "Attachments/Pasted image 20231113220123.png",
-    "Attachments/Pasted image 20220920001038.png",
-    "Attachments/Pasted image 20220920001109.png",
-    "Attachments/Pasted image 20230401205330.png",
-    "Attachments/Pasted image 20230421165212.png",
-    "Attachments/Pasted image 20230117205308.png",
-    "Attachments/Pasted image 20231108005256.png",
-    "Attachments/Pasted image 20231107123444.png",
-    "Attachments/Pasted image 20231106165817.png",
+    "PostgreSQL Cheatsheet.md",
+    "Network Security.md",
+    "Key.md",
+    "CS3210.md",
+    "CS2107 Lecture 3 and 4 - Authentication Credential.md",
+    "Daily/2023-08-14 Monday.md",
+    "CS2101 Outline.md",
+    "CS3211 Tutorial 3 - Smart Pointers.md",
+    "CS3211 Tutorial 2 - Atomics.md",
+    "Sequential Consistency.md",
+    "CS4215 Tutorial 3 - Virtual Machine.md",
+    "CS4215 Tutorial 2 - Explicit-Control Evaluator.md",
+    "CS4231 Homework 2 - Monitors and Semaphores.md",
+    "Spanish 2 Week 6.md",
+    "Spanish Numbers.md",
+    "Spanish 2 Week 5.md",
+    "CS3211 Tutorial 1.md",
+    "CS4215 Tutorial 1.md",
+    "Readers-Writers.md",
+    "Producers-Consumers.md",
+    "RAII (Resource Acquisition Is Initialization).md",
+    "Spanish 2 Week 4.md",
+    "GEX1014 Tutorial 1.md",
+    "GEX1014.md",
     "Spanish Canvas.canvas",
+    "Processes vs Threads.md",
+    "Spanish 2 Week 2.md",
+    "Attachments/Pasted image 20250116125121.png",
+    "Attachments/Pasted image 20250116124547.png",
+    "Attachments/Pasted image 20250116124407.png",
+    "Attachments/Pasted image 20250116124148.png",
+    "Attachments/Pasted image 20241117140519.png",
+    "Attachments/Pasted image 20241114193535.png",
+    "Attachments/Pasted image 20241117134212.png",
+    "Attachments/Pasted image 20241117134046.png",
+    "Attachments/Pasted image 20241116181827.png",
+    "Attachments/Pasted image 20241116175749.png",
+    "Priority List.canvas",
     "CS2103T tp.canvas",
     "PL",
     "New Text Document.txt",

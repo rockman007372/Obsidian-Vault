@@ -1,4 +1,3 @@
-## Benefits
 - @ Help a single user manage revisions (versions) of a single file
 - Help a developer recover from an incorrect modification to a code file
 - Make it easier for a group of developers to collaborate on a project

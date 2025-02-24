@@ -1,4 +1,3 @@
-## Staging and Committing
 
 _Committing_ saves a *snapshot* of the current state of the tracked files in the revision control history. Such a snapshot is also called a _commit_ (i.e. the noun).
 

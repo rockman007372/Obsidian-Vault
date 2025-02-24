@@ -1,0 +1,423 @@
+{
+  "main": {
+    "id": "2bad0464f8c665e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe614989a2f2fbd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1f17d029673d0d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Add Binary.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Add Binary"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "21e8885d272a676c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c599b2205cb017b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c27b3a0f25153fc8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "85beab4e8c6da425",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fa12bf44e8749eff",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "046951b5bad1cc92",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 232,
+    "collapsed": true
+  },
+  "right": {
+    "id": "37cc0ed0a88f4151",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb9bba6051089c17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd3e04fe4d443de0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Add Binary.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Add Binary"
+            }
+          },
+          {
+            "id": "70fc1fca8b7ffe98",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "601e2f1a9cb5ae6b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Add Binary.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "-path:Excalidraw -path:Daily",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": -0.6,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1.7975,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.39866372471942707,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Add Binary"
+            }
+          },
+          {
+            "id": "9c33cf25d143bfc3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "7d579c657ffac5a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Add Binary.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Add Binary"
+            }
+          },
+          {
+            "id": "962c0970c01a03c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS3210.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CS3210"
+            }
+          },
+          {
+            "id": "9ee624d3e0d23b9a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c5d9151da07dc1b3",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "896347da041748aa",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "61f4760b7d4ac252",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b9a4e84724b7ce7f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "8fa093e2b5a0aa76",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "ec15a3620e406c70",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "f81cb623fb7f42c1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "48bc2582d0b8ffec",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "155326f7942c8a11",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "151ab35e9dabb906",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c1fd47ad7cb244db",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3bf3211d56ae0e85",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5a15f5b20c4edac3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4eb4908cb060fc7c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 252.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "f1f17d029673d0d5",
+  "lastOpenFiles": [
+    "LeetCode.md",
+    "3Sum.md",
+    "Two Sum & Contain Duplicate.md",
+    "132 Pattern.md",
+    "Shortest Path Visiting All Nodes.md",
+    "Breadth First Search.md",
+    "Egg Drop with 2 Eggs and N Floor.md",
+    "Search In 2D Matrix.md",
+    "Merge K Sorted Lists.md",
+    "Find Peak Element.md",
+    "CS2107 Assignment 2.md",
+    "Attachments/Pasted image 20241117140519.png",
+    "Attachments/Pasted image 20241114193535.png",
+    "Attachments/Pasted image 20241117134212.png",
+    "Attachments/Pasted image 20241117134046.png",
+    "Attachments/Pasted image 20241116181827.png",
+    "Attachments/Pasted image 20241116175749.png",
+    "Attachments/Pasted image 20241116174807.png",
+    "Memory Organization In MIPS.md",
+    "Attachments/Pasted image 20241114233333.png",
+    "Attachments/Pasted image 20241114230654.png",
+    "CS3103.md",
+    "ES2660 Panel Discussion Prep.md",
+    "ES2660.md",
+    "CS3210.md",
+    "CS4224.md",
+    "University Courses.md",
+    "Weekly/2024-W41.md",
+    "CS3210 Lecture 6 - GPU Prgramming.md",
+    "Attachments/Pasted image 20241013145001.png",
+    "CS2107.md",
+    "Daily/2024-10-12 Saturday.md",
+    "Spanish Canvas.canvas",
+    "Excalidraw/how to grab a cat .excalidraw.md",
+    "CS3230.md",
+    "CS3230 Lecture 7 - Min Cut, Max Flow.md",
+    "CS3230 Lecture 2 - Order of Growth.md",
+    "Priority List.canvas",
+    "CS2103T tp.canvas",
+    "PL",
+    "New Text Document.txt",
+    "CS2102 Project.canvas"
+  ]
+}

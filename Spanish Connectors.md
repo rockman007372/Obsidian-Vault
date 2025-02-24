@@ -12,10 +12,10 @@ Ademas ::: In addition
 <!--SR:!2023-03-03,3,230!2023-02-16,1,230-->
 
 Tambien ::: Too/as well
-<!--SR:!2023-05-29,56,230!2023-05-02,41,230-->
+<!--SR:!2023-05-29,56,230!2025-02-21,132,250-->
 
-Ambos/as ::: both 
-<!--SR:!2023-03-03,3,230!2023-03-26,4,190-->
+Ambos/as ::: both
+<!--SR:!2023-03-03,3,230!2024-10-23,11,210-->
 - Ambos amigos comparten la casa = both friends share the same house.
 
 Los/las dos ::: the two (of them)
@@ -29,7 +29,7 @@ A veces / algunas veces ::: at times / sometimes
 <!--SR:!2023-02-18,3,250!2023-02-16,1,230-->
 
 Solamente ::: only
-<!--SR:!2023-03-16,16,230!2023-06-05,63,250-->
+<!--SR:!2024-12-02,51,250!2023-06-05,63,250-->
 
 Soló ::: alone
 
@@ -40,10 +40,10 @@ Habitualmente ::: habitually
 <!--SR:!2023-03-20,20,250!2023-05-08,47,250-->
 
 Normalmente ::: normally
-<!--SR:!2023-02-18,3,250!2023-02-19,4,270-->
+<!--SR:!2024-10-24,12,270!2023-02-19,4,270-->
 
 Actualmente ::: nowadays
-<!--SR:!2023-02-18,3,250!2023-03-22,22,270-->
+<!--SR:!2024-10-24,12,270!2023-03-22,22,270-->
 
 En realidad ::: In fact / reality = De hecho
 

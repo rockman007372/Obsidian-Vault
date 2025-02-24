@@ -1,4 +1,3 @@
-### Forking and Pull Requests
 
 - **Forking** is copying a file from owner's remote repository to collaborator's remote repository, can be done via GUI on Github.
 - **Pull request** is the collaborators asking for permissions to upload their changes to the owner's remote repo.

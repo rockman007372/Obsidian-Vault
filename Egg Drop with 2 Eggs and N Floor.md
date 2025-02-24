@@ -1,11 +1,13 @@
 ---
-tags: LeetCode, leetcode
+tags:
+  - LeetCode
+  - leetcode
 topics: dp, math, memoize
-difficulty:
-performance:
+difficulty: medium
+performance: 
 date: 2023-06-29 Thursday
 ---
-
+https://brilliant.org/wiki/egg-dropping/
 ## Questions
 
 You are given **two identical** eggs and you have access to a building with `n` floors labeled from `1` to `n`.
@@ -22,8 +24,8 @@ Return _the **minimum number of moves** that you need to determine **with ce
 
 Idea:
 - Question does not care about how you solve the problem. You are not required to solve for f. **You are required to find the min no. moves to find f in the worst case scenario!**
-- Try breaking the first egg at each floor:
-	- If the egg breaks at floor i, you have to break the 2nd egg (i - 1) times more
+- Try breaking the 1st egg at each floor:
+	- If the egg breaks at floor i, you have to drop the 2nd egg (i - 1) times more in the worst case.
 	- If the egg does not break at floor i, you reduce the problem to (n - i) floor.
 
 ```python
@@ -37,7 +39,7 @@ class Solution:
             if n == 1:
                 return 1
 
-            if memo[n] :
+            if memo[n]:
                 return memo[n]
 
             res = float('inf')
@@ -52,28 +54,15 @@ class Solution:
         return helper(n)
 ```
 
-One liner using Cache and Default argument:
-
-```python
-class Solution: 
-	@cache 
-	def twoEggDrop(self, n: int) -> int: 
-		return min(
-			(1 + max(i - 1, self.twoEggDrop(n - i)) for i in range (1, n)), 
-			default = 1
-		)
-```
-
-
 ### Math
 
 However, we can solve this problem using geometric sum.
 
-Let x be the ideal minimum number of drops. Hence, we have to drop the egg at floor x initially, so that if the egg breaks, we only have to test x - 1 times with the 2nd egg. This makes up x steps.
+Let x be the ideal minimum number of drops. Hence, we have to drop the egg at floor $x^{th}$ initially, so that if the egg breaks, we only have to test (x - 1) times with the 2nd egg. This makes up x steps.
 
-If the egg does not break at floor x, we have to drop it at floor (2x - 1) for similar reason. 
+If the egg does not break at floor x, we have to drop the egg at floor $(x + (x - 1))^{th}$.  If the egg breaks, we have to test (x - 2) times with the 2nd egg. This makes up x steps. 
 
-In other word, the final floor to drop the first egg **so that x is the minimum drop in worst-case** must satisfy the inequality:
+Using this logic, the **final floor** to drop the first egg **so that x is the minimum drop in worst-case** must satisfy the inequality:
 $$x + (x - 1) + (x - 2) + ... + 1 \geq n \iff \frac{x(x + 1)}{2} >= n$$
 
 Hence we can solve for x:

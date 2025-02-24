@@ -143,7 +143,7 @@ Algorithm:
 
 ```Java
 class Solution {
-    HashMap<Integer, Integer> frequencies;
+	HashMap<Integer, Integer> frequencies;
     
     public int[] topKFrequent(int[] nums, int k) {
         if (nums.length == k) return nums;
@@ -196,14 +196,14 @@ class Solution {
     }
     
     public void quickSelect(int[] nums, int lo, int hi, int k) {
-        if (lo < hi) {
-            int pIndex = ThreadLocalRandom.current().nextInt(lo, hi + 1);
+	    if (lo < hi) {
+		    int pIndex = ThreadLocalRandom.current().nextInt(lo, hi + 1);
             // partition about pIndex
             int p = partition(nums, lo, hi, pIndex);
             if (p == k - 1) return;
             if (p > k - 1) quickSelect(nums, lo, p - 1, k);
             if (p < k - 1) quickSelect(nums, p + 1, hi, k);
-        }
+		}
     }   
 }        
 ```

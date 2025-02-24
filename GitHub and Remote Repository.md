@@ -4,8 +4,8 @@ date: Jul 3, 2022
 course: CS2103T
 ---
 - [[What is a Remote Repo]]
-- [[How to Interact with Remote Repo]]
-- [[SWE Git Workflow]]
+- [[How to Interact with a Remote Repo]]
+- [[Git Development Workflow]]
 
 ## Summary
 

@@ -23,7 +23,6 @@ The partitioning step is a crucial part of the Quick sort algorithm. There are 2
 - [[Lomuto Partition Scheme]]
 - [[Hoarse Partition Scheme]]
 
-See more at [[Partition Algorithms]]
 
 ### Performance
 

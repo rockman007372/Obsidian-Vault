@@ -8,11 +8,11 @@ Week: [[{{date:YYYY}}-W{{date:WW}}]]
 
 ## Habits
 
-- Sleep:: 
+- Sleep hours:: 
 - Breakfast:: 
-- Pull-ups:: 
-- Study:: 
-- Basketball-practice:: 
+- Workout hours::
+- Study hours:: 
+
 ## Interesting News Today
 
 ```dataview
@@ -21,7 +21,7 @@ FROM (#news) AND -"Templates"
 WHERE CONTAINS(date, "{{date}}") 
 ```
 
-## LeetCode Questions Done
+## LeetCode Questions
 
 ```dataview
 TABLE difficulty AS Difficulty, topics AS Topics, performance AS Performance
@@ -38,10 +38,10 @@ WHERE date = "{{date}}"
 
 ## Reflection
 
-### 3 noteable things that happened today
+##### 3 noteable things that happened today
 
-### 3 most important thing I learned today
+##### 3 most important thing I learned today
 
-### Who am I grateful for today
+##### Who am I grateful for today
 
-### Areas of Improvement
+##### Areas of Improvement

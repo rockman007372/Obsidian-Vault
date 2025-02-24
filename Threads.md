@@ -5,8 +5,8 @@ Motivation:
 - As much as possible, we want to avoid system calls (waste cyles?)
 
 Basic idea:
-- Traditionally, each process has a single thread of control => execute 1 instruction of the prog at any time
-- ? Add more threads to the same process => multiple instructions of the program are executed at the same time (conceptually)
+- Traditionally, each process has a single thread of control => execute 1 instruction of the program at any time
+- Add more threads to the same process => multiple instructions of the program are executed at the same time (concurrently to gives illusion of parallelism)
 
 There is only one PC register in a CPU core. 
 - In single-threaded processes,  the PC is loaded with different values through process context switch. 

@@ -1,0 +1,280 @@
+{
+  "main": {
+    "id": "2bad0464f8c665e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b81370bfbea82c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37b530202367acbd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "21e8885d272a676c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c599b2205cb017b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c27b3a0f25153fc8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85beab4e8c6da425",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa12bf44e8749eff",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "046951b5bad1cc92",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 232,
+    "collapsed": true
+  },
+  "right": {
+    "id": "37cc0ed0a88f4151",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb9bba6051089c17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd3e04fe4d443de0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily/2024-04-14 Sunday.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "70fc1fca8b7ffe98",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "601e2f1a9cb5ae6b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Daily/2024-04-14 Sunday.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "-path:Excalidraw -path:Daily",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": -0.6,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1.7975,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.39866372471942707,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "9c33cf25d143bfc3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7d579c657ffac5a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily/2024-04-14 Sunday.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "962c0970c01a03c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily/2024-04-14 Sunday.md"
+              }
+            }
+          },
+          {
+            "id": "9ee624d3e0d23b9a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "91c213a015065c35",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "5a15f5b20c4edac3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4eb4908cb060fc7c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 252.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "37b530202367acbd",
+  "lastOpenFiles": [
+    "Daily/2024-04-13 Saturday.md",
+    "Daily/2024-04-14 Sunday.md",
+    "Daily/2024-04-12 Friday.md",
+    "Daily/2024-04-10 Wednesday.md",
+    "Daily/2024-03-11 Monday.md",
+    "Daily/2024-04-11 Thursday.md",
+    "Anacle's Learning Journal.md",
+    "CS3211 Lecture 3 - Synchronisation (in Modern C++).md",
+    "CS3211 Lecture 4 - Atomics and Memory Model.md",
+    "Git Push.md",
+    "How to Interact with a Remote Repo.md",
+    "GitHub and Remote Repository.md",
+    "Git Development Workflow.md",
+    "Semaphore.md",
+    "CS3211 Lecture 2 - Tasks and Threads.md",
+    "Hoarse Partition Scheme.md",
+    "Quick Select.md",
+    "Top K Frequent Elements.md",
+    "Attachments/Pasted image 20220625105435.png",
+    "Quick Sort.md",
+    "Sorting Algorithms.md",
+    "Merge Intervals.md",
+    "Meeting Rooms.md",
+    "Lomuto Partition Scheme.md",
+    "Partition Algorithms.md",
+    "CS3211 Lecture 1 - Concurrency.md",
+    "Function Object in C++.md",
+    "Priority List.canvas",
+    "Attachments/Pasted image 20231114104916.png",
+    "Attachments/Pasted image 20231113220123.png",
+    "Attachments/Pasted image 20220920001038.png",
+    "Attachments/Pasted image 20220920001109.png",
+    "Attachments/Pasted image 20230401205330.png",
+    "Attachments/Pasted image 20230421165212.png",
+    "Attachments/Pasted image 20230117205308.png",
+    "Attachments/Pasted image 20231108005256.png",
+    "Attachments/Pasted image 20231107123444.png",
+    "Spanish Canvas.canvas",
+    "CS2103T tp.canvas",
+    "PL",
+    "New Text Document.txt",
+    "CS2102 Project.canvas"
+  ]
+}

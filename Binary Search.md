@@ -1,9 +1,7 @@
 2022-06-06 20:05
 Tags: [[Data Structure and Algorithm]]
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -   
-
 See also: [[Bisect function in Python]]
-
+- - - 
 ## Template 1
 
 Most common and straightforward template:

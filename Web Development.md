@@ -27,7 +27,7 @@ date: 2022-07-24 Sunday
 - Application: Codes executed on the server using data from database and handed over to Client-side → Abstraction barrier + speed 
 
 ### Building Web Application 
-- [[Git and RCS]]
+- [[Git (Revision Control)]]
 - [[Node.js]]
 - [[Express.js]]
 

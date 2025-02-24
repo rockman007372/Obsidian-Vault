@@ -1,5 +1,5 @@
 
-User Thread vs Kernel Thread vs Hybrid 
+[[User Thread vs Kernel Thread vs Hybrid]]
 
 ### User Thread
 
@@ -15,7 +15,7 @@ Advantages:
 - Configurable: customize thread scheduling policy
 
 Disadvantages:
-- OS not aware of threads => one thread blocked = process blocked => all threads blocked by OS.
+- OS not aware of threads => one thread blocked = whole process blocked => all threads blocked by OS.
 - Cannot exploit multiple CPUs to run threads.
 
 ### Kernel Thread

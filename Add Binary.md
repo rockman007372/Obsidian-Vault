@@ -17,7 +17,7 @@ Output: a string representing the binary sum
 class Solution {
     public String addBinary(String a, String b) {
         // idea 1: O(M + N) transform back and forth
-        return toBinary(toInteger(a));
+        return toBinary(toInteger(a) + toInteger(b)); // may overflow
         
     }
     

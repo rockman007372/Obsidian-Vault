@@ -20,3 +20,4 @@ If $A \leq_p B$  and $B \leq_p A$, we say they are equivalent, or $A \equiv_p B$
 ---
 [[Basic Reduction Strategies]]
 [[Self-Reducibility]]
+

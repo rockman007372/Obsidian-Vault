@@ -29,9 +29,26 @@ WHERE year = "Y3" AND semester = "S1"
 ```
 
 
-mods to consider:
-- CS3223
-- CS3211 (only in sem 2)
+## Y3S2
+
+- CS3223: Database Implementation
+- [[Anacle Internship]]
+
+## Y4S1
+
+```dataview
+TABLE area AS Area
+FROM -"Templates" AND (#courses) 
+WHERE year = "Y4" AND semester = "S1"
+```
+
+## Y4S2
+
+```dataview
+TABLE area AS Area
+FROM -"Templates" AND (#courses) 
+WHERE year = "Y4" AND semester = "S2"
+```
 
 
 ---

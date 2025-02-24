@@ -13,3 +13,7 @@ date: 2022-08-07 Sunday
 - [[Arrays in C]]
 - [[Strings in C]]
 - [[Structure in C]]
+
+---
+See also: [[C++]]
+

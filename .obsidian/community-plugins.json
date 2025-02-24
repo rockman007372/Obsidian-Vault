@@ -14,9 +14,6 @@
   "theme-picker",
   "obsidian-underline",
   "obsidian-list-callouts",
-  "highlightr-plugin",
   "obsidian-spaced-repetition",
-  "cm-editor-syntax-highlight-obsidian",
-  "symbols-prettifier",
-  "obsidian-code-block-enhancer"
+  "symbols-prettifier"
 ]
